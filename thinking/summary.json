@@ -1,6 +1,6 @@
 {
-  "utc": 1792000539.0220087,
-  "note": "本轮只跑用户指定两组：T=0.6/top_p=0.95，T=1/top_p=1；均enable_thinking=true，生成前缀为开放<think>，每模型保存真实渲染审计。三subset分别汇总，T0.6前200题仅在配置和模型SHA核对一致时复用，保留溯源。BF16/context32768/output16384/seed42。五项直接百分制模型辅助评分，等权整体；未完成显示n/对应subset总题数。公开72题严格标准答案正确数独立于judge评分。严格匹配包含格式要求；解析失败单列，不能直接等同知识错误，模型辅助评分也不能替代标准答案正确率。Codex辅助复核（非人工标注，2026-10-13）：已确认prior-historical100在无标签T=0.6/top_p=0.95的ARC153题漏判：标准答案B（热能转化为化学能），模型答C，Judge准确性仍给100分。原评分与严格判错均保留，未覆盖分数。这说明Judge高分不能替代标准答案核验。复核证据见judge-gold-disagreement-audit-1906.json；该证据为当时快照，不代表全量复核完成。Thinking格式与上下文须分开判断：未闭合</think>本身不证明上下文用完，正常stop也可能直接给出实质答案；当前评分规则对未闭合输出的指令和完整性各设50分上限，需连同原始答案解读。真实上下文耗尽案例：prior-A50的thinking-sampled（T=0.6/top_p=0.95）朋友多轮EM2，首轮输出16384 tokens，第二轮输入16497、输出16271、总计32768；保留完整实际历史的第三轮friend-EM2-3遭HTTP400，当前该设置245/246成功，不标完整完成。HTTP错误体当时未保存，上下文诊断依据前两轮实际usage；原回答和错误记录保留，未截断历史或改变上下文。T=1另行排队补测，T=0.6处理方式待用户决定。证据：A50-dialogue-context-exhaustion-2106.json。补充抽查（Codex辅助复核，非人工标注）：对照7901条已有公开题评分发现5条可抽取答案与标准答案不同、但准确性>=90的记录。除已知ARC153漏判外，其余包括先答对再改成矛盾答案，以及答对后续写另一道无关题。部分Judge已指出这些问题并扣格式分，但准确性、语言或逻辑仍给高分。因此高语义分不代表整段输出正确，严格答案与完整原文应同时查看。此为抽查快照，不是全量错误率；原评分未改。证据：judge-explicit-answer-disagreements-2159.json。新增实证：Stage2 checkpoint-3700的Thinking T=0.6/top_p=0.95为245/246，friend-EM1前两轮分别输出16384和16278 tokens，均length；第三轮HTTP400明确报告输入至少32769超过32768。T=1/top_p=1同模型已246/246，EM1三轮分别输出82/83/29 tokens并正常stop。此案例区分真实上下文耗尽与仅缺think闭合；不能由单例推出T=1普遍更好。原始记录保留，未截断历史或改context，T0.6未标完整完成。证据stage23700-context-exhaustion-2242.json。另一个上下文耗尽案例：旧checkpoint-2300的Thinking T=0.6/top_p=0.95为245/246，friend-EM1-3返回HTTP400，明确输入至少32769超过32768；同模型T=1/top_p=1为246/246。保留完整历史、原错误和临时权重，未改context；不据此推断T=1普遍更优。证据prior2300-context-exhaustion-2313.json。新增上下文耗尽案例：旧checkpoint-100（prior-historical100）的Thinking T=0.6/top_p=0.95成功245/246，friend-EM2-3返回HTTP400明确输入至少32769超过32768；后续已核实T=1/top_p=1成功246/246，EM2三轮分别输出828/4337/1843 tokens且均stop；T=0.6仍245/246，因此整个模型不标全部完成，不能由此单例推出T=1普遍更好。保留完整历史和原始错误，不标完整完成。证据historical100-context-exhaustion-2339.json。评测资源中断记录（2026-10-14 00:00:02 UTC）：原Slurm作业2742被取消，原节点随后由2811占用，生成控制器退出不代表完成。中断后逐文件核验为27120/43788条成功答案、101/178个模型设置完整；缺题ID和文件SHA见thinking-interruption-recovery-manifest-0003.json。评分独立继续。后续是否恢复须看新运行证据，旧evaluating状态不能证明仍在生成。扩展抽查（2026-10-14）：对12509条可配对公开题评分筛出7条明确提取答案不同而准确性>=90的记录，比前次新增2条。Codex辅助复核（非人工标注）发现：旧checkpoint2000的Thinking T0.6在ARC350先正确答D，随后自创细菌题并以B结束；旧checkpoint2500的Thinking T1在GSM153先写ANSWER:18、ANSWER:36，末尾正文改为48却未给ANSWER:48，并含错误代数推导。两例均正常stop且未闭合think；不能直接算作两例新知识错误。严格格式判分和Judge语义高分须连同全文解读，原评分未改。证据judge-discrepancy-screen-0039.json。恢复记录（2026-10-14）：用户已要求继续，已提交到Slurm分配2811和2812，各8个GPU worker；使用原revision、题集、上下文与采样参数，已有成功答案跳过并保留实际多轮历史。截至本页生成时成功回答43777/43788，已评分38734/43788。提交不代表全部完成，进度以本页实际计数为准；上下文耗尽仍保留失败记录，未改成成功。",
+  "utc": 1792001184.0567496,
+  "note": "本轮只跑用户指定两组：T=0.6/top_p=0.95，T=1/top_p=1；均enable_thinking=true，生成前缀为开放<think>，每模型保存真实渲染审计。三subset分别汇总，T0.6前200题仅在配置和模型SHA核对一致时复用，保留溯源。BF16/context32768/output16384/seed42。五项直接百分制模型辅助评分，等权整体；未完成显示n/对应subset总题数。公开72题严格标准答案正确数独立于judge评分。严格匹配包含格式要求；解析失败单列，不能直接等同知识错误，模型辅助评分也不能替代标准答案正确率。Codex辅助复核（非人工标注，2026-10-13）：已确认prior-historical100在无标签T=0.6/top_p=0.95的ARC153题漏判：标准答案B（热能转化为化学能），模型答C，Judge准确性仍给100分。原评分与严格判错均保留，未覆盖分数。这说明Judge高分不能替代标准答案核验。复核证据见judge-gold-disagreement-audit-1906.json；该证据为当时快照，不代表全量复核完成。Thinking格式与上下文须分开判断：未闭合</think>本身不证明上下文用完，正常stop也可能直接给出实质答案；当前评分规则对未闭合输出的指令和完整性各设50分上限，需连同原始答案解读。真实上下文耗尽案例：prior-A50的thinking-sampled（T=0.6/top_p=0.95）朋友多轮EM2，首轮输出16384 tokens，第二轮输入16497、输出16271、总计32768；保留完整实际历史的第三轮friend-EM2-3遭HTTP400，当前该设置245/246成功，不标完整完成。HTTP错误体当时未保存，上下文诊断依据前两轮实际usage；原回答和错误记录保留，未截断历史或改变上下文。T=1另行排队补测，T=0.6处理方式待用户决定。证据：A50-dialogue-context-exhaustion-2106.json。补充抽查（Codex辅助复核，非人工标注）：对照7901条已有公开题评分发现5条可抽取答案与标准答案不同、但准确性>=90的记录。除已知ARC153漏判外，其余包括先答对再改成矛盾答案，以及答对后续写另一道无关题。部分Judge已指出这些问题并扣格式分，但准确性、语言或逻辑仍给高分。因此高语义分不代表整段输出正确，严格答案与完整原文应同时查看。此为抽查快照，不是全量错误率；原评分未改。证据：judge-explicit-answer-disagreements-2159.json。新增实证：Stage2 checkpoint-3700的Thinking T=0.6/top_p=0.95为245/246，friend-EM1前两轮分别输出16384和16278 tokens，均length；第三轮HTTP400明确报告输入至少32769超过32768。T=1/top_p=1同模型已246/246，EM1三轮分别输出82/83/29 tokens并正常stop。此案例区分真实上下文耗尽与仅缺think闭合；不能由单例推出T=1普遍更好。原始记录保留，未截断历史或改context，T0.6未标完整完成。证据stage23700-context-exhaustion-2242.json。另一个上下文耗尽案例：旧checkpoint-2300的Thinking T=0.6/top_p=0.95为245/246，friend-EM1-3返回HTTP400，明确输入至少32769超过32768；同模型T=1/top_p=1为246/246。保留完整历史、原错误和临时权重，未改context；不据此推断T=1普遍更优。证据prior2300-context-exhaustion-2313.json。新增上下文耗尽案例：旧checkpoint-100（prior-historical100）的Thinking T=0.6/top_p=0.95成功245/246，friend-EM2-3返回HTTP400明确输入至少32769超过32768；后续已核实T=1/top_p=1成功246/246，EM2三轮分别输出828/4337/1843 tokens且均stop；T=0.6仍245/246，因此整个模型不标全部完成，不能由此单例推出T=1普遍更好。保留完整历史和原始错误，不标完整完成。证据historical100-context-exhaustion-2339.json。评测资源中断记录（2026-10-14 00:00:02 UTC）：原Slurm作业2742被取消，原节点随后由2811占用，生成控制器退出不代表完成。中断后逐文件核验为27120/43788条成功答案、101/178个模型设置完整；缺题ID和文件SHA见thinking-interruption-recovery-manifest-0003.json。评分独立继续。后续是否恢复须看新运行证据，旧evaluating状态不能证明仍在生成。扩展抽查（2026-10-14）：对12509条可配对公开题评分筛出7条明确提取答案不同而准确性>=90的记录，比前次新增2条。Codex辅助复核（非人工标注）发现：旧checkpoint2000的Thinking T0.6在ARC350先正确答D，随后自创细菌题并以B结束；旧checkpoint2500的Thinking T1在GSM153先写ANSWER:18、ANSWER:36，末尾正文改为48却未给ANSWER:48，并含错误代数推导。两例均正常stop且未闭合think；不能直接算作两例新知识错误。严格格式判分和Judge语义高分须连同全文解读，原评分未改。证据judge-discrepancy-screen-0039.json。恢复记录（2026-10-14）：用户已要求继续，已提交到Slurm分配2811和2812，各8个GPU worker；使用原revision、题集、上下文与采样参数，已有成功答案跳过并保留实际多轮历史。截至本页生成时成功回答43777/43788，已评分39249/43788。提交不代表全部完成，进度以本页实际计数为准；上下文耗尽仍保留失败记录，未改成成功。",
   "results": [
     {
       "model": "prior-base",
@@ -3803,17 +3803,17 @@
       "mode": "thinking-sampled",
       "subset": "friend46",
       "responses": 45,
-      "graded": 39,
+      "graded": 44,
       "expected": 46,
       "provisional": true,
       "means": {
-        "accuracy": 97.33,
-        "language": 99.62,
-        "logic": 96.56,
-        "instruction": 85.13,
-        "completeness": 85.44
+        "accuracy": 97.18,
+        "language": 99.66,
+        "logic": 95.02,
+        "instruction": 81.48,
+        "completeness": 81.64
       },
-      "overall": 92.82,
+      "overall": 91.0,
       "missing_final": 14,
       "length_limited": 13
     },
@@ -3822,11 +3822,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 79.55,
+        "language": 87.02,
+        "logic": 77.39,
+        "instruction": 73.84,
+        "completeness": 70.73
+      },
+      "overall": 77.71,
       "missing_final": 37,
       "length_limited": 2
     },
@@ -3900,17 +3906,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
       "responses": 46,
-      "graded": 10,
+      "graded": 46,
       "expected": 46,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 89.5,
-        "language": 86,
-        "logic": 89,
-        "instruction": 65,
-        "completeness": 67
+        "accuracy": 93.74,
+        "language": 88.37,
+        "logic": 92.39,
+        "instruction": 74.46,
+        "completeness": 76.3
       },
-      "overall": 79.3,
+      "overall": 85.05,
       "missing_final": 17,
       "length_limited": 0
     },
@@ -4191,17 +4197,17 @@
       "mode": "thinking-sampled",
       "subset": "friend46",
       "responses": 46,
-      "graded": 23,
+      "graded": 45,
       "expected": 46,
       "provisional": true,
       "means": {
-        "accuracy": 89.35,
-        "language": 95.65,
-        "logic": 89.35,
-        "instruction": 48.26,
-        "completeness": 50.22
+        "accuracy": 89.33,
+        "language": 97.67,
+        "logic": 87.78,
+        "instruction": 42.22,
+        "completeness": 43.89
       },
-      "overall": 74.57,
+      "overall": 72.18,
       "missing_final": 43,
       "length_limited": 13
     },
@@ -4210,11 +4216,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 69,
+        "language": 76.51,
+        "logic": 67.25,
+        "instruction": 44,
+        "completeness": 47.52
+      },
+      "overall": 60.86,
       "missing_final": 124,
       "length_limited": 1
     },
@@ -4223,11 +4235,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 71,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 81.62,
+        "language": 98.87,
+        "logic": 83.59,
+        "instruction": 45.56,
+        "completeness": 46.83
+      },
+      "overall": 71.3,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -4282,11 +4300,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
       "responses": 46,
-      "graded": 0,
+      "graded": 46,
       "expected": 46,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 87.22,
+        "language": 88.37,
+        "logic": 85.11,
+        "instruction": 40.11,
+        "completeness": 43.8
+      },
+      "overall": 68.92,
       "missing_final": 46,
       "length_limited": 0
     },
@@ -4411,11 +4435,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 82.33,
+        "language": 98.19,
+        "logic": 85,
+        "instruction": 44.86,
+        "completeness": 46.53
+      },
+      "overall": 71.38,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -4470,11 +4500,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
       "responses": 46,
-      "graded": 0,
+      "graded": 6,
       "expected": 46,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 83.33,
+        "language": 100,
+        "logic": 83.33,
+        "instruction": 48.33,
+        "completeness": 49.17
+      },
+      "overall": 72.83,
       "missing_final": 44,
       "length_limited": 0
     },
@@ -6510,17 +6546,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 127,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 66.56,
-        "language": 76.03,
-        "logic": 64.77,
-        "instruction": 55.72,
-        "completeness": 53.12
+        "accuracy": 66.23,
+        "language": 75.75,
+        "logic": 64.42,
+        "instruction": 55.52,
+        "completeness": 52.86
       },
-      "overall": 63.24,
+      "overall": 62.96,
       "missing_final": 71,
       "length_limited": 1
     },
