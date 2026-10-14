@@ -1,0 +1,14 @@
+{
+  "thinking": {
+    "updated_utc": "2026-10-14T17:52:51.648550+00:00",
+    "responses": 43777,
+    "graded": 38560,
+    "expected": 43788
+  },
+  "notags": {
+    "updated_utc": "2026-10-14T17:55:25.098250+00:00",
+    "responses": 43788,
+    "graded": 43786,
+    "expected": 43788
+  }
+}
