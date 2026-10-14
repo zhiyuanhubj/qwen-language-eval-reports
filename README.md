@@ -26,3 +26,6 @@ The HTML reports include detailed scoring caveats and objective scores where ava
 Only aggregate reports are included, without model weights, training data,
 credentials, or raw conversation trajectories. New snapshots will be committed
 while the authorized evaluation finishes.
+
+
+[Downloadable questions, answers, scores and logs](evidence/README.md) · [File manifest and checksums](evidence/manifest.json)
