@@ -23,9 +23,11 @@ separate counts. Context-exhaustion failures are retained; they are not successf
 answers. Model-assisted rubric scores are not benchmark exact-match accuracy.
 The HTML reports include detailed scoring caveats and objective scores where available.
 
-Only aggregate reports are included, without model weights, training data,
-credentials, or raw conversation trajectories. New snapshots will be committed
-while the authorized evaluation finishes.
+The evidence directory includes evaluation questions, complete raw model outputs,
+per-question scores, errors, prompt templates, and run logs, individually compressed
+with gzip. Model weights and training datasets are excluded. The manifest records
+file sizes, SHA-256 checksums, and the snapshot time. Later scores may be pending.
+The repository is public as requested by its owner.
 
 
 [Downloadable questions, answers, scores and logs](evidence/README.md) · [File manifest and checksums](evidence/manifest.json)
