@@ -265,6 +265,7 @@ def read_range(file, start, count):
 
 
 async def worker(args):
+    inventory_path = args.inventory or (args.output / 'inventory.json')
     state = {'job': args.job, 'host': socket.gethostname(), 'started': time.time(),
              'phase': 'waiting_model', 'counts': {}, 'model': MODEL,
              'concurrency': args.concurrency,
@@ -302,7 +303,7 @@ async def worker(args):
                 break
             except (aiohttp.ClientError, asyncio.TimeoutError):
                 await asyncio.sleep(15)
-        manifest = json.loads((args.output / 'inventory.json').read_text())
+        manifest = json.loads(inventory_path.read_text())
         if manifest['policy_sha256'] != hashlib.sha256(POLICY.encode()).hexdigest():
             raise RuntimeError('Policy differs from inventory')
         if manifest.get('ruleset') != RULESET:
@@ -565,7 +566,7 @@ async def worker(args):
         while True:
             # UltraData's original files are staged incrementally. Existing
             # task identities stay fixed while newly downloaded shards appear.
-            refreshed = json.loads((args.output / 'inventory.json').read_text())
+            refreshed = json.loads(inventory_path.read_text())
             if refreshed['policy_sha256'] != manifest['policy_sha256'] or refreshed.get('ruleset') != RULESET:
                 raise RuntimeError('Policy changed during processing')
             tasks = refreshed['tasks']
@@ -602,7 +603,7 @@ async def worker(args):
                 state['phase'] = 'complete'
                 heartbeat()
                 if not only_task:
-                    atomic_json(args.output / 'complete.json', {'time': time.time(),
+                    atomic_json(args.output / (f'complete-{args.job}.json' if args.inventory else 'complete.json'), {'time': time.time(),
                         'model': MODEL, 'rows': refreshed['rows'], 'tasks': len(refreshed['tasks'])})
                 break
             await asyncio.sleep(30)
@@ -665,6 +666,7 @@ def main():
     parser.add_argument('--rank', type=int, default=0)
     parser.add_argument('--task-rows', type=int, default=256)
     parser.add_argument('--concurrency', type=int, default=16)
+    parser.add_argument('--inventory', type=Path, help='Explicit assignment inventory; task outputs remain under --output')
     parser.add_argument('--only-task', help='Retry one inventory task without publishing whole-dataset completion')
     args = parser.parse_args()
     if args.mode == 'worker':

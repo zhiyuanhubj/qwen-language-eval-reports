@@ -9,5 +9,6 @@
     "pyarrow": "25.0.0",
     "Pillow": "11.3.0"
   },
-  "validation": "Portable HTTP fixture + cross-file/resume/image preservation test; 7 content validation regression scripts; 3-way split of current unfinished inventory; no new GPU deployment performed for this portable copy."
+  "validation": "Portable HTTP fixture + cross-file/resume/image preservation test; 7 content validation regression scripts; 3-way split of current unfinished inventory; no new GPU deployment performed for this portable copy.",
+  "assignment_validation": "Local HTTP cleaning test verifies explicit assignment, no unassigned task claims, and no global completion marker. Live cleaning clients switched to zhiyuan assignment."
 }

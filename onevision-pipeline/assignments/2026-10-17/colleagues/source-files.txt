@@ -1,0 +1,8 @@
+Evol-Instruct-GPT4-Turbo/train-00000-of-00001.qwen35.parquet
+Super-CLEVR/train-00000-of-00003.qwen35.parquet
+gqa/train-00002-of-00020.qwen35.parquet
+gqa/train-00003-of-00020.qwen35.parquet
+ifeval_like/train-00000-of-00001.qwen35.parquet
+open_orca/train-00000-of-00002.qwen35.parquet
+openmathinstruct/train-00000-of-00003.qwen35.parquet
+textocr_gpt4v/train-00004-of-00047.qwen35.parquet

@@ -58,6 +58,8 @@ python clean.py report --output work/filter
 
 ## 按 subset 分给同事
 
+已生成 [同事 1/3、zhiyuan 2/3 的正式清洗分工](assignments/2026-10-17/README.md)，包含两份完整任务清单和启动命令。
+
 **可以。推荐先由一人生成完整 inventory，再按 subset 分发。**
 
 ```bash
@@ -110,6 +112,7 @@ python run_translation.py --source work/clean-part-01 \
 
 ```bash
 python tests/test_portable.py
+python tests/test_assignment_worker.py
 for f in tests/test_*validation.py tests/test_boolean_labels.py tests/test_chart_labels.py \
   tests/test_exact_formula.py tests/test_exact_ocr.py tests/test_python_context.py; do
   PYTHONPATH=. python "$f"
