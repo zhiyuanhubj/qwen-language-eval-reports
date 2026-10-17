@@ -4,7 +4,7 @@
 
 ## 两个阶段
 
-1. `clean.py`：DeepSeek-V4.1-Flash 看原图并审核整个对话；两次肯定审核才保留，分歧进入两次深度复审。五项布尔条件全部通过才保留；confidence 只记录，不设置信心阈值。失败、未完成和需复核的记录不当作合格数据。
+1. `clean.py`：DeepSeek-V4.1-Flash 看原图并审核整个对话；两次肯定审核才保留；首轮快速审核、第二轮深度审核，分歧时再加一次深度复核。五项布尔条件全部通过才保留；confidence 只记录，不设置信心阈值。失败、未完成和需复核的记录不当作合格数据。
 2. `translate.py` / `run_translation.py`：Qwen3.8-27B 翻译清洗后的 QA，关闭 thinking，保留图片及非 messages 列。代码、公式、数字和 OCR 等受保护内容按规则保留。只输出通过自动校验的行；自动通过仍不代表经过人工语义审核。
 
 翻译：一张 H200 一个 TP1 BF16 服务，一个 8 卡节点启动 8 个服务，每服务最多 32 路请求。两个文件共享同一个有上限的请求池，缓解文件末尾长请求导致的空闲，但不能完全消除长尾。逐行缓存、文件锁和原子 Parquet 写入支持断点续跑。
@@ -55,6 +55,41 @@ python clean.py report --output work/filter
 ```
 
 默认读取本地源文件；只有明确传入 `--data-url` 时才从该 HTTP 数据源补取缺失文件。`server_settings.json`、`review_settings.json` 固定本次 V4.1 复审策略。`--only-task TASK_ID` 用于指定失败任务恢复，不代表整个集合完成。
+
+## 格式过滤实际在哪里做
+
+本节核对的是 2026-10-17 的生产 `pipeline.py` 与本仓库 [clean.py](clean.py)。二者审核逻辑一致；公开副本只调整默认路径、数据源及默认部署配置读取。这里区分输入结构、内容质量与评分返回格式，不能把评分 JSON 校验说成原始 QA 的完整格式校验。
+
+| 阶段 / 代码位置 | 实际规则 | 未通过的处理 |
+| --- | --- | --- |
+| `prepare()`，调用模型前 | 必须存在 user 消息及 assistant 消息 | `reject`: `missing_user_request` / `missing_assistant_answer` |
+| `prepare()` | 序列化对话中的 `<image>` 数量必须等于图片数量；Pillow 验证每张图片可解码 | `reject`: `image_placeholder_count_mismatch` / `corrupt_image` |
+| `prepare()` | `<video>` / `<audio>`、对话超过 70,000 字符、图片超过 8 张、图片字节和路径均不可用 | `review`，分别记录 unsupported_media / context_requires_larger_server / image_count_requires_larger_server / image_bytes_unavailable；不能据此断言原始样本质量差 |
+| `POLICY` + `judge()` | 模型看原图并检查每轮回答：完整性、推理、语言、乱码、无关套话、重复、代码和指令遵循 | 五项布尔判定及复审规则决定 keep / reject / review；这是模型语义审核，不是确定性格式解析 |
+| `judge()` + `parse_verdict()` | 深度审核请求 JSON Schema；返回必须是一个对象、恰好七个字段，五项必须为真正的 bool，confidence 为 [0,1] 数值，reason 非空 | JSON / schema 错误最多三次请求尝试，仍失败记 `error`；不作为质量拒绝或合格数据 |
+| `judge()` | `finish_reason` 必须为 stop；深度审核通常给 16,384 输出 token，长上下文有预算回退 | 达预算仍无有效结果为 `review: judge_inconclusive_after_token_budget`；不截断原样本来凑通过 |
+| `check()` / 输出部分 | 只把 keep 行按原 Arrow schema 写入清洗 Parquet | 不重写回答、不改图片；逐行结论保存在 `tasks/<task-key>/decisions.jsonl`，批次统计在 summary.json / done.json |
+
+`parse_verdict()` 兼容去除外层 Markdown 代码围栏，但不从任意混杂文本中猜测或提取 JSON。confidence 仅校验范围并记录，没有置信度筛选阈值。完成批次中的 review 仍是待复核，不等于合格或完成翻译；`unresolved_errors == 0` 也不代表 review 数为零。
+
+**边界：目前没有独立的、全面的 messages schema 校验器。** 存在 user/assistant 角色不等于文本非空；没有硬编码验证角色交替、每条消息字段类型、Markdown/LaTeX/代码语法或精确 JSON 答案格式。部分问题由模型的完整性和指令遵循审核判断；畸形字段也可能成为 error。没有自动修复原始 QA 格式。不要把“做了格式过滤”理解为上述格式都已严格验证。
+
+## V4.1 已部署的加速与限制
+
+2026-10-17 实际查询两台在用清洗容器的启动参数，均为以下配置；公开 [serve.py](serve.py) 已包含相同计算配置（公开版只绑定 localhost）：
+
+- 每个 8 卡节点 **TP4 × DP2**，两组 4 卡推理副本；与 Qwen 翻译的每卡一个、每节点 8 副本不同。
+- `--max-num-seqs 128`、`--max-num-batched-tokens 16384`，前缀缓存；dspark 推测解码 5 token，probabilistic draft / block rejection / adaptive verification。参数已启用不等于每项都独立测出了增益。
+- 多模态 encoder 使用 data 模式；engram CPU offload 是部署容量配置，不单独宣称为提速倍数。当前部署机器约 2 TiB RAM。
+- 主客户端每节点并发 64，最多同时领取 4 个任务批次，共享一个 semaphore；较早批次剩少数长请求时，其他已领取批次仍可供给请求。领取上限和源文件读取仍可能限制利用率，并非完全消除长尾。
+- 确凿错误可提前结束深度审核；保留样本仍必须检查所有回答。第二轮原生 thinking、effort=50、结构化 JSON；直接给予原有 16K 最终预算，避免先用小预算重复生成同一段推理。
+- 逐行审核持久化、任务文件锁及断点恢复避免重复已完成记录；这不等于异地同事之间有共享锁，仍须按分工 inventory 隔离。
+
+客户端发送并发的单样本请求，由服务端进行批处理；没有把多条 QA 拼成一条提示词来评分。Qwen 的 32 并发、两个文件共享池的小样本提速结果不能当成 V4.1 的速度结论。
+
+目前不能说 V4.1 已达到高效率：近期短窗口约 60% 输出 token 花在最终截断的请求上，FigureQA 多轮对话及 datikz 有较多待复核。这是短窗口 token 占比，不是全量失败率。历史不同配置的 high/low effort 对照中，44 对可比结果有 8 对保留判定不同，不能据此直接降低当前生产 effort。生产规则未因此放宽，也没有测得可对所有 subset 保证的提速倍数。
+
+格式与判定边界可在无 GPU 的环境复核：`python tests/test_clean_format.py`。这些测试验证代码行为，不能代替模型审核准确率评测。
 
 ## 按 subset 分给同事
 
