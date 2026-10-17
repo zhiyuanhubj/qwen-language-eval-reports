@@ -1,0 +1,5 @@
+{
+  "default": {
+    "tokenizer_mode": "deepseek_v41"
+  }
+}

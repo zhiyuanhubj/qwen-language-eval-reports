@@ -1,0 +1,4 @@
+{
+  "native_early_reject": true,
+  "native_structured_deep": true
+}

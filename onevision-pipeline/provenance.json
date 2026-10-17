@@ -1,0 +1,13 @@
+{
+  "snapshot_date": "2026-10-17",
+  "source_sha256": {
+    "translate.py": "6a0ada8d2a5a96ab6680cd707ecd98913ba1566bd3e519cb3cdca6f34ab6c135",
+    "pipeline.py": "4886ec37878a8062eb60e56069276b0d6e08094a4a2cd548b8f976e73da05e6a"
+  },
+  "client_packages_tested": {
+    "aiohttp": "3.14.3",
+    "pyarrow": "25.0.0",
+    "Pillow": "11.3.0"
+  },
+  "validation": "Portable HTTP fixture + cross-file/resume/image preservation test; 7 content validation regression scripts; 3-way split of current unfinished inventory; no new GPU deployment performed for this portable copy."
+}

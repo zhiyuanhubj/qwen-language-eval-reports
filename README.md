@@ -53,3 +53,8 @@ The repository is public as requested by its owner.
 - [text-08-en · diagnostic128](manual-review/text-08-en.txt)
 - [benchmark-gsm8k-153 · benchmark72](manual-review/benchmark-gsm8k-153.txt)
 - [benchmark-arc-challenge-40 · benchmark72](manual-review/benchmark-arc-challenge-40.txt)
+
+
+## OneVision 清洗与中文翻译代码
+
+[启动说明、按 subset 分工、清洗及翻译代码](onevision-pipeline/README.md)。包含一节点八个 Qwen 服务、32 路并发和跨文件请求池；不包含模型和原始数据。
