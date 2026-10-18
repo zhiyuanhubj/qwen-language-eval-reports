@@ -157,3 +157,12 @@ done
 已验证运行配置来自现有集群。可移植启动器做了命令构造和离线测试，**没有在同事的硬件/镜像上完成端到端验收**。翻译校验仍可能漏掉中文语义错误；错误行和 review 行不等于已完成中文化。
 
 固定 48 条真实 QA 的历史小样本：8 路约 65–67 秒、16 路 41.7 秒、32 路 29.8 秒；两个文件共用 8 路请求池约 71.6 秒，单文件基线约 112–114 秒。跨文件测试期间同节点其他服务有启动活动，不能当成全量性能保证。文件长尾、输出质量重试、存储配额和调度中断都仍会影响有效产能。
+
+
+## 2026-10-18 补跑解析修复与推理停滞监控
+
+生产清洗主进程继续使用 `clean.py` 中的严格解析。单独的历史错误补跑已使用 [recovery_verdict_parser.py](recovery_verdict_parser.py)：先调用严格解析；只有 `Invalid control character` 类型的 JSON 错误才尝试重新编码解释字段中的原始 tab、换行、回车，然后再次执行同一份完整 schema 校验。原始 QA、五项布尔评分和置信度均不改写。NUL、退格、额外 JSON、错误字段类型及越界置信度仍失败并保留 error；不能将失败解释为通过。用法：`parse_recovery_verdict(response_text, clean.parse_verdict)`。失败响应只保存在运行环境本地，不包含在本仓库中。
+
+[watch_inference_progress.py](watch_inference_progress.py) 面向当前 Slurm + Docker + vLLM 部署。用 `python watch_inference_progress.py --jobs JOB_ID_1 JOB_ID_2 --state ./inference-progress.json` 启动；默认每 60 秒查询生成 token、在途请求、GPU 利用率与功耗。存在在途请求且生成计数连续 180 秒不变时写入 `GENERATION_STALLED` 告警；查询失败单独记为 `POLL_FAILED`。脚本只监控，不自动重启、不发送外部通知。容器固定为 `llava-v41-quality-native-dp2`，端口为 30240；其他部署须调整。GPU 满载、显存占用或健康端点返回成功，均不足以证明实际生成在前进。此告警是排查线索，长 prefill 等也可能触发，重启前需要结合日志验证。
+
+补跑解析反例验证：`python tests/test_recovery_verdict.py`。
