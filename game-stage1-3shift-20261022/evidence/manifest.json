@@ -1,5 +1,5 @@
 {
-  "utc": 1792689636.4229665,
+  "utc": 1792690267.7783248,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -308,8 +308,8 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-1500.jsonl.gz",
-      "uncompressed_sha256": "6f4abfdf1529ced36e86169b1519be5ea6956b36fd069c07756e7bc9a7a45310",
-      "bytes": 983696
+      "uncompressed_sha256": "581cd11b082599989b337decb7f9e4791469b320733d250c65dfbc1f571662a0",
+      "bytes": 988421
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-500.jsonl.gz",
@@ -333,8 +333,8 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "16418ac6750f8743efeda98ed665e54443d41a6df687a8892d099cf14355c383",
-      "bytes": 5709
+      "uncompressed_sha256": "198a8755e540519c0bd04d635198b3f82f71962a990d684b80a378916fef064f",
+      "bytes": 5708
     },
     {
       "path": "scores100/rubric.json.gz",
@@ -448,13 +448,13 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "7d9e651672ffff8c7f0e2c32b3f5dd527fdd484e03b1090339a830056567de85",
-      "bytes": 434823
+      "uncompressed_sha256": "5aca759aa6d97b85113f7fec148c7124e0deee2233e733990a8b9aaeccf32e4f",
+      "bytes": 439431
     },
     {
       "path": "logs/judge.log.gz",
-      "uncompressed_sha256": "f00914dc193c99d9b9ffa762fda8a107a3a02916663e8cf03c4e3fd3c0a0da2b",
-      "bytes": 139982
+      "uncompressed_sha256": "c1a75dd4c9b10f01cadbfa9ff0177b9d0ec4881f3aea2d8e0a1268a8e0e57dba",
+      "bytes": 175136
     },
     {
       "path": "logs/game-stage1-3shift-1500.nonthinking-notags-t1-p1.client.log.gz",
@@ -508,8 +508,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "273ec31557dd672024444f80664ea1ed48374001a960f337c2d02745ac397c61",
-      "bytes": 57486
+      "uncompressed_sha256": "08e425d796d62c1a36d82808b9288153cc8e4e90e7f38b0718a23b2049e82b57",
+      "bytes": 60919
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
