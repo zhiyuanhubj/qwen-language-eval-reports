@@ -1,5 +1,5 @@
 {
-  "utc": 1792682683.0177813,
+  "utc": 1792683309.4369326,
   "note": "Stage1-3Shift checkpoint 500/1000/1500 重测。沿用原固定246题、Thinking/NoTags和两组采样：T0.6/p0.95、T1/p1；BF16、seed42、context32768、output16384。共2952条正式回答。原始输出、thinking、错误和评分分别保留。五项直接百分制为DeepSeek-V4.1-Flash辅助评分，不是人工准确率；benchmark72另列严格答案判分。上下文错误和未评分项目不标完成。旧实验不覆盖。",
   "results": [
     {
@@ -32,14 +32,14 @@
       "model": "game-stage1-3shift-500",
       "mode": "thinking-sampled",
       "subset": "friend46",
-      "responses": 40,
+      "responses": 44,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 27,
-      "length_limited": 8
+      "missing_final": 31,
+      "length_limited": 12
     },
     {
       "model": "game-stage1-3shift-500",
@@ -339,39 +339,39 @@
       "model": "game-stage1-3shift-1000",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 40,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 36,
+      "missing_final": 99,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-1000",
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 69,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 69,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-1000",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 32,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 29,
       "length_limited": 0
     },
     {
@@ -568,32 +568,78 @@
       "means": {},
       "overall": null,
       "missing_final": 72,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 0,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 72,
+          "missing_final": 72,
+          "raw_only_correct": 65
+        },
+        "allenai/ai2_arc": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 17
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 0,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 36,
+          "missing_final": 36,
+          "raw_only_correct": 32
+        },
+        "openai/gsm8k": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 16
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-1500",
       "mode": "thinking-sampled",
       "subset": "friend46",
-      "responses": 44,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 40,
-      "length_limited": 3
+      "missing_final": 42,
+      "length_limited": 5
     },
     {
       "model": "game-stage1-3shift-1500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 0,
+      "responses": 19,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 18,
       "length_limited": 0
     },
     {
