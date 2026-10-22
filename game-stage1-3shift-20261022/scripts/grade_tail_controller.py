@@ -13,14 +13,16 @@ p=subprocess.run(['docker','logs','--since','5m','--tail','1000','zhiyuan-beam-b
 logs=p.stdout+'\n'+p.stderr
 activity=any('chat/completions' in l or 'Decode batch' in l or 'Prefill batch' in l for l in logs.splitlines())
 used=subprocess.check_output(['nvidia-smi','--query-gpu=utilization.gpu','--format=csv,noheader,nounits'],text=True)
-print(json.dumps({'idle':not connections.strip() and not activity and max(int(x) for x in used.split())==0,'connections':len(connections.splitlines()),'recent_generation':activity}))'''
+print(json.dumps({'idle':not connections.strip() and max(int(x) for x in used.split())==0,'connections':len(connections.splitlines()),'recent_generation':activity}))'''
 base=['srun','--jobid=2733','--overlap','--exact','-N1','-n1','-c1','--gres=none','--immediate=20']
 status('waiting_for_beam_idle')
+idle_streak=0
 while True:
     p=subprocess.run(base+['python3','-c',remote],capture_output=True,text=True,timeout=40)
     if p.returncode==0:
         observation=json.loads(p.stdout.strip().splitlines()[-1]);status('waiting_for_beam_idle',observation=observation)
-        if observation['idle']:break
+        idle_streak=idle_streak+1 if observation['idle'] else 0
+        if idle_streak>=2:break
     time.sleep(30)
 status('starting_tail_review')
 result=None

@@ -1,5 +1,5 @@
 {
-  "utc": 1792712877.7841382,
+  "utc": 1792713148.5018454,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -458,8 +458,8 @@
     },
     {
       "path": "logs/beam-restore.log.gz",
-      "uncompressed_sha256": "256f8cdb0bfd21dc60b09f89ca9e47fff6cc4d414a0b6dacc6c5d7b957b66346",
-      "bytes": 2783060
+      "uncompressed_sha256": "081de479caf1b35665f1586d5e76f11bd7c4b393230aecc8d22d0e9d2815513a",
+      "bytes": 2813722
     },
     {
       "path": "logs/judge.log.gz",
@@ -468,8 +468,8 @@
     },
     {
       "path": "logs/beam-restore-controller.log.gz",
-      "uncompressed_sha256": "da930c2b03f6f8665a42d49194a189ff9d9244aaebd58f1768ee0d0221125bfc",
-      "bytes": 118
+      "uncompressed_sha256": "99fd956ea9bae7bbf63d178f468c1d15dabc9ef7a2498a191670c6943c4f734c",
+      "bytes": 411
     },
     {
       "path": "logs/game-stage1-3shift-1500.nonthinking-notags-t1-p1.client.log.gz",
@@ -517,14 +517,19 @@
       "bytes": 4576
     },
     {
+      "path": "logs/language-analysis.log.gz",
+      "uncompressed_sha256": "fda02d95e6349a99d85d63e9ca322ac8cebbf558c87f8904ee04b2f8789cdf09",
+      "bytes": 15082
+    },
+    {
       "path": "logs/game-stage1-3shift-1500.thinking.server.log.gz",
       "uncompressed_sha256": "7b5090a4a00799f1e1071d6072f1088a13e7cc32971ba49dd00a6cf19379d11b",
       "bytes": 169861
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "278e02dc72d9905cc6266480f6a27fe2b8aa4b46c4abb82615944bb071a72165",
-      "bytes": 85638
+      "uncompressed_sha256": "d818addfc2885dda735af491f4a82a8ba24fff92469ccbdd4637a7d037a58143",
+      "bytes": 88532
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
@@ -552,9 +557,14 @@
       "bytes": 4576
     },
     {
+      "path": "logs/judge-tail-server.log.gz",
+      "uncompressed_sha256": "8cfd6605d982455480376d7ed3848420597fa1d636fb8e419c6e5c752e7d6620",
+      "bytes": 10874
+    },
+    {
       "path": "logs/grading-tail.log.gz",
-      "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0
+      "uncompressed_sha256": "bdeecab7585a22d9f4cfd381fa7229351f2af53e2a5cd3a2c6e63498eb88ce59",
+      "bytes": 259
     },
     {
       "path": "prompts.jsonl.gz",
