@@ -8,6 +8,10 @@ mode='thinking-sampled-t1-p1';label='game-stage1-3shift-1500';ident='benchmark-a
 candidate=next(json.loads(l) for l in (D/mode/(label+'.jsonl')).open() if json.loads(l).get('id')==ident)
 runtime=json.loads((D/'status/judge-runtime.json').read_text());command=runtime['command'];name=command[command.index('--name')+1]
 used=[int(x) for x in subprocess.check_output(['nvidia-smi','--query-gpu=memory.used','--format=csv,noheader,nounits'],text=True).split()]
+for _ in range(20):
+    if max(used)<2000:break
+    time.sleep(1)
+    used=[int(x) for x in subprocess.check_output(['nvidia-smi','--query-gpu=memory.used','--format=csv,noheader,nounits'],text=True).split()]
 assert max(used)<2000,used
 source=(D/'scripts/judge.py').read_text().replace("'max_tokens':2200","'max_tokens':8192").replace("payload['max_tokens']=4400","payload['max_tokens']=16384")
 module_path=D/'scripts/judge_tail_budget.py';module_path.write_text(source)

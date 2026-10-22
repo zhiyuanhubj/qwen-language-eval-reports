@@ -73,10 +73,11 @@ while True:
         tail=D/'status/grading-tail.json'
         if tail.exists():progress['grading_tail']=json.loads(tail.read_text())
         (D/'status/progress.json').write_text(json.dumps(progress,indent=2))
-        if time.time()-last_publish>=600 or terminal:
+        ready_to_finish=terminal and progress['graded']>=progress['responses']
+        if time.time()-last_publish>=600 or ready_to_finish:
             publish();last_publish=time.time()
         print(json.dumps(progress),flush=True)
-        if terminal and progress['graded']>=progress['responses']:break
+        if ready_to_finish:break
     except Exception:
         traceback.print_exc()
     time.sleep(30)
