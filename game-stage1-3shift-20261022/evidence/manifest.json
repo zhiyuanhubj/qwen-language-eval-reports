@@ -1,5 +1,5 @@
 {
-  "utc": 1792687736.9099276,
+  "utc": 1792688371.0485663,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -308,8 +308,8 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-1500.jsonl.gz",
-      "uncompressed_sha256": "8793fe309a344a8489164345e799f20978cfdcc845c6556e8ac34f8163c3c024",
-      "bytes": 969296
+      "uncompressed_sha256": "8e4d06f42609486349c52f1dece132f4f751c1b1458c7ebfa6c9013574e2fa9b",
+      "bytes": 974021
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-500.jsonl.gz",
@@ -333,7 +333,7 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "f0c5fd610cb2f4da7e42e480afc28fa17584aab2abf05097a7e6b812477a7dbd",
+      "uncompressed_sha256": "04d711dc6dec0847ce223480f191d95fa5cd7ca899f4ac6b875daf3c454df7d4",
       "bytes": 5709
     },
     {
@@ -448,13 +448,13 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "8add899d09dfd9c0778c4d19b6b3569a656daec969d501f64028ee10e6b240d2",
-      "bytes": 420999
+      "uncompressed_sha256": "20d230bf5241f51651021bb8359d0e2ea98fced1fef80ed482b5c44506ad661f",
+      "bytes": 425535
     },
     {
       "path": "logs/judge.log.gz",
-      "uncompressed_sha256": "25f9a36c0f78cb98390dd529583ccb8f29f664fb0312bc53a5db543f33a8b1ab",
-      "bytes": 32846
+      "uncompressed_sha256": "f4d16f1590b83f03c6f837a6eeeefb4f2cf95deb6a5270b01f9dee256ba8fbb4",
+      "bytes": 68000
     },
     {
       "path": "logs/game-stage1-3shift-1500.nonthinking-notags-t1-p1.client.log.gz",
@@ -508,8 +508,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "d567298c5bad9cb4e6afcdfb6dcd13a23e14676bddf7e6b759f8e09dca2a637e",
-      "bytes": 47185
+      "uncompressed_sha256": "fae2b1d78acb00ca28c0865626e0de6a488abbc45e9b1d96de1270e2a008ce4f",
+      "bytes": 50617
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
