@@ -1,5 +1,5 @@
 {
-  "utc": 1792688371.0485663,
+  "utc": 1792689005.2520225,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -308,8 +308,8 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-1500.jsonl.gz",
-      "uncompressed_sha256": "8e4d06f42609486349c52f1dece132f4f751c1b1458c7ebfa6c9013574e2fa9b",
-      "bytes": 974021
+      "uncompressed_sha256": "da96e2c839158cbb04ff796f2bfc6bfc007bd1211770246e0391a3ae595dcc20",
+      "bytes": 978971
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-500.jsonl.gz",
@@ -333,7 +333,7 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "04d711dc6dec0847ce223480f191d95fa5cd7ca899f4ac6b875daf3c454df7d4",
+      "uncompressed_sha256": "ac922d626dc24373dc86d99afaf1f5a69f80989cdd60fa14038b1632b11e250a",
       "bytes": 5709
     },
     {
@@ -448,13 +448,13 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "20d230bf5241f51651021bb8359d0e2ea98fced1fef80ed482b5c44506ad661f",
-      "bytes": 425535
+      "uncompressed_sha256": "12f3f85ee03fab6fce42b6a71f6d926d70c01d7eecc41641d2374743ed2ccf77",
+      "bytes": 430215
     },
     {
       "path": "logs/judge.log.gz",
-      "uncompressed_sha256": "f4d16f1590b83f03c6f837a6eeeefb4f2cf95deb6a5270b01f9dee256ba8fbb4",
-      "bytes": 68000
+      "uncompressed_sha256": "0b8f5941b035f42dc46b1632197efd3bda6b4a7eafb81900cdd7c6ff298ad95f",
+      "bytes": 104828
     },
     {
       "path": "logs/game-stage1-3shift-1500.nonthinking-notags-t1-p1.client.log.gz",
@@ -508,8 +508,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "fae2b1d78acb00ca28c0865626e0de6a488abbc45e9b1d96de1270e2a008ce4f",
-      "bytes": 50617
+      "uncompressed_sha256": "76106b8f750bcdc2f35dd88b3907e2150e07aa1dcf04e18a4aec7145ab59623b",
+      "bytes": 54053
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
