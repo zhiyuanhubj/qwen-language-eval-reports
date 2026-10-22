@@ -1,9 +1,9 @@
 {
-  "utc": 1792680192.1626663,
+  "utc": 1792680805.7994983,
   "job": 2733,
   "scheduler": "RUNNING|2026-10-16T21:16:20|ip-10-1-25-253",
   "terminal": false,
-  "responses": 0,
+  "responses": 1295,
   "graded": 0,
   "expected": 2952
 }

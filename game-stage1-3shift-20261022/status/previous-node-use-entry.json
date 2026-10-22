@@ -1,0 +1,4 @@
+{
+  "role": "Beam BF16 SWE-Review + initial Pro128/TB24/Deep24; Opus4.7 TB CPU harness",
+  "state": "Beam SWR1000/1000 complete; all five requested benchmark paths now active or at declared continuation gates."
+}
