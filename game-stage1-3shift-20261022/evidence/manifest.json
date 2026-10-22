@@ -1,5 +1,5 @@
 {
-  "utc": 1792692796.9894862,
+  "utc": 1792693428.9378338,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -308,8 +308,8 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-1500.jsonl.gz",
-      "uncompressed_sha256": "06c7e128a27724d8b463e25ce9989b60741f4b4c601a104c195f0475a282a01e",
-      "bytes": 1007771
+      "uncompressed_sha256": "73242876fdd2476b785f761818e61ae35839aae232f27492854c32055cc5f053",
+      "bytes": 1012496
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-500.jsonl.gz",
@@ -333,7 +333,7 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "82792e4db4d2dff67f9e993e60c647acb8fca7c8c1693b46a2886017baf54d99",
+      "uncompressed_sha256": "3d2dd953950d89ea38c174efdaf7daf5290bff52e565a7c08a2919f3b0248601",
       "bytes": 5709
     },
     {
@@ -448,13 +448,13 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "ea193930b0dc7d81a30e8146b60b53bb3a56264d76f5beb1a6fe73b21639e131",
-      "bytes": 457863
+      "uncompressed_sha256": "cd0879826b57f9d9f0022411f3a0c8f99d13aa9de76d28014864a3acbb63c1e9",
+      "bytes": 462471
     },
     {
       "path": "logs/judge.log.gz",
-      "uncompressed_sha256": "31a174a2a749570ea73126bdcb74cb6211b626c92bc18b6c59cc30d8d8f189c4",
-      "bytes": 319100
+      "uncompressed_sha256": "aa30090ee851fb6146513ff972113214ca9d43fba3994dc1f8f2f6e525cfd260",
+      "bytes": 354254
     },
     {
       "path": "logs/game-stage1-3shift-1500.nonthinking-notags-t1-p1.client.log.gz",
@@ -508,8 +508,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "7288e19657587ed10423254e7672baad333f208d7b5d41750a01d03ebb69bfd7",
-      "bytes": 74657
+      "uncompressed_sha256": "891929ebaff514e39016f45f28a500ef81fd31dd733acc3596846fbf787daa8f",
+      "bytes": 78093
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
