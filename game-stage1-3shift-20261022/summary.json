@@ -1,5 +1,5 @@
 {
-  "utc": 1792694056.9674823,
+  "utc": 1792694659.159103,
   "note": "Stage1-3Shift checkpoint 500/1000/1500 重测。沿用原固定246题、Thinking/NoTags和两组采样：T0.6/p0.95、T1/p1；BF16、seed42、context32768、output16384。共2952条正式回答。原始输出、thinking、错误和评分分别保留。五项直接百分制为DeepSeek-V4.1-Flash辅助评分，不是人工准确率；benchmark72另列严格答案判分。上下文错误和未评分项目不标完成。旧实验不覆盖。",
   "results": [
     {
