@@ -52,19 +52,20 @@ def success(path):
     return result
 
 def candidate(task):
-    gpu,item=task;label=item['label']; model=D/'models'/label;port=19800+gpu
+    gpu,item,kinds=task;label=item['label']; model=D/'models'/label;port=19800+gpu
+    state_label=label+'-'+kinds[0]
     receipt=json.loads((D/'status'/(label+'.weights.json')).read_text())
     assert receipt['verified'] and receipt['revision']==item['revision']
     for f in receipt['files']: assert (model/f['file']).stat().st_size==f['bytes']
     failures=[]
-    for kind in ['thinking','notags']:
+    for kind in kinds:
         modes=[m for m in PLAN['modes'] if m.startswith('thinking' if kind=='thinking' else 'nonthinking')]
         if all(set(success(D/m/(label+'.jsonl')))==expected for m in modes):continue
         templates=D/'templates'/kind;templates.mkdir(exist_ok=True)
         subprocess.run([PY,str(D/'scripts'/(kind+'_prepare_templates.py')),str(model),str(templates),label],check=True)
         name=f'game-language-{JOB}-{gpu}-{kind}';containers.add(name)
         try:
-            status(label,'loading',mode_family=kind,gpu=gpu)
+            status(state_label,'loading',mode_family=kind,gpu=gpu)
             with (D/'logs'/(label+'.'+kind+'.server.log')).open('a') as log:
                 p=subprocess.Popen(DOCKER+['run','--rm','--name',name,'--label','zhiyuan.game-language-job='+JOB,
                     '--gpus','device='+str(gpu),'--network','host','--ipc','host','-v','/fsx:/fsx:ro',
@@ -76,7 +77,7 @@ def candidate(task):
                 for mode in modes:
                     if set(success(D/mode/(label+'.jsonl')))==expected:continue
                     for smoke in [True,False]:
-                        status(label,'smoke' if smoke else 'evaluating',mode=mode,gpu=gpu)
+                        status(state_label,'smoke' if smoke else 'evaluating',mode=mode,gpu=gpu)
                         path=D/mode/(label+('.smoke' if smoke else '')+'.jsonl')
                         cmd=[PY,str(D/'scripts'/(kind+'_run_eval.py')),'--suite',PLAN['suite'],'--output',str(path),
                              '--model',label,'--revision',item['revision'],'--base-url',f'http://127.0.0.1:{port}/v1',
@@ -94,7 +95,7 @@ def candidate(task):
         except Exception as e:
             failures.append({'family':kind,'error':repr(e)});traceback.print_exc()
         finally:stop(name)
-    status(label,'generation_complete' if not failures else 'generation_partial',failures=failures)
+    status(state_label,'generation_complete' if not failures else 'generation_partial',failures=failures)
     return failures
 
 subprocess.run(DOCKER+['info','--format','{{.ServerVersion}}'],check=True)
@@ -110,8 +111,9 @@ assert hashlib.sha256((Path(PLAN['suite'])/'manifest.json').read_bytes()).hexdig
 for f,digest in manifest['hashes'].items():assert hashlib.sha256((Path(PLAN['suite'])/f).read_bytes()).hexdigest()==digest
 expected={r['id'] for r in map(json.loads,(Path(PLAN['suite'])/'prompts.jsonl').read_text().splitlines())}
 assert len(expected)==246
-with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-    results=list(pool.map(candidate,enumerate(PLAN['items'])))
+tasks=[(gpu,item,[kind]) for gpu,(item,kind) in enumerate((item,kind) for item in PLAN['items'] for kind in ['thinking','notags'])]
+with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+    results=list(pool.map(candidate,tasks))
 complete=all(set(success(D/m/(i['label']+'.jsonl')))==expected for i in PLAN['items'] for m in PLAN['modes'])
 if complete:(D/'complete.json').write_text(json.dumps({'utc':time.time(),'cases':2952,'generation_complete':True}))
 # A separate evaluation judge; never invoke or restart the paused cleaning pipeline.

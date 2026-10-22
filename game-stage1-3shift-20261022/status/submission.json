@@ -1,10 +1,14 @@
 {
-  "job_id": 2997,
-  "utc": 1792679157.0972178,
+  "job_id": 2733,
+  "utc": 1792680191.4822595,
   "partitions": [
     "ml.p5en.48xlarge",
     "ml.p5en.48xlarge-low"
   ],
-  "state": "PENDING",
-  "new_allocation_only": true
+  "state": "RUNNING_EXISTING_ALLOCATION",
+  "new_allocation_only": true,
+  "previous_pending_job": 2997,
+  "host": "ip-10-1-25-253",
+  "task_unit": "qwen-game-language-existing-2733-20261022",
+  "six_candidate_services": true
 }

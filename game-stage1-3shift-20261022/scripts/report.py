@@ -1,4 +1,4 @@
-import html, json, statistics, sys, time
+import html, json, statistics, sys, time, os
 from pathlib import Path
 D = Path(__file__).resolve().parent
 sys.path.insert(0, str(D / 'scripts'))
@@ -31,5 +31,5 @@ for item in plan['items']:
             if subset == 'benchmark72' and objective.exists(): row['objective'] = json.loads(objective.read_text())['groups']
             out.append(row)
 summary = {'utc':time.time(),'note':'Stage1-3Shift checkpoint 500/1000/1500 重测。沿用原固定246题、Thinking/NoTags和两组采样：T0.6/p0.95、T1/p1；BF16、seed42、context32768、output16384。共2952条正式回答。原始输出、thinking、错误和评分分别保留。五项直接百分制为DeepSeek-V4.1-Flash辅助评分，不是人工准确率；benchmark72另列严格答案判分。上下文错误和未评分项目不标完成。旧实验不覆盖。','results':out}
-(D/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2))
-(D/'report.html').write_text(render(summary,'Stage1-3Shift · checkpoint 500 / 1000 / 1500'))
+for name,data in [('summary.json',json.dumps(summary,ensure_ascii=False,indent=2)),('report.html',render(summary,'Stage1-3Shift · checkpoint 500 / 1000 / 1500'))]:
+    target=D/name;temp=D/(name+'.'+str(os.getpid())+'.tmp');temp.write_text(data);temp.replace(target)

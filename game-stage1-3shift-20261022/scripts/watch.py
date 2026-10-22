@@ -56,12 +56,15 @@ last_publish=0
 while True:
     terminal=False
     try:
+        job=json.loads((D/'status/submission.json').read_text())['job_id']
         p=command(['squeue','-h','-j',str(job),'-o','%T|%S|%R'])
         scheduling=p.stdout.strip()
         if not scheduling:
             state=command(['sacct','-X','-j',str(job),'-n','-P','-o','State']).stdout.strip().splitlines()
             scheduling=state[0] if state else 'UNKNOWN'
             terminal=bool(state) and state[0].split('|')[0].split()[0] in ['COMPLETED','FAILED','CANCELLED','TIMEOUT','OUT_OF_MEMORY','NODE_FAIL','PREEMPTED']
+        task_exit=D/'status/task-exit.json'
+        if task_exit.exists():terminal=True
         command([sys.executable,str(D/'report.py')])
         summary=json.loads((D/'summary.json').read_text())
         progress={'utc':time.time(),'job':job,'scheduler':scheduling,'terminal':terminal,
