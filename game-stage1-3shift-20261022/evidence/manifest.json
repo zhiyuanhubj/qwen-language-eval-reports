@@ -1,0 +1,85 @@
+{
+  "utc": 1792679385.025988,
+  "files": [
+    {
+      "path": "templates/thinking/game-stage1-3shift-1000.template-audit.json.gz",
+      "uncompressed_sha256": "f4b1e9e3daee5c4a4248825f9dfde4399ff7e4e413b7ab978540788eea881b1e",
+      "bytes": 4014
+    },
+    {
+      "path": "templates/thinking/game-stage1-3shift-500.template-audit.json.gz",
+      "uncompressed_sha256": "f4b1e9e3daee5c4a4248825f9dfde4399ff7e4e413b7ab978540788eea881b1e",
+      "bytes": 4014
+    },
+    {
+      "path": "templates/thinking/game-stage1-3shift-1500.template-audit.json.gz",
+      "uncompressed_sha256": "f4b1e9e3daee5c4a4248825f9dfde4399ff7e4e413b7ab978540788eea881b1e",
+      "bytes": 4014
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-500.template-audit.json.gz",
+      "uncompressed_sha256": "2ac31e1e89043aca468bd0cbbe3b6e2e1b8af886e6ecd9c662f2606b8ba3de5a",
+      "bytes": 4044
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-1500.template-audit.json.gz",
+      "uncompressed_sha256": "2ac31e1e89043aca468bd0cbbe3b6e2e1b8af886e6ecd9c662f2606b8ba3de5a",
+      "bytes": 4044
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-1000.template-audit.json.gz",
+      "uncompressed_sha256": "2ac31e1e89043aca468bd0cbbe3b6e2e1b8af886e6ecd9c662f2606b8ba3de5a",
+      "bytes": 4044
+    },
+    {
+      "path": "templates/thinking/game-stage1-3shift-500.jinja.gz",
+      "uncompressed_sha256": "cb55ac3c6f776b9b57d20612792e85747e325e970937bb6ea7f51a784b4dabcc",
+      "bytes": 8259
+    },
+    {
+      "path": "templates/thinking/game-stage1-3shift-1000.jinja.gz",
+      "uncompressed_sha256": "cb55ac3c6f776b9b57d20612792e85747e325e970937bb6ea7f51a784b4dabcc",
+      "bytes": 8259
+    },
+    {
+      "path": "templates/thinking/game-stage1-3shift-1500.jinja.gz",
+      "uncompressed_sha256": "cb55ac3c6f776b9b57d20612792e85747e325e970937bb6ea7f51a784b4dabcc",
+      "bytes": 8259
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-1500.jinja.gz",
+      "uncompressed_sha256": "2b3870f182a9b2b7959bec695fb16ba4cdac39a54010c1d7ad9bde5ac73f4823",
+      "bytes": 8380
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-500.jinja.gz",
+      "uncompressed_sha256": "2b3870f182a9b2b7959bec695fb16ba4cdac39a54010c1d7ad9bde5ac73f4823",
+      "bytes": 8380
+    },
+    {
+      "path": "templates/notags/game-stage1-3shift-1000.jinja.gz",
+      "uncompressed_sha256": "2b3870f182a9b2b7959bec695fb16ba4cdac39a54010c1d7ad9bde5ac73f4823",
+      "bytes": 8380
+    },
+    {
+      "path": "logs/watch.log.gz",
+      "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "prompts.jsonl.gz",
+      "uncompressed_sha256": "ccb08ee8ecd9d3a06065b13019298b6de2ce526dfe89ed9483ffe0dd770c7b45",
+      "bytes": 164847
+    },
+    {
+      "path": "manifest.json.gz",
+      "uncompressed_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+      "bytes": 5762
+    },
+    {
+      "path": "benchmark-answers.json.gz",
+      "uncompressed_sha256": "dcd557507d2b7b5374fda33a2e89da5817add823c89232e77766dbbb74b737e9",
+      "bytes": 25391
+    }
+  ]
+}

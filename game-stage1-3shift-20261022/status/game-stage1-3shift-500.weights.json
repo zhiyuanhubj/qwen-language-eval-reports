@@ -1,0 +1,66 @@
+{
+  "verified": true,
+  "step": 500,
+  "label": "game-stage1-3shift-500",
+  "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+  "ref": "checkpoint-500",
+  "revision": "18f06bd8a4f27d87669d3a8592abc81721b8c77a",
+  "files": [
+    {
+      "file": "chat_template.jinja",
+      "bytes": 8106,
+      "sha256": "94fea52db560f12bce75812ffbf73e6bcf2d98fa8292a80e5d02e96009505319"
+    },
+    {
+      "file": "config.json",
+      "bytes": 2855,
+      "sha256": "da9de13c95ae0801622c5770360de5f1bd2c0f8f2bc26520b387929383b67297"
+    },
+    {
+      "file": "model-00001-of-00004.safetensors",
+      "bytes": 4911674496,
+      "sha256": "26f884f2f9da15ff418ef5ba34b6ee11a88c4a35d9c23c3e7c4d80b2f183c611"
+    },
+    {
+      "file": "model-00002-of-00004.safetensors",
+      "bytes": 4954211152,
+      "sha256": "304ea48eee51bfa20dd2c924fa3b0788d421a2386f73493fb3e21963cb032094"
+    },
+    {
+      "file": "model-00003-of-00004.safetensors",
+      "bytes": 4988356912,
+      "sha256": "bbd9b091ec2f6bf45522afaa68b4d367ffa6cc58648f3535edb0b278abc4389d"
+    },
+    {
+      "file": "model-00004-of-00004.safetensors",
+      "bytes": 4452061304,
+      "sha256": "c3bc896111ae084e592a2be308110f633cae2677d3f1392f2c29be76e166ba70"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 70357,
+      "sha256": "d5c7fee99574e9a05f901282aee04fc4fc3dccf094a659df48c6b8e9f39109c3"
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "file": "processor_config.json",
+      "bytes": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 19990286,
+      "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 1313,
+      "sha256": "df0d1e26054a02449c6d340836f1893e9f4a06ae192d9afc722ec67e8fc77876"
+    }
+  ],
+  "utc": 1792679383.6124525
+}

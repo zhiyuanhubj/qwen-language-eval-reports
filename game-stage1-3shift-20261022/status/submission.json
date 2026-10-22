@@ -1,0 +1,10 @@
+{
+  "job_id": 2997,
+  "utc": 1792679157.0972178,
+  "partitions": [
+    "ml.p5en.48xlarge",
+    "ml.p5en.48xlarge-low"
+  ],
+  "state": "PENDING",
+  "new_allocation_only": true
+}

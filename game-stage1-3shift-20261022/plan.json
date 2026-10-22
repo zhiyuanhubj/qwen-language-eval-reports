@@ -1,0 +1,42 @@
+{
+  "utc": 1792678771.5115254,
+  "items": [
+    {
+      "step": 500,
+      "label": "game-stage1-3shift-500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-500",
+      "revision": "18f06bd8a4f27d87669d3a8592abc81721b8c77a"
+    },
+    {
+      "step": 1000,
+      "label": "game-stage1-3shift-1000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-1000",
+      "revision": "0716c0ee17b689bb1a8b706ca36456aca7274594"
+    },
+    {
+      "step": 1500,
+      "label": "game-stage1-3shift-1500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-1500",
+      "revision": "6f8e313ab0d4dac0d8819e50f70c36a2a8843747"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 2952,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed."
+}

@@ -1,0 +1,9 @@
+{
+  "utc": 1792679384.2320595,
+  "job": 2997,
+  "scheduler": "PENDING|2026-10-23T15:12:05|(Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)",
+  "terminal": false,
+  "responses": 0,
+  "graded": 0,
+  "expected": 2952
+}

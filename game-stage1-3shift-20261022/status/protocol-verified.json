@@ -1,0 +1,16 @@
+{
+  "utc": 1792679379.1906388,
+  "template_audits_verified": 6,
+  "rubric_identical": true,
+  "rubric_system_sha256": "344c52220edc13b443bef90155d3c2520335ef817688fe3958e56aaecc48bc14",
+  "source_script_hashes": {
+    "notags_run_eval.py": "b49f0428489628872b570a854a59e30619e0fcf181441692514f7b539d8bd8d7",
+    "thinking_prepare_templates.py": "03d522e34d58954651d0f7dee8355bd87154dbc54e7765617bd27a8ac032caf7",
+    "thinking_run_eval.py": "837f38fd79b562f51182266eda3ce629e363606729b03d01043034809fb4d002",
+    "thinking_score_benchmark_exact.py": "e0d76bd49d9a02d060322d4a204b6b4340b76dab97ef4709a26c06873c7f5b92",
+    "judge.py": "9e0ffc3bb439ecbf894077ea43bfc4c22327acba7b30c6f7ce3686ea6ed0c4f1",
+    "notags_prepare_templates.py": "052243d4861abf69dc2e66eac18367cf56d993604778d6d1a8419dab0b42b170",
+    "notags_score_benchmark_exact.py": "e0d76bd49d9a02d060322d4a204b6b4340b76dab97ef4709a26c06873c7f5b92",
+    "report_layout.py": "8bd3e4d786f040ff1d1b2ba2ef51f4700598163dd6ab6c369a75f8e8319e2a90"
+  }
+}
