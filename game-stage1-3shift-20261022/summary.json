@@ -1,5 +1,5 @@
 {
-  "utc": 1792685198.9509315,
+  "utc": 1792685829.8373952,
   "note": "Stage1-3Shift checkpoint 500/1000/1500 重测。沿用原固定246题、Thinking/NoTags和两组采样：T0.6/p0.95、T1/p1；BF16、seed42、context32768、output16384。共2952条正式回答。原始输出、thinking、错误和评分分别保留。五项直接百分制为DeepSeek-V4.1-Flash辅助评分，不是人工准确率；benchmark72另列严格答案判分。上下文错误和未评分项目不标完成。旧实验不覆盖。",
   "results": [
     {
@@ -117,13 +117,13 @@
       "model": "game-stage1-3shift-500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 44,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 33,
+      "missing_final": 35,
       "length_limited": 0
     },
     {

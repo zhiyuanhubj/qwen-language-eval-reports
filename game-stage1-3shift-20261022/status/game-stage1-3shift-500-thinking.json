@@ -1,8 +1,17 @@
 {
-  "utc": 1792683502.4243665,
+  "utc": 1792685260.4660068,
   "job": "2733",
   "node": "ip-10-1-25-253",
-  "phase": "evaluating",
-  "mode": "thinking-sampled-t1-p1",
-  "gpu": 0
+  "phase": "generation_partial",
+  "failures": [
+    {
+      "mode": "thinking-sampled",
+      "success": 245,
+      "expected": 246
+    },
+    {
+      "family": "thinking",
+      "error": "CalledProcessError(1, ['/fsx/home/zhiyuan/miniconda3/envs/megatron-sft/bin/python', '/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/scripts/thinking_score_benchmark_exact.py', '--suite', '/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1', '--responses', '/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/thinking-sampled-t1-p1/game-stage1-3shift-500.jsonl', '--output', '/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/thinking-sampled-t1-p1/game-stage1-3shift-500.objective.json'])"
+    }
+  ]
 }
