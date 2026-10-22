@@ -1,0 +1,13 @@
+{
+  "utc": 1792712595.1977386,
+  "raw_candidate_unchanged": true,
+  "raw_sha256": "bb2da7af7ad8ac6f6abb65bd5b752623f953657e3ef435333ef873720652f323",
+  "valid_physical_jsonl_records": 246,
+  "reason": "str.splitlines() incorrectly treats Unicode separators inside JSON strings as record boundaries; split only ASCII LF",
+  "changed_scripts": [
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/run_node.py",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/report.py",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/scripts/thinking_score_benchmark_exact.py",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022/scripts/notags_score_benchmark_exact.py"
+  ]
+}

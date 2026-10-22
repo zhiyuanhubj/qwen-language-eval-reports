@@ -1,0 +1,10 @@
+{
+  "utc": 1792712820.8141134,
+  "phase": "waiting_for_beam_idle",
+  "job": 2733,
+  "observation": {
+    "idle": false,
+    "connections": 0,
+    "recent_generation": true
+  }
+}

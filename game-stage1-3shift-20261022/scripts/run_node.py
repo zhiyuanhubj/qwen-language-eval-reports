@@ -45,7 +45,7 @@ def ready(port, name, process):
 def success(path):
     result={}
     if path.exists():
-        for line in path.read_text().splitlines():
+        for line in path.read_text().split('\n'):
             try: row=json.loads(line)
             except ValueError: continue
             if row.get('status')=='ok': result[row['id']]=row

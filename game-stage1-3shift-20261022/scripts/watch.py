@@ -70,11 +70,13 @@ while True:
         progress={'utc':time.time(),'job':job,'scheduler':scheduling,'terminal':terminal,
             'responses':sum(r['responses'] for r in summary['results']),
             'graded':sum(r['graded'] for r in summary['results']),'expected':2952}
+        tail=D/'status/grading-tail.json'
+        if tail.exists():progress['grading_tail']=json.loads(tail.read_text())
         (D/'status/progress.json').write_text(json.dumps(progress,indent=2))
         if time.time()-last_publish>=600 or terminal:
             publish();last_publish=time.time()
         print(json.dumps(progress),flush=True)
-        if terminal:break
+        if terminal and progress['graded']>=progress['responses']:break
     except Exception:
         traceback.print_exc()
     time.sleep(30)

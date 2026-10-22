@@ -1,9 +1,19 @@
 {
-  "utc": 1792694659.1904533,
+  "utc": 1792712822.38845,
   "job": 2733,
   "scheduler": "RUNNING|2026-10-16T21:16:20|ip-10-1-25-253",
   "terminal": true,
-  "responses": 2950,
-  "graded": 2949,
-  "expected": 2952
+  "responses": 2951,
+  "graded": 2950,
+  "expected": 2952,
+  "grading_tail": {
+    "utc": 1792712820.8141134,
+    "phase": "waiting_for_beam_idle",
+    "job": 2733,
+    "observation": {
+      "idle": false,
+      "connections": 0,
+      "recent_generation": true
+    }
+  }
 }

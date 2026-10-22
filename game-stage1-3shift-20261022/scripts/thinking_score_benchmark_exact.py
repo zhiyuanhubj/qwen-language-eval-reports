@@ -29,5 +29,5 @@ def evaluate(answers,rows):
 
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--suite',type=Path,required=True);p.add_argument('--responses',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
- answers=json.loads((a.suite/'benchmark-answers.json').read_text());rows=[json.loads(l) for l in a.responses.read_text().splitlines()]
+ answers=json.loads((a.suite/'benchmark-answers.json').read_text());rows=[json.loads(l) for l in a.responses.read_text().split('\n') if l]
  a.output.write_text(json.dumps(evaluate(answers,rows),ensure_ascii=False,indent=2))

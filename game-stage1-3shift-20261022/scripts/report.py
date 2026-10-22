@@ -1,4 +1,4 @@
-import html, json, statistics, sys, time, os
+import html, json, statistics, sys, time, os, hashlib
 from pathlib import Path
 D = Path(__file__).resolve().parent
 sys.path.insert(0, str(D / 'scripts'))
@@ -9,7 +9,7 @@ keys = ['accuracy', 'language', 'logic', 'instruction', 'completeness']
 def read(path):
     rows = {}
     if path.exists():
-        for line in path.read_text().splitlines():
+        for line in path.read_text().split('\n'):
             try: r = json.loads(line)
             except ValueError: continue
             if r.get('status') == 'ok': rows[r['id']] = r
@@ -19,7 +19,7 @@ for item in plan['items']:
     for mode in plan['modes']:
         label = item['label']; responses = read(D / mode / (label + '.jsonl'))
         scores = read(D / 'scores100' / (mode + '-' + label + '.jsonl'))
-        scores = {i:s for i,s in scores.items() if i in responses}
+        scores = {i:s for i,s in scores.items() if i in responses and s.get('candidate_sha256')==hashlib.sha256(json.dumps(responses[i],sort_keys=True).encode()).hexdigest()}
         for subset, expected in [('diagnostic128',128),('benchmark72',72),('friend46',46)]:
             rr = [r for i,r in responses.items() if prompts[i]['subset'] == subset]
             ss = [s for i,s in scores.items() if prompts[i]['subset'] == subset]
