@@ -1,5 +1,5 @@
 {
-  "utc": 1792761889.8562808,
+  "utc": 1792762080.8703864,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-100.smoke.jsonl.gz",
@@ -253,8 +253,8 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "b25127a3c0cacc8e8f008b69bf976dbb4f958836bd333ec9e7f792d3b9336a00",
-      "bytes": 63819
+      "uncompressed_sha256": "46ba7061ba7ac53c6bca393fc24adc751d629575f8ed103c83ccf768d8c1cb5b",
+      "bytes": 156187
     },
     {
       "path": "logs/game-stage1-3shift-2800.thinking.server.log.gz",
@@ -278,8 +278,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "c6b83bd006afc7afba49b271cfede5357e56e1ae21c0ff75f6a99fcf3e0bbac9",
-      "bytes": 21161
+      "uncompressed_sha256": "6ec89e6a06a9522135a0a356e84a79d59ba50a014978308591fcd878caab4bf3",
+      "bytes": 22173
     },
     {
       "path": "logs/game-stage1-3shift-100.thinking.server.log.gz",
