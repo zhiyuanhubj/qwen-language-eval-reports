@@ -1,4 +1,4 @@
-import concurrent.futures, hashlib, json, os, subprocess, time
+import concurrent.futures, hashlib, json, os, subprocess, time, socket
 from pathlib import Path
 from huggingface_hub import HfApi
 
@@ -10,7 +10,7 @@ def download(item):
     receipt = D / 'status' / (label + '.weights.json')
     if receipt.exists():
         r=json.loads(receipt.read_text())
-        if r.get('verified') and r.get('revision')==item['revision'] and all((target/f['file']).exists() and (target/f['file']).stat().st_size==f['bytes'] for f in r['files']):return
+        if r.get('verified') and r.get('host')==socket.gethostname() and r.get('revision')==item['revision'] and all((target/f['file']).exists() and (target/f['file']).stat().st_size==f['bytes'] for f in r['files']):return
     info = HfApi().model_info(item['repo'], revision=item['revision'], files_metadata=True)
     assert info.sha == item['revision']
     files = [f for f in info.siblings if '/' not in f.rfilename and f.rfilename.endswith(('.json', '.jinja', '.safetensors', '.model', '.txt'))]
@@ -32,7 +32,7 @@ def download(item):
         else:
             assert blob.hexdigest() == f.blob_id, f.rfilename
         verified.append({'file': f.rfilename, 'bytes': f.size, 'sha256': digest.hexdigest()})
-    receipt.write_text(json.dumps({'verified': True, **item, 'files': verified, 'utc': time.time()}, indent=2))
+    receipt.write_text(json.dumps({'verified': True, 'host':socket.gethostname(), **item, 'files': verified, 'utc': time.time()}, indent=2))
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
     list(pool.map(download, plan['items']))
