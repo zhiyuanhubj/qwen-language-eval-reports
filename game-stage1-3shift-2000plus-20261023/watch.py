@@ -59,6 +59,12 @@ while True:
   for name in ['current-batch','continuation-submission']:
    p=D/'status'/(name+'.json')
    if p.exists():progress[name.replace('-','_')]=json.loads(p.read_text())
+  jobid=json.loads((D/'status/continuation-submission.json').read_text())['job_id']
+  queue=command(['squeue','-h','-j',str(jobid),'-o','%T|%R']).stdout.strip()
+  progress['scheduler']=queue or command(['sacct','-X','-j',str(jobid),'-n','-P','-o','State']).stdout.strip()
+  if progress.get('current_batch'):
+   bp=D/'batches'/progress['current_batch']['batch']/'status/allocation.json'
+   if bp.exists():progress['batch_allocation_status']=json.loads(bp.read_text())
   write(D/'status/progress.json',progress)
   if time.time()-last_publish>=180 or progress['terminal']:publish();last_publish=time.time()
   print(json.dumps(progress),flush=True)

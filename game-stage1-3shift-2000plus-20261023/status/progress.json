@@ -1,5 +1,5 @@
 {
-  "utc": 1792777076.4816215,
+  "utc": 1792777108.6521788,
   "responses": 0,
   "graded": 0,
   "expected": 11808,
@@ -14,5 +14,6 @@
     "nodes": 1,
     "walltime_hours": 24,
     "purpose": "Continue2000-3200 language evaluation after current batch lock; one evaluation GPU node at a time"
-  }
+  },
+  "scheduler": "PENDING|(Priority)"
 }
