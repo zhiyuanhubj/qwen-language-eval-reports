@@ -1,5 +1,5 @@
 {
-  "utc": 1792761693.706203,
+  "utc": 1792761886.280465,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
