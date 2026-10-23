@@ -1,25 +1,25 @@
 {
-  "utc": 1792759014.4440475,
+  "utc": 1792759206.002188,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 102,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
-      "length_limited": 0
+      "missing_final": 1,
+      "length_limited": 1
     },
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 20,
       "graded": 0,
       "expected": 72,
       "provisional": true,
@@ -45,7 +45,7 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 64,
+      "responses": 116,
       "graded": 0,
       "expected": 128,
       "provisional": true,
@@ -254,14 +254,14 @@
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 83,
+      "responses": 108,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 82,
-      "length_limited": 1
+      "missing_final": 102,
+      "length_limited": 8
     },
     {
       "model": "game-stage1-3shift-2800",
@@ -313,19 +313,65 @@
       "means": {},
       "overall": null,
       "missing_final": 72,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 0,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 72,
+          "missing_final": 72,
+          "raw_only_correct": 60
+        },
+        "allenai/ai2_arc": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 14
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 0,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 36,
+          "missing_final": 36,
+          "raw_only_correct": 31
+        },
+        "openai/gsm8k": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 15
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 39,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 39,
+      "missing_final": 46,
       "length_limited": 0
     },
     {
