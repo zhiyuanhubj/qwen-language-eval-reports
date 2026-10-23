@@ -1,5 +1,5 @@
 {
-  "utc": 1792760550.1272793,
+  "utc": 1792760744.1176286,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-100.smoke.jsonl.gz",
@@ -23,8 +23,13 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-2800.jsonl.gz",
-      "uncompressed_sha256": "eb036055dea50c19bc3332f90973048d04cf1a210621b8fdf7f17d9b5c26c256",
-      "bytes": 6634581
+      "uncompressed_sha256": "5bd07d39289a7cc6e74699c47904b8f3ddb7234151d1e5179b226511d96023f3",
+      "bytes": 7118893
+    },
+    {
+      "path": "thinking-sampled/game-stage1-3shift-2800.objective.json.gz",
+      "uncompressed_sha256": "33e6c0e7cf7e4e9311373b4b6e51c473c96d031cff02c738499e5f87fcbb4271",
+      "bytes": 24726
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-2800.smoke.jsonl.gz",
@@ -243,13 +248,18 @@
     },
     {
       "path": "logs/controller.log.gz",
-      "uncompressed_sha256": "a657ceaec7b2113425b204a46280f5a0f85c29c68ad95cc8b1f73baa768b0e14",
-      "bytes": 2705
+      "uncompressed_sha256": "f2f807c4fa23b10cae5549f36aa5a61a9393ca5fe694e50a89219afa1d6fc8c3",
+      "bytes": 2791
+    },
+    {
+      "path": "logs/judge-server.log.gz",
+      "uncompressed_sha256": "604c9234b1e5f38dea333656bd5ac0c25bb0f46561e869e27989d311f60f65d9",
+      "bytes": 14412
     },
     {
       "path": "logs/game-stage1-3shift-2800.thinking.server.log.gz",
-      "uncompressed_sha256": "3af257438c49d2c4ac0592db7b5522c0e6d512e625df02c943d780708422fe55",
-      "bytes": 164284
+      "uncompressed_sha256": "089de29f653ca242dae439eabd46cb0f379e709f4937568e5e13fccd2b9a9941",
+      "bytes": 169904
     },
     {
       "path": "logs/download-node.log.gz",
@@ -268,8 +278,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "7b75a88036bcca1d32168e34c1908c05608d41b6d472003a3b15b32000d67df5",
-      "bytes": 14075
+      "uncompressed_sha256": "ac600ca05f4d7ca7ca52facd4af9211ca8706f02f271025ad836e55032e1a5de",
+      "bytes": 15089
     },
     {
       "path": "logs/game-stage1-3shift-100.thinking.server.log.gz",
@@ -308,8 +318,8 @@
     },
     {
       "path": "logs/game-stage1-3shift-2800.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "c45305a5cc0b5d33c96b75ab858680dbede1674a7aa77a61c51be1eb2c153a8e",
-      "bytes": 4517
+      "uncompressed_sha256": "b7d9e4b9fba9771c2832068d789d88c9b4f4fbefe327c8c4adda56c81be87a98",
+      "bytes": 4576
     },
     {
       "path": "prompts.jsonl.gz",
