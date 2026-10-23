@@ -1,0 +1,18 @@
+{
+  "utc": 1792777076.4816215,
+  "responses": 0,
+  "graded": 0,
+  "expected": 11808,
+  "reused_checkpoint2800_responses": 984,
+  "requested_grid_expected": 12792,
+  "finished_batches": [],
+  "total_batches": 6,
+  "terminal": false,
+  "continuation_submission": {
+    "utc": 1792776908.3968277,
+    "job_id": 3037,
+    "nodes": 1,
+    "walltime_hours": 24,
+    "purpose": "Continue2000-3200 language evaluation after current batch lock; one evaluation GPU node at a time"
+  }
+}

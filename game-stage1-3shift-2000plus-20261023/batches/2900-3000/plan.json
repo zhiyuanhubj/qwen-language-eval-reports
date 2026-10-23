@@ -1,0 +1,61 @@
+{
+  "utc": 1792776856.7481718,
+  "items": [
+    {
+      "step": 2900,
+      "label": "game-stage1-3shift-2900",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-2900",
+      "revision": "95e36757b9584e52eeff104aad5f3988dedb0ec8"
+    },
+    {
+      "step": 3000,
+      "label": "game-stage1-3shift-3000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3000",
+      "revision": "3b94a1453898a218a2d3539ab83bf4f4f6f96732"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 1968,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
+  "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+  "execution": "Dedicated single evaluation node queued as job3037 for24h; preserve ongoing Beam Pro trials on2733.2 checkpoints per batch,8 single-GPU candidate services then same V4.1 rubric grading. Cross-node batch lock allows resumable continuation; this experiment temporary weight cache is evicted after verified outputs and scores.",
+  "model_root": "/opt/dlami/nvme/zhiyuan-game-2000plus-20261023/models",
+  "requested_steps": [
+    2000,
+    2100,
+    2200,
+    2300,
+    2400,
+    2500,
+    2600,
+    2700,
+    2800,
+    2900,
+    3000,
+    3100,
+    3200
+  ],
+  "reused_steps": [
+    2800
+  ],
+  "requested_grid_responses": 12792,
+  "previous_experiments": [
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-100-2800-20261023"
+  ]
+}

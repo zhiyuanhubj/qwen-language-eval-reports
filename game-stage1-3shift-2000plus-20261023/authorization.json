@@ -1,0 +1,28 @@
+{
+  "utc": 1792776856.762061,
+  "user_approved_gpu_evaluation": true,
+  "request": "可以把2000后的每100step都测试下么",
+  "scope": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "requested_steps": [
+    2000,
+    2100,
+    2200,
+    2300,
+    2400,
+    2500,
+    2600,
+    2700,
+    2800,
+    2900,
+    3000,
+    3100,
+    3200
+  ],
+  "reuse_verified_2800": true,
+  "preserve_old_runs": true
+}

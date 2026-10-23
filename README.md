@@ -1,7 +1,10 @@
 # Qwen language evaluation reports
 
+<!-- stage1-2000plus-latest -->
+**Stage1-3Shift 2000至3200每100step补测：** [V2完整对照报告](game-stage1-3shift-2000plus-20261023/report-v2-modes.html) · [进度](game-stage1-3shift-2000plus-20261023/status/progress.json)。复用2800，新增12个checkpoint正在分批运行。
+
 <!-- stage1-100-2800-latest -->
-**Stage1-3Shift 最新补测（100 / 2800）：** [五个 checkpoint 对照报告](game-stage1-3shift-100-2800-20261023/report-v2-modes.html) · [实时快照进度](game-stage1-3shift-100-2800-20261023/status/progress.json)。沿用三个subset和四种设置；新增结果在运行中，未完成项明确标注。
+**Stage1-3Shift 先前补测（100 / 2800）：** [五个 checkpoint 对照报告](game-stage1-3shift-100-2800-20261023/report-v2-modes.html) · [实时快照进度](game-stage1-3shift-100-2800-20261023/status/progress.json)。沿用三个subset和四种设置；新增结果在运行中，未完成项明确标注。
 
 Evaluation reports for the Qwen3.5-9B base, historical training checkpoints,
 stage-2 checkpoints, and A/B language-regression experiments.

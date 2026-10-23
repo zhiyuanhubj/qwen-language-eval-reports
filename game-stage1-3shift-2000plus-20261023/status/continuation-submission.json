@@ -1,0 +1,7 @@
+{
+  "utc": 1792776908.3968277,
+  "job_id": 3037,
+  "nodes": 1,
+  "walltime_hours": 24,
+  "purpose": "Continue2000-3200 language evaluation after current batch lock; one evaluation GPU node at a time"
+}
