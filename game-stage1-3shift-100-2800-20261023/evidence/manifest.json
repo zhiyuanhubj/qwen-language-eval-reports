@@ -1,5 +1,5 @@
 {
-  "utc": 1792763238.7314613,
+  "utc": 1792763432.8184786,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-100.smoke.jsonl.gz",
@@ -218,8 +218,8 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-100.jsonl.gz",
-      "uncompressed_sha256": "2ea49f4c1a8f13766e8c918bc55fa6b29ac400d477240bdbfca3d95756f010be",
-      "bytes": 900733
+      "uncompressed_sha256": "719901b8ff468596de8ae881a3856c3b45337cc2da5fe783319388b42a0ba5c2",
+      "bytes": 906079
     },
     {
       "path": "scores100/nonthinking-notags-t06-p095-game-stage1-3shift-2800.jsonl.gz",
@@ -233,8 +233,8 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "af1fef389ec89156f2f2e9382b403b4e6d789fdc0da2bda2004b648cfafd34a0",
-      "bytes": 3878
+      "uncompressed_sha256": "bffafde1685b31e0563043bf362f0e1b3b4028aa444e794199bdb77cbaea419d",
+      "bytes": 3877
     },
     {
       "path": "scores100/nonthinking-notags-t06-p095-game-stage1-3shift-100.jsonl.gz",
@@ -303,13 +303,13 @@
     },
     {
       "path": "logs/judge-server.log.gz",
-      "uncompressed_sha256": "359226bd4948c64bb2c31979a512fb8d522ceae1b42a75913edd9bdc3471f044",
-      "bytes": 386803
+      "uncompressed_sha256": "f0197be3c3479320036e90bcc696270c808d6aac3739b93706c0ee7b49b83171",
+      "bytes": 391699
     },
     {
       "path": "logs/judge.log.gz",
-      "uncompressed_sha256": "edbd46945b9a0a8506690805161e3e94c544772721a13633fe980d1138be0671",
-      "bytes": 92909
+      "uncompressed_sha256": "e08b7f6279d734cb7ce3a859c0b968b35106ab39af343ccc4ce56f153f0c2ed4",
+      "bytes": 117593
     },
     {
       "path": "logs/game-stage1-3shift-2800.thinking.server.log.gz",
@@ -333,8 +333,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "05b3db2f490d93b804be29efceed2bb5d20eca6b24c0b15bb150508689637dc4",
-      "bytes": 28341
+      "uncompressed_sha256": "d5d05a7d2211e4d754a6422f2bf20f9e6adf347d3889adf1c0ab35a2ef9e6855",
+      "bytes": 29370
     },
     {
       "path": "logs/game-stage1-3shift-100.thinking.server.log.gz",
