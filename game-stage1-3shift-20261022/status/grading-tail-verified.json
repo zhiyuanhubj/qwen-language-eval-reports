@@ -1,0 +1,9 @@
+{
+  "utc": 1792715328.6581092,
+  "status": "ok",
+  "id": "benchmark-ai2d-2925",
+  "candidate_sha256": "f81998383d7ceaf725b57c588680ce37d3bd88db816c1a5755ef3db8f7448cf5",
+  "original_rubric_unchanged": true,
+  "raw_candidate_unchanged": true,
+  "bounded_json_schema": true
+}
