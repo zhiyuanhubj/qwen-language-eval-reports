@@ -1,12 +1,12 @@
 {
-  "utc": 1792758824.1521096,
+  "utc": 1792759014.4440475,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 53,
+      "responses": 102,
       "graded": 0,
       "expected": 128,
       "provisional": true,
@@ -45,13 +45,13 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 40,
+      "responses": 64,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 1,
+      "missing_final": 2,
       "length_limited": 0
     },
     {
@@ -254,14 +254,14 @@
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 71,
+      "responses": 83,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 71,
-      "length_limited": 0
+      "missing_final": 82,
+      "length_limited": 1
     },
     {
       "model": "game-stage1-3shift-2800",
@@ -293,53 +293,53 @@
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 124,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 123,
+      "missing_final": 127,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
-      "responses": 8,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 8,
+      "missing_final": 72,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 39,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 39,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-2800",
       "mode": "nonthinking-notags-t06-p095",
       "subset": "diagnostic128",
-      "responses": 127,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 1
     },
     {
       "model": "game-stage1-3shift-2800",
@@ -352,7 +352,53 @@
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 60,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 83.33,
+          "parse_failures": 2,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 16,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 88.89,
+          "parse_failures": 0,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 28,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 77.78,
+          "parse_failures": 1,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 16,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 88.89,
+          "parse_failures": 1,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2800",
