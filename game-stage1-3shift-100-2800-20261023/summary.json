@@ -1,5 +1,5 @@
 {
-  "utc": 1792759206.002188,
+  "utc": 1792759396.948047,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
@@ -19,7 +19,7 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 20,
+      "responses": 58,
       "graded": 0,
       "expected": 72,
       "provisional": true,
@@ -45,20 +45,20 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 116,
+      "responses": 125,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 2,
+      "missing_final": 3,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 15,
       "graded": 0,
       "expected": 72,
       "provisional": true,
@@ -254,13 +254,13 @@
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 108,
+      "responses": 111,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 102,
+      "missing_final": 104,
       "length_limited": 8
     },
     {
