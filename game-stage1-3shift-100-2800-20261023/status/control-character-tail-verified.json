@@ -1,0 +1,15 @@
+{
+  "utc": 1792763471.1354234,
+  "id": "text-04-en",
+  "status": "ok",
+  "candidate_sha256": "0ffd9e8dfddf99278e678b20317a7a20d7055467d7f0b6ba1247c9ece18214dc",
+  "rubric_sha256": "344c52220edc13b443bef90155d3c2520335ef817688fe3958e56aaecc48bc14",
+  "candidate_and_rubric_unchanged": true,
+  "literal_control_characters_in_judge_strings_preserved": true,
+  "repairs": [
+    {
+      "error": "Invalid control character at: line 1 column 478 (char 477)",
+      "raw_sha256": "802563d4afe382f55511314be099791369513cfe7d19d598e7b8859ca1346380"
+    }
+  ]
+}
