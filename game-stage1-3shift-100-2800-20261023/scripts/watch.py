@@ -46,7 +46,14 @@ def publish():
         (evidence/(name+'.gz')).write_bytes(gzip.compress(data,mtime=0))
         files.append({'path':name+'.gz','uncompressed_sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)})
     (evidence/'manifest.json').write_text(json.dumps({'utc':time.time(),'files':files},indent=2))
-    command(['git','add','--','game-stage1-3shift-100-2800-20261023'],cwd=W)
+    index=W/'README.md'
+    text=index.read_text()
+    marker='<!-- stage1-100-2800-latest -->'
+    if marker not in text:
+        entry='\n'+marker+'\n**Stage1-3Shift 最新补测（100 / 2800）：** [五个 checkpoint 对照报告](game-stage1-3shift-100-2800-20261023/report-v2-modes.html) · [实时快照进度](game-stage1-3shift-100-2800-20261023/status/progress.json)。沿用三个subset和四种设置；新增结果在运行中，未完成项明确标注。\n'
+        first,sep,rest=text.partition('\n')
+        index.write_text(first+sep+entry+rest)
+    command(['git','add','--','README.md','game-stage1-3shift-100-2800-20261023'],cwd=W)
     changed=subprocess.run(['git','diff','--cached','--quiet'],cwd=W).returncode
     if changed:
         command(['git','commit','-m','Update Stage1-3Shift language evaluation progress and evidence'],cwd=W)

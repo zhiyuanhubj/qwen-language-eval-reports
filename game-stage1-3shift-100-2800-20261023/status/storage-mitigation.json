@@ -1,0 +1,9 @@
+{
+  "utc": 1792758150.923213,
+  "home_quota_download_attempt": "failed before inference; incomplete new weight chunks removed; all prior data retained",
+  "selected_model_root": "/opt/dlami/nvme/zhiyuan-game-100-2800-20261023/models",
+  "storage": "existing node2733 local NVMe, observed274GiB available before download",
+  "download_unit": "qwen-game-100-2800-node-download-20261023",
+  "publisher_worktree": "/fsx/home/zhiyuan/.cache/qwen-game-100-2800-publish-20261023",
+  "publisher_checkout": "sparse; experiment folder only"
+}
