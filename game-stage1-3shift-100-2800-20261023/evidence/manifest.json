@@ -1,5 +1,5 @@
 {
-  "utc": 1792761127.18101,
+  "utc": 1792761316.742961,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-100.smoke.jsonl.gz",
@@ -278,8 +278,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "031398c869211c202acc04ffa370f5ec4ebc642f59d8d7b46689553af3827f71",
-      "bytes": 17115
+      "uncompressed_sha256": "2adebc82628c04bf9d9e489c8ab557294f19e10d0be713a5bd8b9ebe9105d9f7",
+      "bytes": 18129
     },
     {
       "path": "logs/game-stage1-3shift-100.thinking.server.log.gz",
