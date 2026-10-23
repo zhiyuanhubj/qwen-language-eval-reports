@@ -36,5 +36,6 @@ if (D/'status/unicode-jsonl-fix.json').exists():
 if (D/'status/task-exit.json').exists():
     note+=' 500/Thinking/T0.6的friend-EM2-3保留HTTP400：实际输入至少32769 tokens，超过原32768上下文。未截断历史或修改上下文，故成功生成2951/2952；这不是完整生成率。首轮评分在4小时时限停止，1500/Thinking/T1的benchmark-ai2d-2925因评分输出预算耗尽单独补评，沿用同一评分模型和rubric，只提高评分输出预算；以实际评分覆盖数判断是否完成。'
 summary = {'utc':time.time(),'note':note,'results':out}
-for name,data in [('summary.json',json.dumps(summary,ensure_ascii=False,indent=2)),('report.html',render(summary,'Stage1-3Shift · checkpoint 500 / 1000 / 1500'))]:
+page = render(summary,'V2 · Stage1-3Shift · checkpoint 500 / 1000 / 1500')
+for name,data in [('summary.json',json.dumps(summary,ensure_ascii=False,indent=2)),('report.html',page),('report-v2-modes.html',page)]:
     target=D/name;temp=D/(name+'.'+str(os.getpid())+'.tmp');temp.write_text(data);temp.replace(target)
