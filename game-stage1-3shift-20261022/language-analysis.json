@@ -1,5 +1,5 @@
 {
-  "utc": 1792715331.4448729,
+  "utc": 1792727678.4243827,
   "method": "Same question IDs with valid candidate SHA-matched scores across baseline and all3 checkpoints. All-subsets and diagnostic-only shown separately. Single seed, model-assisted scores, no causal or statistical significance claim. Baseline is historical local Qwen3.5-9B, not proof of exact training initialization.",
   "results": [
     {

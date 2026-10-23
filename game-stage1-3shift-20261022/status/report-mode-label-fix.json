@@ -1,0 +1,8 @@
+{
+  "utc": 1792727638.344173,
+  "unique_result_rows": 36,
+  "problem": "Combined Thinking and NoTags results lacked visible mode label",
+  "fix": "Explicit generation-mode, temperature, top-p and subset columns; independent mode filter; evidence links point to this evaluation",
+  "scores_changed": false,
+  "previous_results_sha256": "6f0470ae599be4e36622416f17288cd708bcc655f4d5eaf42ebddbaa85b8aa96"
+}

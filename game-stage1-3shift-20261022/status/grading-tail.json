@@ -1,5 +1,7 @@
 {
-  "utc": 1792714658.8142853,
-  "phase": "grading_one_case",
-  "job": 2733
+  "utc": 1792715350.7355123,
+  "phase": "finished",
+  "job": 2733,
+  "review_returncode": 0,
+  "beam_restore_requested": true
 }
