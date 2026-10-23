@@ -1,5 +1,5 @@
 {
-  "utc": 1792713760.0833514,
+  "utc": 1792714372.6182165,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-500.metadata.json.gz",
@@ -528,8 +528,8 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "8af585148b31e73410b5429893681b33f1d2570a957979a5ebc2752dd2a7fccb",
-      "bytes": 93431
+      "uncompressed_sha256": "bcd254ae33aa6adc28908e03ad17123588c8c46cd43daa0f25a3ec0d134a8bb1",
+      "bytes": 98328
     },
     {
       "path": "logs/game-stage1-3shift-1500.thinking-sampled.client.log.gz",
@@ -558,8 +558,8 @@
     },
     {
       "path": "logs/judge-tail-server.log.gz",
-      "uncompressed_sha256": "3b875ed34838b9e50141f0e8970cfe25eaeebd9875a511acf6b0743ecce5837b",
-      "bytes": 37263
+      "uncompressed_sha256": "7cb7c401a97f893a9aa3d2c9ae20c536b1d0c6c343769d0953d5ee9329d43975",
+      "bytes": 108897
     },
     {
       "path": "logs/grading-tail.log.gz",
