@@ -1,0 +1,35 @@
+{
+  "utc": 1792758067.0485053,
+  "files": [
+    {
+      "path": "logs/controller.log.gz",
+      "uncompressed_sha256": "d556db6802dc64c671b118aebfead6eefe4468361232bfc2768ead4210b32c9a",
+      "bytes": 328
+    },
+    {
+      "path": "logs/download-node.log.gz",
+      "uncompressed_sha256": "da930c2b03f6f8665a42d49194a189ff9d9244aaebd58f1768ee0d0221125bfc",
+      "bytes": 118
+    },
+    {
+      "path": "logs/watch.log.gz",
+      "uncompressed_sha256": "f1b71e6ef32cfbf4baa3719c52b4265acba73f6bc7cd26e2acdd66ded9ed9cfa",
+      "bytes": 789
+    },
+    {
+      "path": "prompts.jsonl.gz",
+      "uncompressed_sha256": "ccb08ee8ecd9d3a06065b13019298b6de2ce526dfe89ed9483ffe0dd770c7b45",
+      "bytes": 164847
+    },
+    {
+      "path": "manifest.json.gz",
+      "uncompressed_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+      "bytes": 5762
+    },
+    {
+      "path": "benchmark-answers.json.gz",
+      "uncompressed_sha256": "dcd557507d2b7b5374fda33a2e89da5817add823c89232e77766dbbb74b737e9",
+      "bytes": 25391
+    }
+  ]
+}

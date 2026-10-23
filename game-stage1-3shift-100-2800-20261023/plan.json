@@ -1,0 +1,38 @@
+{
+  "utc": 1792757884.4305363,
+  "items": [
+    {
+      "step": 100,
+      "label": "game-stage1-3shift-100",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-100",
+      "revision": "780d96228a2ffe3f8c43f525869a89f66f04cc7e"
+    },
+    {
+      "step": 2800,
+      "label": "game-stage1-3shift-2800",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-2800",
+      "revision": "d8c661b406ee8faebfe0098fe6d2abffe74efd4d"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 1968,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
+  "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+  "execution": "8 parallel single-GPU candidate services: checkpoint x generation mode x sampling setting; candidate parameters unchanged; then same V4.1 rubric with bounded structured JSON explanations.",
+  "model_root": "/opt/dlami/nvme/zhiyuan-game-100-2800-20261023/models"
+}
