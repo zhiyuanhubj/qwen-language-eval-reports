@@ -16,7 +16,7 @@ def publish():
     command(['git','fetch','origin','main'],cwd=W)
     command(['git','reset','--hard','origin/main'],cwd=W)
     DEST.mkdir(exist_ok=True)
-    for name in ['plan.json','summary.json','report.html','run.sbatch','language-analysis.json','language-analysis.md']:
+    for name in ['plan.json','summary.json','report.html','run.sbatch','language-analysis.json','language-analysis.md','format-examples.json','format-examples.md']:
         shutil.copy2(D/name,DEST/name)
     (DEST/'status').mkdir(exist_ok=True)
     for p in (D/'status').glob('*.json'):shutil.copy2(p,DEST/'status'/p.name)
@@ -39,7 +39,7 @@ def publish():
         if p.suffix=='.jsonl' and data and not data.endswith(b'\n'):continue
         target.write_bytes(gzip.compress(data,mtime=0))
         files.append({'path':str(relative)+'.gz','uncompressed_sha256':hashlib.sha256(data).hexdigest(),'bytes':len(data)})
-    (DEST/'README.md').write_text('Stage1-3Shift checkpoint 500 / 1000 / 1500\n\n[报告](report.html) · [中英文能力对照与结论](language-analysis.md) · [进度](status/progress.json) · [固定配置](plan.json) · [题目、输出、评分与日志](evidence/manifest.json)\n\n下载 report.html 后用浏览器打开。题集沿用原 diagnostic128 / benchmark72 / friend46；Thinking 与 NoTags 各两组采样，共 2952 条正式回答。未生成或未评分的项目保持未完成。模型权重和下载缓存不上传。\n')
+    (DEST/'README.md').write_text('Stage1-3Shift checkpoint 500 / 1000 / 1500\n\n[报告](report.html) · [中英文能力对照与结论](language-analysis.md) · [格式失败说明与原例](format-examples.md) · [进度](status/progress.json) · [固定配置](plan.json) · [题目、输出、评分与日志](evidence/manifest.json)\n\n下载 report.html 后用浏览器打开。题集沿用原 diagnostic128 / benchmark72 / friend46；Thinking 与 NoTags 各两组采样，共 2952 条正式回答。未生成或未评分的项目保持未完成。模型权重和下载缓存不上传。\n')
     # Include the identical frozen question set once; do not copy model data.
     suite=Path(plan['suite'])
     for name in ['prompts.jsonl','manifest.json','benchmark-answers.json']:

@@ -1,0 +1,712 @@
+{
+  "utc": 1792714491.2151635,
+  "note": "Raw model-assisted scores retained unchanged; some judges did not obey raw_unclosed instruction/completeness cap. Composite comparisons must be interpreted with source/format counts and semantic dimensions.",
+  "results": [
+    {
+      "step": 500,
+      "mode": "thinking-sampled",
+      "raw_unclosed": 105,
+      "cap_violations": 1,
+      "items": [
+        {
+          "id": "text-19-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 95,
+            "instruction": 90,
+            "completeness": 90
+          }
+        }
+      ]
+    },
+    {
+      "step": 500,
+      "mode": "thinking-sampled-t1-p1",
+      "raw_unclosed": 142,
+      "cap_violations": 8,
+      "items": [
+        {
+          "id": "friend-E16",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 100,
+            "logic": 90,
+            "instruction": 55,
+            "completeness": 50
+          }
+        },
+        {
+          "id": "text-05-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 60,
+            "completeness": 70
+          }
+        },
+        {
+          "id": "text-05-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 40,
+            "logic": 95,
+            "instruction": 60,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-14-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 85,
+            "language": 78,
+            "logic": 72,
+            "instruction": 55,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "text-17-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 95,
+            "completeness": 95
+          }
+        },
+        {
+          "id": "text-19-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 100,
+            "completeness": 100
+          }
+        },
+        {
+          "id": "text-21-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 95,
+            "logic": 85,
+            "instruction": 70,
+            "completeness": 72
+          }
+        },
+        {
+          "id": "vision-12-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 70,
+            "logic": 82,
+            "instruction": 45,
+            "completeness": 60
+          }
+        }
+      ]
+    },
+    {
+      "step": 500,
+      "mode": "nonthinking-notags-t06-p095",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    },
+    {
+      "step": 500,
+      "mode": "nonthinking-notags-t1-p1",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    },
+    {
+      "step": 1000,
+      "mode": "thinking-sampled",
+      "raw_unclosed": 164,
+      "cap_violations": 3,
+      "items": [
+        {
+          "id": "text-17-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 90,
+            "completeness": 95
+          }
+        },
+        {
+          "id": "text-17-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 90,
+            "completeness": 95
+          }
+        },
+        {
+          "id": "text-29-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 95,
+            "instruction": 85,
+            "completeness": 90
+          }
+        }
+      ]
+    },
+    {
+      "step": 1000,
+      "mode": "thinking-sampled-t1-p1",
+      "raw_unclosed": 201,
+      "cap_violations": 14,
+      "items": [
+        {
+          "id": "text-10-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 90,
+            "instruction": 85,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-14-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 68,
+            "language": 72,
+            "logic": 62,
+            "instruction": 55,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "text-16-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 100,
+            "logic": 90,
+            "instruction": 72,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-20-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 72,
+            "language": 78,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "text-21-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 100,
+            "logic": 82,
+            "instruction": 78,
+            "completeness": 80
+          }
+        },
+        {
+          "id": "text-25-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 100,
+            "logic": 82,
+            "instruction": 78,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-26-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 65,
+            "language": 100,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 55
+          }
+        },
+        {
+          "id": "text-27-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 92,
+            "language": 100,
+            "logic": 90,
+            "instruction": 88,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-28-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 95,
+            "instruction": 70,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "vision-07-0-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 90,
+            "logic": 95,
+            "instruction": 55,
+            "completeness": 50
+          }
+        },
+        {
+          "id": "vision-08-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 70,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "vision-11-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 85,
+            "completeness": 95
+          }
+        },
+        {
+          "id": "vision-12-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 70,
+            "logic": 85,
+            "instruction": 45,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "vision-13-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 72,
+            "language": 88,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 60
+          }
+        }
+      ]
+    },
+    {
+      "step": 1000,
+      "mode": "nonthinking-notags-t06-p095",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    },
+    {
+      "step": 1000,
+      "mode": "nonthinking-notags-t1-p1",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    },
+    {
+      "step": 1500,
+      "mode": "thinking-sampled",
+      "raw_unclosed": 186,
+      "cap_violations": 13,
+      "items": [
+        {
+          "id": "text-01-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 96,
+            "instruction": 88,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-12-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 92,
+            "instruction": 70,
+            "completeness": 88
+          }
+        },
+        {
+          "id": "text-14-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 88,
+            "instruction": 70,
+            "completeness": 75
+          }
+        },
+        {
+          "id": "text-16-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 70,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-20-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 92,
+            "language": 98,
+            "logic": 90,
+            "instruction": 70,
+            "completeness": 88
+          }
+        },
+        {
+          "id": "text-21-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 92,
+            "language": 100,
+            "logic": 88,
+            "instruction": 72,
+            "completeness": 78
+          }
+        },
+        {
+          "id": "text-25-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 85,
+            "language": 100,
+            "logic": 80,
+            "instruction": 55,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "text-26-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 92,
+            "instruction": 78,
+            "completeness": 88
+          }
+        },
+        {
+          "id": "text-28-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 92,
+            "instruction": 70,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-29-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 92,
+            "instruction": 70,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-30-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 72,
+            "language": 100,
+            "logic": 78,
+            "instruction": 55,
+            "completeness": 50
+          }
+        },
+        {
+          "id": "vision-08-0-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 60,
+            "completeness": 70
+          }
+        },
+        {
+          "id": "vision-12-0-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 60,
+            "completeness": 70
+          }
+        }
+      ]
+    },
+    {
+      "step": 1500,
+      "mode": "thinking-sampled-t1-p1",
+      "raw_unclosed": 218,
+      "cap_violations": 17,
+      "items": [
+        {
+          "id": "text-12-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 88,
+            "language": 82,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 55
+          }
+        },
+        {
+          "id": "text-19-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 95,
+            "instruction": 85,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-20-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 72,
+            "language": 88,
+            "logic": 62,
+            "instruction": 45,
+            "completeness": 55
+          }
+        },
+        {
+          "id": "text-21-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 92,
+            "language": 88,
+            "logic": 90,
+            "instruction": 78,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-21-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 92,
+            "language": 100,
+            "logic": 90,
+            "instruction": 78,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "text-22-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 85,
+            "language": 55,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "text-24-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 85,
+            "language": 70,
+            "logic": 55,
+            "instruction": 60,
+            "completeness": 50
+          }
+        },
+        {
+          "id": "text-25-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 78,
+            "language": 100,
+            "logic": 82,
+            "instruction": 72,
+            "completeness": 80
+          }
+        },
+        {
+          "id": "text-26-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 95,
+            "language": 100,
+            "logic": 92,
+            "instruction": 88,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "text-30-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 72,
+            "language": 100,
+            "logic": 82,
+            "instruction": 55,
+            "completeness": 70
+          }
+        },
+        {
+          "id": "vision-06-0-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 95,
+            "logic": 100,
+            "instruction": 70,
+            "completeness": 85
+          }
+        },
+        {
+          "id": "vision-10-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 65,
+            "language": 70,
+            "logic": 70,
+            "instruction": 40,
+            "completeness": 55
+          }
+        },
+        {
+          "id": "vision-11-1-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 65,
+            "language": 100,
+            "logic": 55,
+            "instruction": 45,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "vision-12-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 65,
+            "language": 70,
+            "logic": 55,
+            "instruction": 45,
+            "completeness": 60
+          }
+        },
+        {
+          "id": "vision-13-0-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 85,
+            "language": 95,
+            "logic": 70,
+            "instruction": 45,
+            "completeness": 55
+          }
+        },
+        {
+          "id": "vision-15-0-en",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 100,
+            "language": 100,
+            "logic": 100,
+            "instruction": 70,
+            "completeness": 90
+          }
+        },
+        {
+          "id": "vision-15-1-zh",
+          "source": "raw_unclosed",
+          "scores": {
+            "accuracy": 65,
+            "language": 55,
+            "logic": 60,
+            "instruction": 45,
+            "completeness": 60
+          }
+        }
+      ]
+    },
+    {
+      "step": 1500,
+      "mode": "nonthinking-notags-t06-p095",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    },
+    {
+      "step": 1500,
+      "mode": "nonthinking-notags-t1-p1",
+      "raw_unclosed": 0,
+      "cap_violations": 0,
+      "items": []
+    }
+  ]
+}

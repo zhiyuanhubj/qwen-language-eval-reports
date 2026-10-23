@@ -43,3 +43,5 @@ for mode in plan['modes']:
   lines.append('| '+' | '.join([kind,sampling,'中文' if language=='zh' else '英文',str(r['paired_n'])]+[f"{v[k]['overall']:.2f}" for k in ['base','500','1000','1500']])+' |')
 lines+=['','英文合并组含benchmark72，中文组不含这些英文题，因此不要直接把中英文两列之差解释为语言优劣；应比较同一种语言、同一批题目在不同checkpoint的变化。缺失评分会改变配对题数，以JSON中的ID清单为准。','', '[完整指标和配对题目ID](language-analysis.json) · [主报告](report.html) · [原始输出、逐项评分和日志](evidence/manifest.json)','']
 (D/'language-analysis.md').write_text('\n'.join(lines))
+
+with (D/'language-analysis.md').open('a') as f:f.write('\n\n格式解读补充：综合分包含标签/交付格式的影响；已发现部分 raw_unclosed 评分未一致执行上限，原分保留。请结合[格式失败的实际例子与审计](format-examples.md)及单项语言/准确性/逻辑解读，勿将所有综合降分等同知识遗忘。\n')
