@@ -2,7 +2,7 @@
 import gzip, hashlib, json, shutil, subprocess, sys, time, traceback
 from pathlib import Path
 D=Path(__file__).resolve().parent
-W=Path('/tmp/qwen-game-100-2800-publish-20261023')
+W=Path('/fsx/home/zhiyuan/.cache/qwen-game-100-2800-publish-20261023')
 DEST=W/'game-stage1-3shift-100-2800-20261023'
 job=json.loads((D/'status/submission.json').read_text())['job_id']
 
