@@ -1,5 +1,5 @@
 {
-  "utc": 1792759586.837797,
+  "utc": 1792759777.6275373,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
@@ -19,20 +19,20 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 69,
+      "responses": 71,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
-      "length_limited": 0
+      "missing_final": 1,
+      "length_limited": 1
     },
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled",
       "subset": "friend46",
-      "responses": 19,
+      "responses": 29,
       "graded": 0,
       "expected": 46,
       "provisional": true,
@@ -45,20 +45,20 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 126,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 4,
-      "length_limited": 1
+      "missing_final": 6,
+      "length_limited": 3
     },
     {
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
-      "responses": 46,
+      "responses": 69,
       "graded": 0,
       "expected": 72,
       "provisional": true,
@@ -71,7 +71,7 @@
       "model": "game-stage1-3shift-100",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 4,
       "graded": 0,
       "expected": 46,
       "provisional": true,
@@ -254,26 +254,26 @@
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 114,
+      "responses": 123,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 107,
-      "length_limited": 10
+      "missing_final": 113,
+      "length_limited": 16
     },
     {
       "model": "game-stage1-3shift-2800",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 19,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 19,
       "length_limited": 0
     },
     {
