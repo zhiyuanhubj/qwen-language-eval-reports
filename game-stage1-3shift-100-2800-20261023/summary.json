@@ -1,5 +1,5 @@
 {
-  "utc": 1792763042.6717036,
+  "utc": 1792763235.352425,
   "note": "补测 checkpoint100/2800：沿用原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384。新增计划1968条回答；页面同时合并先前500/1000/1500结果。评分沿用DeepSeek-V4.1-Flash原rubric与完整原文，解释使用有长度上限的JSON schema；原始分数不改写。暂缺项目保留待完成。",
   "results": [
     {
@@ -335,17 +335,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 71,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 82.68,
-        "language": 98.8,
-        "logic": 84.97,
-        "instruction": 96.34,
-        "completeness": 90.85
+        "accuracy": 82.92,
+        "language": 98.82,
+        "logic": 85.18,
+        "instruction": 96.39,
+        "completeness": 90.97
       },
-      "overall": 90.73,
+      "overall": 90.86,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
