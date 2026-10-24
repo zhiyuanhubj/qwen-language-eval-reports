@@ -2278,5 +2278,25 @@
     "id": "game-stage1-3shift-3400/nonthinking-notags-t1-p1/responses/0.75",
     "utc": 1792880017.6759124,
     "message": "game-stage1-3shift-3400 · NoTags · 1 / 1：回答达到 75%（当前244/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3300/thinking-sampled/responses/0.25",
+    "utc": 1792880068.9820993,
+    "message": "game-stage1-3shift-3300 · Thinking · 0.6 / 0.95：回答达到 25%（当前84/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3300/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1792880068.9820993,
+    "message": "game-stage1-3shift-3300 · NoTags · 1 / 1：回答达到 75%（当前245/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3300/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1792880105.1576614,
+    "message": "game-stage1-3shift-3300 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3400/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1792880105.1576614,
+    "message": "game-stage1-3shift-3400 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
   }
 ]
