@@ -1,5 +1,5 @@
 {
-  "utc": 1792882020.781242,
+  "utc": 1792882213.3159235,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-3100.metadata.json.gz",
@@ -2887,10 +2887,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "0622f80277ff2b7243b7c31ccddf3b4b167f69235dec72e8d23571684a767c05",
-      "bytes": 2174668,
-      "stat_size": 2174668,
-      "stat_mtime_ns": 1792881978000000000
+      "uncompressed_sha256": "453cb4bc894d805c1b134426538eae2ba6d75344aef4bfa86d8bbe78c0c5a371",
+      "bytes": 2180617,
+      "stat_size": 2180617,
+      "stat_mtime_ns": 1792882169000000000
     },
     {
       "path": "logs/download-3800-2989.log.gz",
@@ -3608,10 +3608,10 @@
     },
     {
       "path": "batches/3300-3400/logs/game-stage1-3shift-3300.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "4a7cd2eec1edbdbb580d11b99d39bb73a98219d12ee019ebf60d9cb8fe481955",
-      "bytes": 4560,
-      "stat_size": 4560,
-      "stat_mtime_ns": 1792881774000000000
+      "uncompressed_sha256": "e4b35938c82b8e9e5ef87ca4b1b4ff474225e3a348fbd606ee0b6a3ecba5b352",
+      "bytes": 4576,
+      "stat_size": 4576,
+      "stat_mtime_ns": 1792882212000000000
     },
     {
       "path": "batches/3300-3400/logs/game-stage1-3shift-3400.nonthinking-notags-t06-p095.server.log.gz",
@@ -3643,10 +3643,10 @@
     },
     {
       "path": "batches/3300-3400/logs/game-stage1-3shift-3300.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "ae8d9fcce90c65bc3e679e7bdc23ee9ec528cc762cfac5dbcc9f621a850d0dbd",
-      "bytes": 98037,
-      "stat_size": 98037,
-      "stat_mtime_ns": 1792882019000000000
+      "uncompressed_sha256": "f0b70b399f042e29cbecb31e513714a46753f5fb5d737bd314f16b4cd234c9c4",
+      "bytes": 103049,
+      "stat_size": 103049,
+      "stat_mtime_ns": 1792882212000000000
     },
     {
       "path": "batches/3300-3400/logs/download.log.gz",
@@ -3678,10 +3678,10 @@
     },
     {
       "path": "batches/3300-3400/logs/game-stage1-3shift-3400.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "9e310583b9547eb37eec3292ad4b247d5fe42228f0213d2d36c3c9b0ba89a611",
-      "bytes": 97436,
-      "stat_size": 97436,
-      "stat_mtime_ns": 1792882010000000000
+      "uncompressed_sha256": "df963dfe475d0ebf7d1fb9779e325fcf952fa13516beed647f47c4108c4af64e",
+      "bytes": 102656,
+      "stat_size": 102656,
+      "stat_mtime_ns": 1792882210000000000
     },
     {
       "path": "batches/2200-2300/logs/game-stage1-3shift-2200.thinking-sampled-t1-p1.client.log.gz",
