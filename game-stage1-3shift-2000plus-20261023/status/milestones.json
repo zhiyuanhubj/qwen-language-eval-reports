@@ -333,5 +333,15 @@
     "id": "game-stage1-3shift-2000/thinking-sampled/responses/0.5",
     "utc": 1792856157.3022919,
     "message": "game-stage1-3shift-2000 · Thinking · 0.6 / 0.95：回答达到 50%（当前127/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2000/thinking-sampled/responses/0.75",
+    "utc": 1792856322.3209481,
+    "message": "game-stage1-3shift-2000 · Thinking · 0.6 / 0.95：回答达到 75%（当前205/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/thinking-sampled/responses/1",
+    "utc": 1792856385.2643065,
+    "message": "game-stage1-3shift-2100 · Thinking · 0.6 / 0.95：回答达到 100%（当前246/246）"
   }
 ]
