@@ -1,12 +1,12 @@
 {
-  "utc": 1792811795.1881669,
+  "utc": 1792811982.375303,
   "files": [
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "0cbd7ba4c090b63329ff21f0ea3db6ac3f0e6d98c4406fab9f09bf2ec6aa46ef",
-      "bytes": 518393,
-      "stat_size": 518393,
-      "stat_mtime_ns": 1792811762000000000
+      "uncompressed_sha256": "4bfefbbde14d15fbd5b2779c118176ab3769c6e96f84978230adaf87f3037fc7",
+      "bytes": 521187,
+      "stat_size": 521187,
+      "stat_mtime_ns": 1792811949000000000
     },
     {
       "path": "logs/download-first.log.gz",
