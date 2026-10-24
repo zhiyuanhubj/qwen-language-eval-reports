@@ -2013,5 +2013,20 @@
     "id": "game-stage1-3shift-3100/thinking-sampled/responses/0.5",
     "utc": 1792876766.3051617,
     "message": "game-stage1-3shift-3100 · Thinking · 0.6 / 0.95：回答达到 50%（当前123/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3200/thinking-sampled/responses/0.5",
+    "utc": 1792876885.1468678,
+    "message": "game-stage1-3shift-3200 · Thinking · 0.6 / 0.95：回答达到 50%（当前130/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3100/thinking-sampled/responses/0.75",
+    "utc": 1792876920.5801086,
+    "message": "game-stage1-3shift-3100 · Thinking · 0.6 / 0.95：回答达到 75%（当前188/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3200/thinking-sampled/responses/0.75",
+    "utc": 1792877027.1734667,
+    "message": "game-stage1-3shift-3200 · Thinking · 0.6 / 0.95：回答达到 75%（当前185/246）"
   }
 ]
