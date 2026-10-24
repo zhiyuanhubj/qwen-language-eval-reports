@@ -35,7 +35,8 @@ def render(data,title):
    folder='game-stage1-3shift-2000plus-20261023' if step>=2000 and step!=2800 else ('game-stage1-3shift-100-2800-20261023' if step in [100,2800] else 'game-stage1-3shift-20261022')
    evidence='https://github.com/zhiyuanhubj/qwen-language-eval-reports/blob/main/'+folder+'/evidence/'
    score_link=('<a href="'+evidence+'scores100/'+r['mode']+'-'+model+'.jsonl.gz">逐题评分</a>') if s else '评分待生成'
-   detail=esc(display)+'<small><a href="'+evidence+r['mode']+'/'+model+'.jsonl.gz">完整回答</a> · '+score_link+'</small>'
+   answer_link=('<a href="'+evidence+r['mode']+'/'+model+'.jsonl.gz">'+('完整回答' if a==n else '已有回答')+'</a>') if a else '回答待生成'
+   detail=esc(display)+'<small>'+answer_link+' · '+score_link+'</small>'
    family='thinking' if r['mode'].startswith('thinking') else 'notags'
    family_text='<b>Thinking</b><small>开启思考</small>' if family=='thinking' else '<b>NoTags</b><small>关闭思考 / 无标签</small>'
    vals=[detail,family_text,'0.6' if mode=='06' else '1.0','0.95' if mode=='06' else '1.0',esc(r['subset']),esc(status),f'{a}/{n}',f'{s}/{n}']+[score(r['means'].get(k)) for k in KEYS]+[score(r['overall']),objective,str(r['missing_final']),str(r['length_limited'])]
