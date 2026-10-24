@@ -478,5 +478,55 @@
     "id": "game-stage1-3shift-2100/nonthinking-notags-t1-p1/graded/0.5",
     "utc": 1792858674.1548495,
     "message": "game-stage1-3shift-2100 · NoTags · 1 / 1：评分达到 50%（当前146/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/thinking-sampled/graded/0.75",
+    "utc": 1792858744.2162936,
+    "message": "game-stage1-3shift-2100 · Thinking · 0.6 / 0.95：评分达到 75%（当前207/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/thinking-sampled-t1-p1/graded/0.75",
+    "utc": 1792858744.2162936,
+    "message": "game-stage1-3shift-2100 · Thinking · 1 / 1：评分达到 75%（当前206/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/nonthinking-notags-t06-p095/graded/0.75",
+    "utc": 1792858744.2162936,
+    "message": "game-stage1-3shift-2100 · NoTags · 0.6 / 0.95：评分达到 75%（当前208/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/nonthinking-notags-t1-p1/graded/0.75",
+    "utc": 1792858744.2162936,
+    "message": "game-stage1-3shift-2100 · NoTags · 1 / 1：评分达到 75%（当前207/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/thinking-sampled/graded/1",
+    "utc": 1792858809.4224377,
+    "message": "game-stage1-3shift-2100 · Thinking · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/thinking-sampled-t1-p1/graded/1",
+    "utc": 1792858809.4224377,
+    "message": "game-stage1-3shift-2100 · Thinking · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/nonthinking-notags-t06-p095/graded/1",
+    "utc": 1792858809.4224377,
+    "message": "game-stage1-3shift-2100 · NoTags · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2100/nonthinking-notags-t1-p1/graded/1",
+    "utc": 1792858809.4224377,
+    "message": "game-stage1-3shift-2100 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "batch-done/2000-2100",
+    "utc": 1792858809.4224377,
+    "message": "批次 2000-2100：回答、评分及SHA对应关系已校验，准备后续批次"
+  },
+  {
+    "id": "phase/2000-2100/finished",
+    "utc": 1792858809.4224377,
+    "message": "当前批次 2000-2100：finished"
   }
 ]
