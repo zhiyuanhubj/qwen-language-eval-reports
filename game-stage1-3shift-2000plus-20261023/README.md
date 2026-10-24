@@ -1,6 +1,6 @@
 # Stage1-3Shift：2000–3200 每100step
 
-[下载 V2 对照报告](report-v2-modes.html) · [进度快照](status/progress.json) · [固定计划与HF版本](plan.json) · [原始回答、评分、题目及日志](evidence/manifest.json)
+[下载 V2 对照报告](report-v2-modes.html) · [实时可读进度](progress.md) · [进度JSON](status/progress.json) · [固定计划与HF版本](plan.json) · [原始回答、评分、题目及日志](evidence/manifest.json)
 
 范围包含新增3800，以及2000、2100、2200、2300、2400、2500、2600、2700、2800、2900、3000、3100、3200。2800直接复用之前已完成的984条，不重新抽样。新增13个checkpoint，共12792条正式回答；新增3800优先执行。页面同时保留100/500/1000/1500历史对照，共18个checkpoint。
 
