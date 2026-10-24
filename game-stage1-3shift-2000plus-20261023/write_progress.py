@@ -13,6 +13,7 @@ groups={}
 for row in summary['results']:
  k=(row['model'],row['mode']);g=groups.setdefault(k,{'responses':0,'graded':0,'expected':0})
  for name in ['responses','graded','expected']:g[name]+=row[name]
+progress['responses']=sum(g['responses'] for g in groups.values());progress['graded']=sum(g['graded'] for g in groups.values())
 mp=D/'status/milestones.json';events=json.loads(mp.read_text()) if mp.exists() else [];known={e['id'] for e in events};major=False
 
 def event(ident,message,important=False):
