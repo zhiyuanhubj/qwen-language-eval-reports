@@ -528,5 +528,15 @@
     "id": "phase/2000-2100/finished",
     "utc": 1792858809.4224377,
     "message": "当前批次 2000-2100：finished"
+  },
+  {
+    "id": "phase/2200-2300/downloading",
+    "utc": 1792858849.0579448,
+    "message": "当前批次 2200-2300：downloading"
+  },
+  {
+    "id": "phase/2200-2300/evaluating_and_grading",
+    "utc": 1792858944.625623,
+    "message": "当前批次 2200-2300：evaluating_and_grading"
   }
 ]
