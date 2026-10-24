@@ -2298,5 +2298,15 @@
     "id": "game-stage1-3shift-3400/nonthinking-notags-t1-p1/responses/1",
     "utc": 1792880105.1576614,
     "message": "game-stage1-3shift-3400 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3300/thinking-sampled-t1-p1/responses/0.25",
+    "utc": 1792880370.2426848,
+    "message": "game-stage1-3shift-3300 · Thinking · 1 / 1：回答达到 25%（当前70/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3400/thinking-sampled-t1-p1/responses/0.25",
+    "utc": 1792880406.759324,
+    "message": "game-stage1-3shift-3400 · Thinking · 1 / 1：回答达到 25%（当前65/246）"
   }
 ]
