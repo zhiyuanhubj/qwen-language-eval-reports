@@ -868,5 +868,10 @@
     "id": "phase/2400-2500/downloading",
     "utc": 1792862929.1674721,
     "message": "当前批次 2400-2500：downloading"
+  },
+  {
+    "id": "phase/2400-2500/evaluating_and_grading",
+    "utc": 1792863035.5489407,
+    "message": "当前批次 2400-2500：evaluating_and_grading"
   }
 ]
