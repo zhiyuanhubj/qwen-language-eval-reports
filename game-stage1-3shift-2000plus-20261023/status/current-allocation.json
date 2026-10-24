@@ -1,0 +1,11 @@
+{
+  "utc": 1792849768.6571264,
+  "job_id": 2989,
+  "existing_owned_allocation": true,
+  "host": "ip-10-1-25-253",
+  "authority": "User explicitly requests use of existing three nodes;single independent MuseNVFP4 node reassigned;two-nodeMuseBF16 service preserved",
+  "priority_checkpoint": 3800,
+  "interrupted_muse_trials": 4,
+  "never_started_muse_tasks_for_later": 32,
+  "restore_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/before-cutover.json"
+}

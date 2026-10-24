@@ -1,12 +1,13 @@
 {
-  "utc": 1792849568.0005882,
-  "queued_evaluation_job": 3037,
-  "candidate_inference_started": false,
-  "running_owned_gpu_allocations": {
-    "2989": "8GPUs99-100percent;MusePro tests active",
-    "2886": "two nodes,16GPUs98percent;MuseBF16 tests active"
-  },
-  "original2733": "ended;same physical node now allocated to2989;no reuse of expiredallocation",
-  "reason": "No unused owned GPU node available.3037pendingPriority.3800added as firstbatch with pinned HF revision.",
-  "short_job_probes": "2h,4h and sharednode32CPU1000GiB probes yielded later new-job scheduling estimates, so preserved original3037 queue age."
+  "utc": 1792849794.6388192,
+  "evaluation_job": 2989,
+  "existing_node_reassigned": true,
+  "host": "ip-10-1-25-253",
+  "queued3037_cancelled": true,
+  "other_two_nodes": "2886 TP16/EP16 MuseBF16 retained",
+  "muse_native_terminal_before_cutover": 138,
+  "muse_interrupted_sampled_tasks": 4,
+  "muse_never_started_for_post_qwen_continuation": 32,
+  "original_terminal_result_hashes_preserved": true,
+  "private_native_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/after-cutover.json"
 }

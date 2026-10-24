@@ -1,5 +1,5 @@
 {
-  "utc": 1792849756.412837,
+  "utc": 1792849795.0146892,
   "responses": 0,
   "graded": 0,
   "expected": 12792,
@@ -8,6 +8,13 @@
   "finished_batches": [],
   "total_batches": 7,
   "terminal": false,
+  "current_batch": {
+    "utc": 1792849769.366345,
+    "batch": "3800",
+    "job": "2989",
+    "host": "ip-10-1-25-253",
+    "phase": "downloading"
+  },
   "continuation_submission": {
     "utc": 1792776908.3968277,
     "job_id": 3037,
@@ -15,5 +22,16 @@
     "walltime_hours": 24,
     "purpose": "Continue2000-3200 language evaluation after current batch lock; one evaluation GPU node at a time"
   },
-  "scheduler": "PENDING|(Priority)"
+  "current_allocation": {
+    "utc": 1792849768.6571264,
+    "job_id": 2989,
+    "existing_owned_allocation": true,
+    "host": "ip-10-1-25-253",
+    "authority": "User explicitly requests use of existing three nodes;single independent MuseNVFP4 node reassigned;two-nodeMuseBF16 service preserved",
+    "priority_checkpoint": 3800,
+    "interrupted_muse_trials": 4,
+    "never_started_muse_tasks_for_later": 32,
+    "restore_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/before-cutover.json"
+  },
+  "scheduler": "RUNNING|ip-10-1-25-253"
 }
