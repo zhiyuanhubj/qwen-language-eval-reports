@@ -1,0 +1,12 @@
+{
+  "utc": 1792849542.3447196,
+  "checkpoint3800_revision": "b2d4c921f4a5b8835e8711bd15cfc2af4688cb81",
+  "prior3800_in_this_HF_experiment": false,
+  "priority": "first_batch",
+  "expected3800_responses": 984,
+  "previous_2000_3200_new_answers": 0,
+  "scheduler_job": 3037,
+  "scope": "2000-3200 every100steps plus3800;2800 reused",
+  "existing_gpu_observation": "2989 all8 GPUs99-100percent utilization;2886 bothnodes all8 GPUs98percent; sampled tests remain active",
+  "scheduling_probes": "New2h/4h jobs and reduced-CPU shared-node probe did not yield an earlier start estimate than existing aged3037; retain3037 without discarding queue age."
+}

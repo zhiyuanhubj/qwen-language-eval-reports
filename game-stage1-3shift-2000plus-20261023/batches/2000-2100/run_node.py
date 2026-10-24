@@ -116,7 +116,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
     results=list(pool.map(candidate,tasks))
 if any('error' in f for group in results for f in group):raise RuntimeError('Candidate infrastructure failed; partial outputs retained')
 complete=all(set(success(D/m/(i['label']+'.jsonl')))==expected for i in PLAN['items'] for m in PLAN['modes'])
-if complete:(D/'complete.json').write_text(json.dumps({'utc':time.time(),'cases':1968,'generation_complete':True}))
+if complete:(D/'complete.json').write_text(json.dumps({'utc':time.time(),'cases':PLAN['expected_responses'],'generation_complete':True}))
 # A separate evaluation judge; never invoke or restart the paused cleaning pipeline.
 status('allocation','loading_judge',generation_complete=complete)
 name='game-language-judge-'+JOB;containers.add(name)

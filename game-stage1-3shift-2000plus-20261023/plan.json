@@ -84,6 +84,13 @@
       "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
       "ref": "checkpoint-3200",
       "revision": "94dfa8b9c2f432d7fb5a0c448a9627353f27fd3d"
+    },
+    {
+      "step": 3800,
+      "label": "game-stage1-3shift-3800",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3800",
+      "revision": "b2d4c921f4a5b8835e8711bd15cfc2af4688cb81"
     }
   ],
   "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
@@ -94,7 +101,7 @@
     "nonthinking-notags-t06-p095",
     "nonthinking-notags-t1-p1"
   ],
-  "expected_responses": 11808,
+  "expected_responses": 12792,
   "max_model_len": 32768,
   "max_tokens": 16384,
   "dtype": "bfloat16",
@@ -123,10 +130,17 @@
   "reused_steps": [
     2800
   ],
-  "requested_grid_responses": 12792,
+  "requested_grid_responses": 13776,
   "previous_experiments": [
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-100-2800-20261023"
   ],
-  "first_batch_prefetch_host": "ip-10-1-25-253"
+  "first_batch_prefetch_host": "ip-10-1-25-253",
+  "additional_requested_steps": [
+    3800
+  ],
+  "batch_priority": [
+    "3800"
+  ],
+  "scope_updated_utc": 1792849542.0895243
 }

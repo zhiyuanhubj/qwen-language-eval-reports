@@ -24,5 +24,9 @@
     3200
   ],
   "reuse_verified_2800": true,
-  "preserve_old_runs": true
+  "preserve_old_runs": true,
+  "additional_user_request": "现在啥情况 都测试完了么 然后还有3800测试完了么",
+  "additional_requested_steps": [
+    3800
+  ]
 }

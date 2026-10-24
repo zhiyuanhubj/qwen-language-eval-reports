@@ -63,7 +63,7 @@ try:
  while acquire():
   B=None
   try:
-   batches=sorted((D/'batches').iterdir(),key=lambda p:int(p.name.split('-')[0]));B=next((p for p in batches if not (p/'status/batch-finished.json').exists()),None)
+   batches=sorted((D/'batches').iterdir(),key=lambda p:(p.name!='3800',int(p.name.split('-')[0])));B=next((p for p in batches if not (p/'status/batch-finished.json').exists()),None)
    if B is None:status('all_batches_finished');break
    used=[int(v) for v in subprocess.check_output(['nvidia-smi','--query-gpu=memory.used','--format=csv,noheader,nounits'],text=True).split()]
    assert len(used)==8 and max(used)<2000,('GPU conflict; preserve current workloads',used)

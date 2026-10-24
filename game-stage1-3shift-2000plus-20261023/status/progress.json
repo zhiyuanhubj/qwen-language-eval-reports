@@ -1,12 +1,12 @@
 {
-  "utc": 1792849386.3670855,
+  "utc": 1792849543.1795645,
   "responses": 0,
   "graded": 0,
-  "expected": 11808,
+  "expected": 12792,
   "reused_checkpoint2800_responses": 984,
-  "requested_grid_expected": 12792,
+  "requested_grid_expected": 13776,
   "finished_batches": [],
-  "total_batches": 6,
+  "total_batches": 7,
   "terminal": false,
   "continuation_submission": {
     "utc": 1792776908.3968277,
