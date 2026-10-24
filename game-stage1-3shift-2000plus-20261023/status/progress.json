@@ -1,5 +1,5 @@
 {
-  "utc": 1792883059.5234184,
+  "utc": 1792883141.3948345,
   "responses": 14755,
   "graded": 12787,
   "expected": 17712,
@@ -43,10 +43,10 @@
   },
   "scheduler": "RUNNING|ip-10-1-25-253",
   "batch_allocation_status": {
-    "utc": 1792882451.3483121,
+    "utc": 1792883137.1698487,
     "job": "2989",
     "node": "ip-10-1-25-253",
-    "phase": "loading_judge",
+    "phase": "grading",
     "generation_complete": true
   }
 }
