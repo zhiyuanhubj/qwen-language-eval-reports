@@ -1,5 +1,5 @@
 {
-  "utc": 1792885874.3311322,
+  "utc": 1792886076.2653587,
   "note": "2000至3800每100step完整补测（含两端），3800优先；已完成2800直接复用，不重复抽样。新增18个checkpoint，共17712条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次8/10。",
   "results": [
     {
@@ -5774,39 +5774,39 @@
       "model": "game-stage1-3shift-3500",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 124,
+      "responses": 125,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 118,
-      "length_limited": 16
+      "missing_final": 119,
+      "length_limited": 17
     },
     {
       "model": "game-stage1-3shift-3500",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 51,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 51,
+      "missing_final": 72,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-3500",
       "mode": "thinking-sampled",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 19,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 19,
       "length_limited": 0
     },
     {
@@ -6068,14 +6068,14 @@
       "model": "game-stage1-3shift-3600",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 109,
+      "responses": 113,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 108,
-      "length_limited": 16
+      "missing_final": 112,
+      "length_limited": 17
     },
     {
       "model": "game-stage1-3shift-3600",
