@@ -1203,5 +1203,10 @@
     "id": "phase/2600-2700/downloading",
     "utc": 1792866960.4755096,
     "message": "当前批次 2600-2700：downloading"
+  },
+  {
+    "id": "phase/2600-2700/evaluating_and_grading",
+    "utc": 1792867069.7974186,
+    "message": "当前批次 2600-2700：evaluating_and_grading"
   }
 ]
