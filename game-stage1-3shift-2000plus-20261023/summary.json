@@ -1,5 +1,5 @@
 {
-  "utc": 1792864831.3116755,
+  "utc": 1792865040.283774,
   "note": "2000至3800每100step完整补测（含两端），3800优先；已完成2800直接复用，不重复抽样。新增18个checkpoint，共17712条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次3/10。",
   "results": [
     {
@@ -1654,14 +1654,14 @@
       "model": "game-stage1-3shift-2400",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 127,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 121,
-      "length_limited": 17
+      "missing_final": 122,
+      "length_limited": 18
     },
     {
       "model": "game-stage1-3shift-2400",
@@ -1948,26 +1948,26 @@
       "model": "game-stage1-3shift-2500",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 121,
+      "responses": 126,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 111,
-      "length_limited": 9
+      "missing_final": 116,
+      "length_limited": 14
     },
     {
       "model": "game-stage1-3shift-2500",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 14,
+      "responses": 63,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 14,
+      "missing_final": 63,
       "length_limited": 0
     },
     {
