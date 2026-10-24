@@ -1,5 +1,5 @@
 {
-  "utc": 1792850131.8266673,
+  "utc": 1792850322.43397,
   "note": "2000至3200每100step补测（含2000），并优先追加3800；已完成2800直接复用，不重复抽样。新增13个checkpoint，共12792条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次0/7。",
   "results": [
     {
@@ -1878,13 +1878,13 @@
       "model": "game-stage1-3shift-3800",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 56,
+      "responses": 82,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 56,
+      "missing_final": 79,
       "length_limited": 0
     },
     {
@@ -1917,13 +1917,13 @@
       "model": "game-stage1-3shift-3800",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 19,
+      "responses": 50,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 19,
+      "missing_final": 50,
       "length_limited": 0
     },
     {
@@ -2015,13 +2015,59 @@
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 46,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 63.89,
+          "parse_failures": 17,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 13,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 72.22,
+          "parse_failures": 3,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 18,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 50.0,
+          "parse_failures": 13,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 15,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 83.33,
+          "parse_failures": 1,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-3800",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "friend46",
-      "responses": 45,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
