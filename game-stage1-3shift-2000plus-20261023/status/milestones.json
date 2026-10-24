@@ -1968,5 +1968,20 @@
     "id": "game-stage1-3shift-3200/nonthinking-notags-t1-p1/responses/1",
     "utc": 1792875489.280083,
     "message": "game-stage1-3shift-3200 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3200/thinking-sampled-t1-p1/responses/0.5",
+    "utc": 1792875536.3983798,
+    "message": "game-stage1-3shift-3200 · Thinking · 1 / 1：回答达到 50%（当前135/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3200/thinking-sampled-t1-p1/responses/0.75",
+    "utc": 1792875642.4903245,
+    "message": "game-stage1-3shift-3200 · Thinking · 1 / 1：回答达到 75%（当前208/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3100/thinking-sampled-t1-p1/responses/0.5",
+    "utc": 1792875677.6819146,
+    "message": "game-stage1-3shift-3100 · Thinking · 1 / 1：回答达到 50%（当前127/246）"
   }
 ]
