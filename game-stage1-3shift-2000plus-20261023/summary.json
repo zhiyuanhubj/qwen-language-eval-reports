@@ -1,5 +1,5 @@
 {
-  "utc": 1792878800.0557373,
+  "utc": 1792879026.2230754,
   "note": "2000至3800每100step完整补测（含两端），3800优先；已完成2800直接复用，不重复抽样。新增18个checkpoint，共17712条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次6/10。",
   "results": [
     {
@@ -4140,11 +4140,17 @@
       "mode": "thinking-sampled",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 8,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 99.38,
+        "language": 100,
+        "logic": 97.5,
+        "instruction": 48.75,
+        "completeness": 50
+      },
+      "overall": 79.13,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -4225,11 +4231,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 6,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 83.33,
+        "language": 100,
+        "logic": 85.83,
+        "instruction": 46.67,
+        "completeness": 46.67
+      },
+      "overall": 72.5,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -4310,11 +4322,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 7,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 85,
+        "language": 100,
+        "logic": 87.14,
+        "instruction": 98.57,
+        "completeness": 95
+      },
+      "overall": 93.14,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
@@ -4395,11 +4413,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 7,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 88.57,
+        "language": 100,
+        "logic": 84,
+        "instruction": 92.86,
+        "completeness": 82.86
+      },
+      "overall": 89.66,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
