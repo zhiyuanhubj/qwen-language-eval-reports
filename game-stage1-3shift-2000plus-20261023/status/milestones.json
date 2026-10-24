@@ -153,5 +153,35 @@
     "id": "game-stage1-3shift-3800/nonthinking-notags-t1-p1/graded/0.75",
     "utc": 1792853836.4476557,
     "message": "game-stage1-3shift-3800 · NoTags · 1 / 1：评分达到 75%（当前198/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3800/thinking-sampled/graded/1",
+    "utc": 1792853904.419237,
+    "message": "game-stage1-3shift-3800 · Thinking · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3800/thinking-sampled-t1-p1/graded/1",
+    "utc": 1792853904.419237,
+    "message": "game-stage1-3shift-3800 · Thinking · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3800/nonthinking-notags-t06-p095/graded/1",
+    "utc": 1792853904.419237,
+    "message": "game-stage1-3shift-3800 · NoTags · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3800/nonthinking-notags-t1-p1/graded/1",
+    "utc": 1792853904.419237,
+    "message": "game-stage1-3shift-3800 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "batch-done/3800",
+    "utc": 1792853935.4885006,
+    "message": "批次 3800：回答、评分及SHA对应关系已校验，准备后续批次"
+  },
+  {
+    "id": "phase/2000-2100/downloading",
+    "utc": 1792853935.4885006,
+    "message": "当前批次 2000-2100：downloading"
   }
 ]
