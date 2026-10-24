@@ -1,5 +1,5 @@
 {
-  "utc": 1792863341.1543703,
+  "utc": 1792863549.2128763,
   "note": "2000至3800每100step完整补测（含两端），3800优先；已完成2800直接复用，不重复抽样。新增18个checkpoint，共17712条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次3/10。",
   "results": [
     {
@@ -1654,13 +1654,13 @@
       "model": "game-stage1-3shift-2400",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 33,
+      "responses": 52,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 32,
+      "missing_final": 50,
       "length_limited": 0
     },
     {
@@ -1693,13 +1693,13 @@
       "model": "game-stage1-3shift-2400",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 26,
+      "responses": 62,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 24,
+      "missing_final": 60,
       "length_limited": 0
     },
     {
@@ -1745,20 +1745,66 @@
       "model": "game-stage1-3shift-2400",
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
-      "responses": 69,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 61,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 84.72,
+          "parse_failures": 6,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 16,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 88.89,
+          "parse_failures": 0,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 28,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 77.78,
+          "parse_failures": 5,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 17,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 94.44,
+          "parse_failures": 1,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2400",
       "mode": "nonthinking-notags-t06-p095",
       "subset": "friend46",
-      "responses": 7,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
@@ -1771,7 +1817,7 @@
       "model": "game-stage1-3shift-2400",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "diagnostic128",
-      "responses": 125,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
@@ -1784,20 +1830,66 @@
       "model": "game-stage1-3shift-2400",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
-      "responses": 13,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 46,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 63.89,
+          "parse_failures": 21,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 13,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 72.22,
+          "parse_failures": 3,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 22,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 61.11,
+          "parse_failures": 11,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 11,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 61.11,
+          "parse_failures": 7,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2400",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
@@ -1849,13 +1941,13 @@
       "model": "game-stage1-3shift-2500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 27,
+      "responses": 51,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 27,
+      "missing_final": 51,
       "length_limited": 0
     },
     {
@@ -1901,20 +1993,66 @@
       "model": "game-stage1-3shift-2500",
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
-      "responses": 71,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 54,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 75.0,
+          "parse_failures": 11,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 12,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 66.67,
+          "parse_failures": 3,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 27,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 75.0,
+          "parse_failures": 7,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 15,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 83.33,
+          "parse_failures": 1,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2500",
       "mode": "nonthinking-notags-t06-p095",
       "subset": "friend46",
-      "responses": 29,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
@@ -1927,7 +2065,7 @@
       "model": "game-stage1-3shift-2500",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "diagnostic128",
-      "responses": 126,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
@@ -1940,20 +2078,66 @@
       "model": "game-stage1-3shift-2500",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
-      "responses": 7,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
       "missing_final": 0,
-      "length_limited": 0
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 43,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 59.72,
+          "parse_failures": 25,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "allenai/ai2_arc": {
+          "correct": 12,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 66.67,
+          "parse_failures": 5,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 18,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 50.0,
+          "parse_failures": 15,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        },
+        "openai/gsm8k": {
+          "correct": 13,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 72.22,
+          "parse_failures": 5,
+          "missing_final": 0,
+          "raw_only_correct": 0
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-2500",
       "mode": "nonthinking-notags-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
