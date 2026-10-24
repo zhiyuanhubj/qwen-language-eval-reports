@@ -1,0 +1,65 @@
+{
+  "utc": 1792883662.4737513,
+  "job": "2989",
+  "host": "ip-10-1-25-253",
+  "finished": true,
+  "all_expected_answers": true,
+  "counts": [
+    {
+      "model": "game-stage1-3shift-3300",
+      "mode": "thinking-sampled",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3300",
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3300",
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3300",
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3400",
+      "mode": "thinking-sampled",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3400",
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3400",
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "model": "game-stage1-3shift-3400",
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    }
+  ]
+}
