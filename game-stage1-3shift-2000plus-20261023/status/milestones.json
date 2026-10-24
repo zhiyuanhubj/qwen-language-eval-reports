@@ -2553,5 +2553,10 @@
     "id": "phase/3500-3600/downloading",
     "utc": 1792883691.1574929,
     "message": "当前批次 3500-3600：downloading"
+  },
+  {
+    "id": "phase/3500-3600/evaluating_and_grading",
+    "utc": 1792883812.877555,
+    "message": "当前批次 3500-3600：evaluating_and_grading"
   }
 ]
