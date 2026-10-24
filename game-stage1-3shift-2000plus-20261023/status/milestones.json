@@ -873,5 +873,55 @@
     "id": "phase/2400-2500/evaluating_and_grading",
     "utc": 1792863035.5489407,
     "message": "当前批次 2400-2500：evaluating_and_grading"
+  },
+  {
+    "id": "game-stage1-3shift-2400/nonthinking-notags-t06-p095/responses/0.25",
+    "utc": 1792863275.6139162,
+    "message": "game-stage1-3shift-2400 · NoTags · 0.6 / 0.95：回答达到 25%（当前96/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2400/nonthinking-notags-t1-p1/responses/0.25",
+    "utc": 1792863275.6139162,
+    "message": "game-stage1-3shift-2400 · NoTags · 1 / 1：回答达到 25%（当前84/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2500/nonthinking-notags-t06-p095/responses/0.25",
+    "utc": 1792863275.6139162,
+    "message": "game-stage1-3shift-2500 · NoTags · 0.6 / 0.95：回答达到 25%（当前97/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2500/nonthinking-notags-t1-p1/responses/0.25",
+    "utc": 1792863275.6139162,
+    "message": "game-stage1-3shift-2500 · NoTags · 1 / 1：回答达到 25%（当前64/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2400/nonthinking-notags-t06-p095/responses/0.5",
+    "utc": 1792863308.349619,
+    "message": "game-stage1-3shift-2400 · NoTags · 0.6 / 0.95：回答达到 50%（当前140/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2400/nonthinking-notags-t1-p1/responses/0.5",
+    "utc": 1792863308.349619,
+    "message": "game-stage1-3shift-2400 · NoTags · 1 / 1：回答达到 50%（当前123/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2500/nonthinking-notags-t06-p095/responses/0.5",
+    "utc": 1792863308.349619,
+    "message": "game-stage1-3shift-2500 · NoTags · 0.6 / 0.95：回答达到 50%（当前142/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2400/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1792863341.4806392,
+    "message": "game-stage1-3shift-2400 · NoTags · 0.6 / 0.95：回答达到 75%（当前204/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2500/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1792863341.4806392,
+    "message": "game-stage1-3shift-2500 · NoTags · 0.6 / 0.95：回答达到 75%（当前228/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2500/nonthinking-notags-t1-p1/responses/0.5",
+    "utc": 1792863341.4806392,
+    "message": "game-stage1-3shift-2500 · NoTags · 1 / 1：回答达到 50%（当前133/246）"
   }
 ]
