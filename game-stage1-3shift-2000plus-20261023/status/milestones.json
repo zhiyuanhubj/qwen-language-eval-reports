@@ -183,5 +183,10 @@
     "id": "phase/2000-2100/downloading",
     "utc": 1792853935.4885006,
     "message": "当前批次 2000-2100：downloading"
+  },
+  {
+    "id": "phase/2000-2100/evaluating_and_grading",
+    "utc": 1792853972.2279475,
+    "message": "当前批次 2000-2100：evaluating_and_grading"
   }
 ]

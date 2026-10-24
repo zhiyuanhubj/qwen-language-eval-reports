@@ -1,5 +1,6 @@
 {
   "verified": true,
+  "host": "ip-10-1-25-253",
   "step": 2000,
   "label": "game-stage1-3shift-2000",
   "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
@@ -62,5 +63,5 @@
       "sha256": "df0d1e26054a02449c6d340836f1893e9f4a06ae192d9afc722ec67e8fc77876"
     }
   ],
-  "utc": 1792776986.9190798
+  "utc": 1792853959.3832257
 }
