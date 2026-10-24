@@ -1,8 +1,10 @@
 {
   "utc": 1792777075.3810132,
   "validated": true,
-  "total_batches": 6,
-  "new_checkpoints": 12,
-  "new_responses": 11808,
-  "candidate_clients_templates_and_rubric_unchanged": true
+  "total_batches": 7,
+  "new_checkpoints": 13,
+  "new_responses": 12792,
+  "candidate_clients_templates_and_rubric_unchanged": true,
+  "priority_checkpoint": 3800,
+  "updated_utc": 1792849579.6776671
 }

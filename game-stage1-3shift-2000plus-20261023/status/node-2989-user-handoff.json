@@ -1,0 +1,12 @@
+{
+  "utc": 1792849694.2660775,
+  "job": 2989,
+  "host": "ip-10-1-25-253",
+  "request": "用户要求直接使用现有三个节点，本轮将单独的2989节点切给Qwen；两个节点的MuseBF16服务保留",
+  "muse_terminal_before_cutover": 138,
+  "muse_active_before_cutover": 4,
+  "muse_never_started_before_cutover": 32,
+  "private_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/before-cutover.json",
+  "priority_checkpoint": 3800,
+  "preserve_interrupted_records": true
+}
