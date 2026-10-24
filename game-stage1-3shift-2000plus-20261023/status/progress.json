@@ -1,7 +1,7 @@
 {
-  "utc": 1792871013.3851306,
+  "utc": 1792871094.6210072,
   "responses": 8852,
-  "graded": 8777,
+  "graded": 8852,
   "expected": 17712,
   "reused_checkpoint2800_responses": 984,
   "requested_grid_expected": 18696,
@@ -9,16 +9,17 @@
     "2000-2100",
     "2200-2300",
     "2400-2500",
+    "2600-2700",
     "3800"
   ],
   "total_batches": 10,
   "terminal": false,
   "current_batch": {
-    "utc": 1792867063.3883667,
-    "batch": "2600-2700",
+    "utc": 1792871068.411066,
+    "batch": "2900-3000",
     "job": "2989",
     "host": "ip-10-1-25-253",
-    "phase": "evaluating_and_grading"
+    "phase": "downloading"
   },
   "continuation_submission": {
     "utc": 1792776908.3968277,
@@ -38,12 +39,5 @@
     "never_started_muse_tasks_for_later": 32,
     "restore_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/before-cutover.json"
   },
-  "scheduler": "RUNNING|ip-10-1-25-253",
-  "batch_allocation_status": {
-    "utc": 1792870551.080878,
-    "job": "2989",
-    "node": "ip-10-1-25-253",
-    "phase": "grading",
-    "generation_complete": false
-  }
+  "scheduler": "RUNNING|ip-10-1-25-253"
 }
