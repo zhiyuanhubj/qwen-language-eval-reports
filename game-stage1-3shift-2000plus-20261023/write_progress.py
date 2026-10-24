@@ -37,7 +37,7 @@ if exitpath.exists():
 atomic(mp,json.dumps(events,ensure_ascii=False,indent=2))
 lines=['# Qwen 语言评测进度','',f'更新时间：**{utc(now)}**。后台约每30秒核对本地记录，GitHub约每3分钟同步；批次完成、切换评分和执行异常会触发同步。','',f'当前节点：**{progress.get("current_allocation",{}).get("job_id","待分配")}** · 当前批次：**{current.get("batch","待开始")}** · 阶段：`{phase}`','']
 if failure:lines+=['**'+failure+'**','']
-lines += [f'新增评测：回答 **{progress["responses"]:,}/{progress["expected"]:,}**，有效评分 **{progress["graded"]:,}/{progress["expected"]:,}**；完成批次 **{len(progress["finished_batches"])}/{progress["total_batches"]}**。已完成的2800复用984条，单独保留，不计入新增生成数。','', '先完成3800的生成和评分，再按计划处理2000～3200其余checkpoint。每个checkpoint固定246题 × Thinking/NoTags × 两组采样，共984条。','', '## 当前批次各组','', '| Checkpoint | 模式 | Temperature / Top-p | 回答 | 评分 |','|---|---|---|---:|---:|']
+lines += [f'新增评测：回答 **{progress["responses"]:,}/{progress["expected"]:,}**，有效评分 **{progress["graded"]:,}/{progress["expected"]:,}**；完成批次 **{len(progress["finished_batches"])}/{progress["total_batches"]}**。已完成的2800复用984条，单独保留，不计入新增生成数。','', '先完成3800的生成和评分，再按计划处理2000～3800其余checkpoint。每个checkpoint固定246题 × Thinking/NoTags × 两组采样，共984条。','', '## 当前批次各组','', '| Checkpoint | 模式 | Temperature / Top-p | 回答 | 评分 |','|---|---|---|---:|---:|']
 batchpath=D/'batches'/current.get('batch','')/'plan.json'
 current_models=[i['label'] for i in json.loads(batchpath.read_text())['items']] if batchpath.exists() else []
 for model in current_models:

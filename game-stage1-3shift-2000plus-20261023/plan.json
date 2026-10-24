@@ -86,6 +86,41 @@
       "revision": "94dfa8b9c2f432d7fb5a0c448a9627353f27fd3d"
     },
     {
+      "step": 3300,
+      "label": "game-stage1-3shift-3300",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3300",
+      "revision": "9256e43b6bd8e14c787926846168567b3aa44633"
+    },
+    {
+      "step": 3400,
+      "label": "game-stage1-3shift-3400",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3400",
+      "revision": "d452e55397e51c1919d473def1184f929f616e45"
+    },
+    {
+      "step": 3500,
+      "label": "game-stage1-3shift-3500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3500",
+      "revision": "47f76cf90b1a6403bf48a3c86df907e06138794d"
+    },
+    {
+      "step": 3600,
+      "label": "game-stage1-3shift-3600",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3600",
+      "revision": "d3407bd931318f408a16dac546e56e76db958407"
+    },
+    {
+      "step": 3700,
+      "label": "game-stage1-3shift-3700",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3700",
+      "revision": "7eb438f891a131497a3239ae9539138f660216dc"
+    },
+    {
       "step": 3800,
       "label": "game-stage1-3shift-3800",
       "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
@@ -101,7 +136,7 @@
     "nonthinking-notags-t06-p095",
     "nonthinking-notags-t1-p1"
   ],
-  "expected_responses": 12792,
+  "expected_responses": 17712,
   "max_model_len": 32768,
   "max_tokens": 16384,
   "dtype": "bfloat16",
@@ -125,22 +160,33 @@
     2900,
     3000,
     3100,
-    3200
+    3200,
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
+    3800
   ],
   "reused_steps": [
     2800
   ],
-  "requested_grid_responses": 13776,
+  "requested_grid_responses": 18696,
   "previous_experiments": [
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-100-2800-20261023"
   ],
   "first_batch_prefetch_host": "ip-10-1-25-253",
   "additional_requested_steps": [
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
     3800
   ],
   "batch_priority": [
     "3800"
   ],
-  "scope_updated_utc": 1792849542.0895243
+  "scope_updated_utc": 1792857094.8454795
 }

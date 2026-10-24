@@ -1,0 +1,28 @@
+{
+  "utc": 1792857095.3045619,
+  "new_steps": [
+    3300,
+    3400,
+    3500,
+    3600,
+    3700
+  ],
+  "new_revisions": {
+    "3300": "9256e43b6bd8e14c787926846168567b3aa44633",
+    "3400": "d452e55397e51c1919d473def1184f929f616e45",
+    "3500": "47f76cf90b1a6403bf48a3c86df907e06138794d",
+    "3600": "d3407bd931318f408a16dac546e56e76db958407",
+    "3700": "7eb438f891a131497a3239ae9539138f660216dc"
+  },
+  "scope": "2000-3800 every100steps,all19 checkpoints;reuse2800;18 new checkpoints",
+  "new_responses_expected": 17712,
+  "requested_grid_responses_expected": 18696,
+  "new_batch_names": [
+    "3300-3400",
+    "3500-3600",
+    "3700"
+  ],
+  "worker_restarted": false,
+  "current_batch_untouched": true,
+  "worker_discovers_batches_each_iteration": true
+}

@@ -1,0 +1,80 @@
+{
+  "utc": 1792776856.7481718,
+  "items": [
+    {
+      "step": 3300,
+      "label": "game-stage1-3shift-3300",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3300",
+      "revision": "9256e43b6bd8e14c787926846168567b3aa44633"
+    },
+    {
+      "step": 3400,
+      "label": "game-stage1-3shift-3400",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-3400",
+      "revision": "d452e55397e51c1919d473def1184f929f616e45"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 1968,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
+  "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+  "execution": "User reassigned owned single node2989 on2026-10-24;cancel queued3037;priority3800 then original batches;two-nodeMuseBF16 preserved. OriginalMuseNVFP4 service and never-started32 native tasks restored after all Qwen batches.4 sampled interrupted tasks retained without resampling.",
+  "model_root": "/opt/dlami/nvme/zhiyuan-game-2000plus-20261023/models",
+  "requested_steps": [
+    2000,
+    2100,
+    2200,
+    2300,
+    2400,
+    2500,
+    2600,
+    2700,
+    2800,
+    2900,
+    3000,
+    3100,
+    3200,
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
+    3800
+  ],
+  "reused_steps": [
+    2800
+  ],
+  "requested_grid_responses": 18696,
+  "previous_experiments": [
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-100-2800-20261023"
+  ],
+  "first_batch_prefetch_host": "ip-10-1-25-253",
+  "additional_requested_steps": [
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
+    3800
+  ],
+  "batch_priority": [
+    "3800"
+  ],
+  "scope_updated_utc": 1792857094.8454795
+}

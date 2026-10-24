@@ -1,10 +1,31 @@
 {
   "utc": 1792777075.3810132,
   "validated": true,
-  "total_batches": 7,
-  "new_checkpoints": 13,
-  "new_responses": 12792,
+  "total_batches": 10,
+  "new_checkpoints": 18,
+  "new_responses": 17712,
   "candidate_clients_templates_and_rubric_unchanged": true,
   "priority_checkpoint": 3800,
-  "updated_utc": 1792849579.6776671
+  "updated_utc": 1792857095.3001997,
+  "requested_grid": [
+    2000,
+    2100,
+    2200,
+    2300,
+    2400,
+    2500,
+    2600,
+    2700,
+    2800,
+    2900,
+    3000,
+    3100,
+    3200,
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
+    3800
+  ]
 }
