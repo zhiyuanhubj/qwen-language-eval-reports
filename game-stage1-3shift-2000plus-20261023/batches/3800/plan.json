@@ -26,7 +26,7 @@
   "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
   "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
   "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
-  "execution": "Dedicated single evaluation node queued as job3037 for24h; preserve ongoing Beam Pro trials on2733.2 checkpoints per batch,8 single-GPU candidate services then same V4.1 rubric grading. Cross-node batch lock allows resumable continuation; this experiment temporary weight cache is evicted after verified outputs and scores.",
+  "execution": "User reassigned owned single node2989 on2026-10-24;cancel queued3037;priority3800 then original batches;two-nodeMuseBF16 preserved. OriginalMuseNVFP4 service and never-started32 native tasks restored after all Qwen batches.4 sampled interrupted tasks retained without resampling.",
   "model_root": "/opt/dlami/nvme/zhiyuan-game-2000plus-20261023/models",
   "requested_steps": [
     2000,

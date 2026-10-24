@@ -1,6 +1,6 @@
 {
-  "utc": 1792849795.0146892,
-  "responses": 0,
+  "utc": 1792849943.07431,
+  "responses": 12,
   "graded": 0,
   "expected": 12792,
   "reused_checkpoint2800_responses": 984,
@@ -9,11 +9,11 @@
   "total_batches": 7,
   "terminal": false,
   "current_batch": {
-    "utc": 1792849769.366345,
+    "utc": 1792849819.171853,
     "batch": "3800",
     "job": "2989",
     "host": "ip-10-1-25-253",
-    "phase": "downloading"
+    "phase": "evaluating_and_grading"
   },
   "continuation_submission": {
     "utc": 1792776908.3968277,
