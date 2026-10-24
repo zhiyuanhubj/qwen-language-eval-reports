@@ -633,5 +633,20 @@
     "id": "game-stage1-3shift-2200/thinking-sampled-t1-p1/responses/0.25",
     "utc": 1792859409.925916,
     "message": "game-stage1-3shift-2200 · Thinking · 1 / 1：回答达到 25%（当前62/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2300/thinking-sampled-t1-p1/responses/0.5",
+    "utc": 1792859485.156361,
+    "message": "game-stage1-3shift-2300 · Thinking · 1 / 1：回答达到 50%（当前133/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2200/thinking-sampled-t1-p1/responses/0.5",
+    "utc": 1792859549.4428566,
+    "message": "game-stage1-3shift-2200 · Thinking · 1 / 1：回答达到 50%（当前123/246）"
+  },
+  {
+    "id": "game-stage1-3shift-2300/thinking-sampled-t1-p1/responses/0.75",
+    "utc": 1792859581.4906611,
+    "message": "game-stage1-3shift-2300 · Thinking · 1 / 1：回答达到 75%（当前189/246）"
   }
 ]
