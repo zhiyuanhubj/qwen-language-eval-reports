@@ -1,8 +1,12 @@
 {
-  "utc": 1792777075.2362707,
+  "utc": 1792849568.0005882,
   "queued_evaluation_job": 3037,
   "candidate_inference_started": false,
-  "existing2733_preserved": true,
-  "reason": "Beam Pro sampled trial still active even during0percent GPU utilization; observed completion17:36:41UTC on2026-10-23. Do not stop its server or harness.",
-  "first_batch_weights": "2000/2100 prefetched and hash verified on2733; continuation downloader checks actual local files before reuse; other hosts download pinned revisions normally"
+  "running_owned_gpu_allocations": {
+    "2989": "8GPUs99-100percent;MusePro tests active",
+    "2886": "two nodes,16GPUs98percent;MuseBF16 tests active"
+  },
+  "original2733": "ended;same physical node now allocated to2989;no reuse of expiredallocation",
+  "reason": "No unused owned GPU node available.3037pendingPriority.3800added as firstbatch with pinned HF revision.",
+  "short_job_probes": "2h,4h and sharednode32CPU1000GiB probes yielded later new-job scheduling estimates, so preserved original3037 queue age."
 }
