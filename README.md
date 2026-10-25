@@ -1,5 +1,8 @@
 # Qwen language evaluation reports
 
+<!-- last-stage1-stage2-checkpoint-logs -->
+**旧Stage1 / Stage2最后checkpoint完整日志：** [Stage1 step4100 / Stage2 step4000全部题目下载包](last-checkpoint-full-logs/README.md)，含四组设置、完整thinking和final、评分及运行日志。
+
 <!-- stage1-2000plus-latest -->
 **Stage1-3Shift 2000至3800每100step补测：** [V2完整对照报告](game-stage1-3shift-2000plus-20261023/report-v2-modes.html) · [实时进度](game-stage1-3shift-2000plus-20261023/progress.md)。复用2800，新增18个checkpoint按计划分批执行，当前状态见进度快照。
 

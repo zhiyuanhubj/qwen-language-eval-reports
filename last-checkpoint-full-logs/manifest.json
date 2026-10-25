@@ -1,0 +1,94 @@
+{
+  "source_commit": "a1fed35f881322bf43a1d1af0e651a1c3910bac3",
+  "created_utc": 1792901215.870869,
+  "bundles": [
+    {
+      "stage": "stage1",
+      "step": 4100,
+      "archive": "stage1-step-4100-all-questions.zip",
+      "bytes": 7848104,
+      "archive_sha256": "f68a9726d63faca9878119bcc1393a13de0a92f49dc6af7e3716c822adcd2d0c",
+      "answers": 984,
+      "valid_scores": 984,
+      "settings": [
+        {
+          "mode": "thinking-sampled",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 246
+        },
+        {
+          "mode": "thinking-sampled-t1-p1",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 246
+        },
+        {
+          "mode": "nonthinking-notags-t06-p095",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 246
+        },
+        {
+          "mode": "nonthinking-notags-t1-p1",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 246
+        }
+      ]
+    },
+    {
+      "stage": "stage2",
+      "step": 4000,
+      "archive": "stage2-step-4000-all-questions.zip",
+      "bytes": 7797228,
+      "archive_sha256": "3106a530381c735aa6718ea8e2cb4bf311100cdc315561fa2869925a2ebfdf64",
+      "answers": 984,
+      "valid_scores": 983,
+      "settings": [
+        {
+          "mode": "thinking-sampled",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 245,
+          "missing_score_ids": [
+            "friend-CM02"
+          ],
+          "preserved_score_records_including_errors": 1225
+        },
+        {
+          "mode": "thinking-sampled-t1-p1",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 247
+        },
+        {
+          "mode": "nonthinking-notags-t06-p095",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 269
+        },
+        {
+          "mode": "nonthinking-notags-t1-p1",
+          "answers": 246,
+          "expected": 246,
+          "valid_sha_matched_scores": 246,
+          "missing_score_ids": [],
+          "preserved_score_records_including_errors": 246
+        }
+      ]
+    }
+  ]
+}
