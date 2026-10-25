@@ -1,7 +1,7 @@
 {
-  "utc": 1792889059.4460504,
+  "utc": 1792889185.6282258,
   "responses": 16721,
-  "graded": 16376,
+  "graded": 16721,
   "expected": 17712,
   "reused_checkpoint2800_responses": 984,
   "requested_grid_expected": 18696,
@@ -13,6 +13,7 @@
     "2900-3000",
     "3100-3200",
     "3300-3400",
+    "3500-3600",
     "3800"
   ],
   "total_batches": 10,
@@ -44,10 +45,10 @@
   },
   "scheduler": "RUNNING|ip-10-1-25-253",
   "batch_allocation_status": {
-    "utc": 1792888648.957356,
+    "utc": 1792889183.3625612,
     "job": "2989",
     "node": "ip-10-1-25-253",
-    "phase": "grading",
+    "phase": "partial",
     "generation_complete": false
   }
 }
