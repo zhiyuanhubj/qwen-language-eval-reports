@@ -1,5 +1,5 @@
 {
-  "utc": 1792892651.5498567,
+  "utc": 1792892777.7461505,
   "note": "2000至3800每100step完整补测（含两端），3800优先；已完成2800直接复用，不重复抽样。新增18个checkpoint，共17712条正式回答。沿用原246题、Thinking/NoTags、T0.6/p0.95和T1/p1、BF16、seed42、context32768、output16384。每批最多2个checkpoint，最多8个单卡候选服务，然后同一V4.1辅助评分。原rubric和完整候选回答不变，评分JSON解释设长度上限；只对JSON字符串中的未转义控制字符做无损读取并保留评分原文。尚未生成或尚未评分的项目保持未完成。表格还包含100/500/1000/1500及2800既有结果。 运行快照：作业2989 RUNNING|ip-10-1-25-253；已完成批次9/10。",
   "results": [
     {
@@ -6599,17 +6599,17 @@
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 102,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 90.52,
-        "language": 93.97,
-        "logic": 89.28,
-        "instruction": 49.8,
-        "completeness": 52.08
+        "accuracy": 90.91,
+        "language": 95.2,
+        "logic": 89.74,
+        "instruction": 49.69,
+        "completeness": 52.36
       },
-      "overall": 75.13,
+      "overall": 75.58,
       "missing_final": 125,
       "length_limited": 13
     },
@@ -6702,17 +6702,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 102,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 69.12,
-        "language": 75.36,
-        "logic": 67.2,
-        "instruction": 40.42,
-        "completeness": 42.72
+        "accuracy": 71.5,
+        "language": 78.3,
+        "logic": 69.42,
+        "instruction": 41.82,
+        "completeness": 44.31
       },
-      "overall": 58.96,
+      "overall": 61.07,
       "missing_final": 124,
       "length_limited": 0
     },
@@ -6805,17 +6805,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 102,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 92.23,
-        "language": 99.9,
-        "logic": 91.71,
-        "instruction": 94.23,
-        "completeness": 92
+        "accuracy": 89.62,
+        "language": 99.92,
+        "logic": 89.16,
+        "instruction": 94.5,
+        "completeness": 90.71
       },
-      "overall": 94.01,
+      "overall": 92.78,
       "missing_final": 0,
       "length_limited": 0
     },
@@ -6908,17 +6908,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 102,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 78.17,
-        "language": 93.21,
-        "logic": 77.8,
-        "instruction": 86.29,
-        "completeness": 80.95
+        "accuracy": 75.53,
+        "language": 93.92,
+        "logic": 75.46,
+        "instruction": 86.11,
+        "completeness": 79.51
       },
-      "overall": 83.28,
+      "overall": 82.11,
       "missing_final": 0,
       "length_limited": 0
     },

@@ -1,0 +1,8 @@
+{
+  "started_utc": 1792849769.061862,
+  "job": 2989,
+  "worker_returncode": 0,
+  "cleanup_returncode": 0,
+  "muse_restore_requested": true,
+  "finished_utc": 1792892746.112527
+}

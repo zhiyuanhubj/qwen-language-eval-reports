@@ -1,7 +1,6 @@
 {
-  "utc": 1792889325.373263,
+  "utc": 1792892745.8769183,
   "job": "2989",
   "host": "ip-10-1-25-253",
-  "phase": "evaluating_and_grading",
-  "batch": "3700"
+  "phase": "all_batches_finished"
 }
