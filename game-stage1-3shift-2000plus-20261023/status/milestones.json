@@ -2708,5 +2708,10 @@
     "id": "game-stage1-3shift-3600/thinking-sampled/responses/0.75",
     "utc": 1792886394.7558584,
     "message": "game-stage1-3shift-3600 · Thinking · 0.6 / 0.95：回答达到 75%（当前185/246）"
+  },
+  {
+    "id": "phase/3500-3600/loading_judge",
+    "utc": 1792887976.474227,
+    "message": "当前批次 3500-3600：loading_judge"
   }
 ]

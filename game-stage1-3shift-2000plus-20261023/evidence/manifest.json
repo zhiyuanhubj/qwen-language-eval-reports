@@ -1,5 +1,5 @@
 {
-  "utc": 1792887862.236042,
+  "utc": 1792887983.3161263,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-3100.metadata.json.gz",
@@ -7,6 +7,13 @@
       "bytes": 703,
       "stat_size": 703,
       "stat_mtime_ns": 1792875508000000000
+    },
+    {
+      "path": "thinking-sampled/game-stage1-3shift-3600.objective.json.gz",
+      "uncompressed_sha256": "16f98c54ad8d8a1aa4cbdf5ac97b98787097699270debf869f6cd36e73c5ad77",
+      "bytes": 24727,
+      "stat_size": 24727,
+      "stat_mtime_ns": 1792887962000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-2500.jsonl.gz",
@@ -563,10 +570,10 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-3600.jsonl.gz",
-      "uncompressed_sha256": "1292d5987c59d66701d5fc398560a05b8ae29f75c565197543d742f02ddd2041",
-      "bytes": 8616843,
-      "stat_size": 8616843,
-      "stat_mtime_ns": 1792887464000000000
+      "uncompressed_sha256": "42d9a4b32c196e280e3125c2081df42d7238e3917c8b26e9ad3729612ffbb36e",
+      "bytes": 8925976,
+      "stat_size": 8925976,
+      "stat_mtime_ns": 1792887961000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-2700.metadata.json.gz",
@@ -3286,10 +3293,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "8ba13a1f43f52221a4aab6f486958e67b9e38c6deb96381f1578a79c7157826c",
-      "bytes": 2356708,
-      "stat_size": 2356708,
-      "stat_mtime_ns": 1792887818000000000
+      "uncompressed_sha256": "e16cf1ea1a4810c89e881c6eea3c3d17b6dc77791c6cb1a9aab53c522c784979",
+      "bytes": 2360317,
+      "stat_size": 2360317,
+      "stat_mtime_ns": 1792887939000000000
     },
     {
       "path": "logs/download-3800-2989.log.gz",
@@ -4252,10 +4259,10 @@
     },
     {
       "path": "batches/3500-3600/logs/run.log.gz",
-      "uncompressed_sha256": "b08af110ce728e2b0e1165372b3b02174025b2cfaec224098da3f32f0f53ff53",
-      "bytes": 1817,
-      "stat_size": 1817,
-      "stat_mtime_ns": 1792887364000000000
+      "uncompressed_sha256": "5aeb80b48c8e466a4f1beb1e545946b447e0bfed15018e40d7dc226abbc2fccb",
+      "bytes": 1902,
+      "stat_size": 1902,
+      "stat_mtime_ns": 1792887968000000000
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3500.nonthinking-notags-t06-p095.server.log.gz",
@@ -4294,10 +4301,10 @@
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3600.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "f1151d8ff01f2c1475d5aeb653de9b14ac3e7b420776bebc79ef8d78dfc59393",
-      "bytes": 4544,
-      "stat_size": 4544,
-      "stat_mtime_ns": 1792887464000000000
+      "uncompressed_sha256": "b00a3aebd76fa86edfd907c056d430a3ff82a0122d04e03130e101aabe119814",
+      "bytes": 4579,
+      "stat_size": 4579,
+      "stat_mtime_ns": 1792887961000000000
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3500.nonthinking-notags-t06-p095.client.log.gz",
@@ -4312,6 +4319,13 @@
       "bytes": 50203,
       "stat_size": 50203,
       "stat_mtime_ns": 1792884210000000000
+    },
+    {
+      "path": "batches/3500-3600/logs/judge-server.log.gz",
+      "uncompressed_sha256": "07cb1ec4b9cf120abec129081d50ec93d2035e3f9ebf88c482ac702ac99a0f3b",
+      "bytes": 3214,
+      "stat_size": 3214,
+      "stat_mtime_ns": 1792887980000000000
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3500.nonthinking-notags-t1-p1.server.log.gz",
@@ -4329,10 +4343,10 @@
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3600.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "86a6b18b11b64773f41f4aa59b705e80b54ee49489b0cd55e48677240267108e",
-      "bytes": 142993,
-      "stat_size": 142993,
-      "stat_mtime_ns": 1792887857000000000
+      "uncompressed_sha256": "bc723db314bcf7cfaa450031f943920f0232dc6beaf77511528d77eb15606803",
+      "bytes": 147735,
+      "stat_size": 147735,
+      "stat_mtime_ns": 1792887967000000000
     },
     {
       "path": "batches/3500-3600/logs/game-stage1-3shift-3500.thinking-sampled-t1-p1.server.log.gz",

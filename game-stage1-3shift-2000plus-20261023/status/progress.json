@@ -1,6 +1,6 @@
 {
-  "utc": 1792887855.8742487,
-  "responses": 16720,
+  "utc": 1792887976.4092886,
+  "responses": 16721,
   "graded": 14755,
   "expected": 17712,
   "reused_checkpoint2800_responses": 984,
@@ -42,5 +42,12 @@
     "never_started_muse_tasks_for_later": 32,
     "restore_receipt": "/fsx/home/zhiyuan/.private/qwen-language-node-handoff-20261024/before-cutover.json"
   },
-  "scheduler": "RUNNING|ip-10-1-25-253"
+  "scheduler": "RUNNING|ip-10-1-25-253",
+  "batch_allocation_status": {
+    "utc": 1792887968.0733986,
+    "job": "2989",
+    "node": "ip-10-1-25-253",
+    "phase": "loading_judge",
+    "generation_complete": false
+  }
 }
