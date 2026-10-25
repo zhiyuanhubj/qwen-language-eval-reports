@@ -1,5 +1,5 @@
 {
-  "utc": 1792890402.2931948,
+  "utc": 1792890603.0150044,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-3100.metadata.json.gz",
@@ -395,10 +395,10 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-3700.jsonl.gz",
-      "uncompressed_sha256": "9e21f55b1d84b0fb354473657a017fb243133beb3e87762537455997300e522a",
-      "bytes": 762233,
-      "stat_size": 762233,
-      "stat_mtime_ns": 1792890277000000000
+      "uncompressed_sha256": "0ed15a7475074fecbdc0c8a97b4bde7950d726af24d3be9710de0c2e8725e59d",
+      "bytes": 1002024,
+      "stat_size": 1002024,
+      "stat_mtime_ns": 1792890596000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-3400.metadata.json.gz",
@@ -3510,10 +3510,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "6ff76674ac1a3a6d3212807db6ee71d0ca186bdacedf443b2de7c4fdc2adb305",
-      "bytes": 2437313,
-      "stat_size": 2437313,
-      "stat_mtime_ns": 1792890356000000000
+      "uncompressed_sha256": "9b138c53ca61cf96baa31eb7da9f6ca278bad4b2d73f5cca883493b1788856ee",
+      "bytes": 2443361,
+      "stat_size": 2443361,
+      "stat_mtime_ns": 1792890557000000000
     },
     {
       "path": "logs/download-3800-2989.log.gz",
@@ -3979,10 +3979,10 @@
     },
     {
       "path": "batches/3700/logs/game-stage1-3shift-3700.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "76fa89c6d10032bd181593685258dabc5ce89886b76873cf026bbbb9e0cc9434",
-      "bytes": 53808,
-      "stat_size": 53808,
-      "stat_mtime_ns": 1792890393000000000
+      "uncompressed_sha256": "1faf00330e96a10dd3433b97f0acb2cfa1b9b319ee6b3b63f842cb59d4cabe18",
+      "bytes": 59464,
+      "stat_size": 59464,
+      "stat_mtime_ns": 1792890596000000000
     },
     {
       "path": "batches/3700/logs/game-stage1-3shift-3700.thinking-sampled-t1-p1.server.log.gz",
@@ -4000,10 +4000,10 @@
     },
     {
       "path": "batches/3700/logs/game-stage1-3shift-3700.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "dbfe26158bfaefdf263742df622372aaddf4d7bb17b0f8b452eeeb9fae8acb2b",
-      "bytes": 1423,
-      "stat_size": 1423,
-      "stat_mtime_ns": 1792890277000000000
+      "uncompressed_sha256": "9bd00bb2b46b1ddc7b0774ca52af5a442b27c19983f51417ef7dd5b92e85f39d",
+      "bytes": 1527,
+      "stat_size": 1527,
+      "stat_mtime_ns": 1792890596000000000
     },
     {
       "path": "batches/3700/logs/download.log.gz",
