@@ -2878,5 +2878,15 @@
     "id": "phase/3500-3600/partial",
     "utc": 1792889185.8631964,
     "message": "当前批次 3500-3600：partial"
+  },
+  {
+    "id": "phase/3700/downloading",
+    "utc": 1792889235.48585,
+    "message": "当前批次 3700：downloading"
+  },
+  {
+    "id": "phase/3700/evaluating_and_grading",
+    "utc": 1792889348.2294004,
+    "message": "当前批次 3700：evaluating_and_grading"
   }
 ]
