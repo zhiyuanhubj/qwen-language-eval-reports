@@ -2948,5 +2948,10 @@
     "id": "game-stage1-3shift-3700/thinking-sampled/responses/0.25",
     "utc": 1792890193.8908148,
     "message": "game-stage1-3shift-3700 · Thinking · 0.6 / 0.95：回答达到 25%（当前74/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/thinking-sampled-t1-p1/responses/1",
+    "utc": 1792890356.8096304,
+    "message": "game-stage1-3shift-3700 · Thinking · 1 / 1：回答达到 100%（当前246/246）"
   }
 ]
