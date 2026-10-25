@@ -2973,5 +2973,10 @@
     "id": "phase/3700/loading_judge",
     "utc": 1792891760.4719994,
     "message": "当前批次 3700：loading_judge"
+  },
+  {
+    "id": "phase/3700/grading",
+    "utc": 1792892451.5377228,
+    "message": "当前批次 3700：grading"
   }
 ]
