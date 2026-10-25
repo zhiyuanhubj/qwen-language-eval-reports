@@ -2908,5 +2908,30 @@
     "id": "game-stage1-3shift-3700/nonthinking-notags-t1-p1/responses/0.5",
     "utc": 1792889587.7260387,
     "message": "game-stage1-3shift-3700 · NoTags · 1 / 1：回答达到 50%（当前156/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1792889638.0037374,
+    "message": "game-stage1-3shift-3700 · NoTags · 0.6 / 0.95：回答达到 75%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/nonthinking-notags-t06-p095/responses/1",
+    "utc": 1792889638.0037374,
+    "message": "game-stage1-3shift-3700 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1792889638.0037374,
+    "message": "game-stage1-3shift-3700 · NoTags · 1 / 1：回答达到 75%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1792889638.0037374,
+    "message": "game-stage1-3shift-3700 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-3700/thinking-sampled-t1-p1/responses/0.25",
+    "utc": 1792889789.9660895,
+    "message": "game-stage1-3shift-3700 · Thinking · 1 / 1：回答达到 25%（当前64/246）"
   }
 ]
