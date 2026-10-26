@@ -293,5 +293,55 @@
     "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/graded/0.5",
     "utc": 1793006846.9992497,
     "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：评分达到 50%（当前130/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled/graded/0.75",
+    "utc": 1793006948.4937332,
+    "message": "game-stage1-3shift-4500 · Thinking · 0.6 / 0.95：评分达到 75%（当前228/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled-t1-p1/graded/0.75",
+    "utc": 1793006948.4937332,
+    "message": "game-stage1-3shift-4500 · Thinking · 1 / 1：评分达到 75%（当前227/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/graded/0.75",
+    "utc": 1793006948.4937332,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：评分达到 75%（当前228/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/graded/0.75",
+    "utc": 1793006948.4937332,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：评分达到 75%（当前227/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled/graded/1",
+    "utc": 1793006979.769634,
+    "message": "game-stage1-3shift-4500 · Thinking · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled-t1-p1/graded/1",
+    "utc": 1793006979.769634,
+    "message": "game-stage1-3shift-4500 · Thinking · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/graded/1",
+    "utc": 1793006979.769634,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/graded/1",
+    "utc": 1793006979.769634,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "batch-done/4000-4500",
+    "utc": 1793007011.0835373,
+    "message": "批次 4000-4500：回答、评分及SHA对应关系已校验，准备后续批次"
+  },
+  {
+    "id": "phase/4000-4500/finished",
+    "utc": 1793007011.0835373,
+    "message": "当前批次 4000-4500：finished"
   }
 ]
