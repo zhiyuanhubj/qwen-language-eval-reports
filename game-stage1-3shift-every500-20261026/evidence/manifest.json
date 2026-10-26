@@ -1,5 +1,5 @@
 {
-  "utc": 1793008023.5497837,
+  "utc": 1793008228.9782317,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-4500.smoke.metadata.json.gz",
@@ -45,10 +45,10 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-5000.jsonl.gz",
-      "uncompressed_sha256": "b7bec62ce41fecc36d1fc058fe562e9fbe43adbbb57677e796702ac9326a4e41",
-      "bytes": 2451088,
-      "stat_size": 2451088,
-      "stat_mtime_ns": 1793008020000000000
+      "uncompressed_sha256": "0c11f2a9271a45cbb8b6396c279ff987818f76e34444732542bed386269abce2",
+      "bytes": 4443199,
+      "stat_size": 4443199,
+      "stat_mtime_ns": 1793008226000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-4000.smoke.jsonl.gz",
@@ -108,10 +108,10 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-5500.jsonl.gz",
-      "uncompressed_sha256": "9231fa99ccf70c11992463ca058364cc6c2ca88a0d144b9e916859b270726662",
-      "bytes": 4295053,
-      "stat_size": 4295053,
-      "stat_mtime_ns": 1793008021000000000
+      "uncompressed_sha256": "733fa4818830665e2e736b01dc5e476a75a7c3b0499b5666fb091900551f4df5",
+      "bytes": 4456480,
+      "stat_size": 4456480,
+      "stat_mtime_ns": 1793008066000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-5000.smoke.metadata.json.gz",
@@ -731,10 +731,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "c4694201b6ea962872882da4c4e94db5ce00b40669b6b9eecf8106f47eba757f",
-      "bytes": 134255,
-      "stat_size": 134255,
-      "stat_mtime_ns": 1793007983000000000
+      "uncompressed_sha256": "a9df907aae9471adadd4e3bb41db6b2f36ef9ea64002840e30e3469a189e3e86",
+      "bytes": 139665,
+      "stat_size": 139665,
+      "stat_mtime_ns": 1793008185000000000
     },
     {
       "path": "logs/prefetch-first.log.gz",
@@ -773,17 +773,17 @@
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5000.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "24691f686f495b40f0887dade7eac862686bcd8dee3ff29b19d3a44861fc7b2c",
-      "bytes": 2119,
-      "stat_size": 2119,
-      "stat_mtime_ns": 1793008020000000000
+      "uncompressed_sha256": "81f578d859e21b79f3ac4d9a91f07a4d2153221edcc5887f50284641115eceb6",
+      "bytes": 4410,
+      "stat_size": 4410,
+      "stat_mtime_ns": 1793008226000000000
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5500.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "29bfcd7a268eb2929448ebf343cd12b71c4d90b2d07cf31b9255981ce556dc71",
-      "bytes": 60129,
-      "stat_size": 60129,
-      "stat_mtime_ns": 1793008021000000000
+      "uncompressed_sha256": "94a14bb30c4cea2ac71582580ba0d9d5978ae56570533e83fcbe2c4c438c871f",
+      "bytes": 65811,
+      "stat_size": 65811,
+      "stat_mtime_ns": 1793008228000000000
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5000.nonthinking-notags-t1-p1.server.log.gz",
@@ -808,17 +808,17 @@
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5000.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "eb0b89838afa238cab8b43c0a1fbab1e6f13f05e21238ac85b7e814f761e8ef2",
-      "bytes": 51699,
-      "stat_size": 51699,
-      "stat_mtime_ns": 1793008020000000000
+      "uncompressed_sha256": "414fc4839b211c4c266f026f00e0485bc90c6452cd9a0c1aa097699d6000b94e",
+      "bytes": 65054,
+      "stat_size": 65054,
+      "stat_mtime_ns": 1793008226000000000
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5500.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "0c62c572ba0ab2e59f531dbc7b45445a8afc1b8bd7e3a0241df64253f97a0f29",
-      "bytes": 4484,
-      "stat_size": 4484,
-      "stat_mtime_ns": 1793008021000000000
+      "uncompressed_sha256": "a982b4daa50363d82c704f1b469ece4627fe2bed979cf1154c281c9e82fdb9ed",
+      "bytes": 4534,
+      "stat_size": 4534,
+      "stat_mtime_ns": 1793008066000000000
     },
     {
       "path": "batches/5000-5500/logs/game-stage1-3shift-5000.thinking-sampled-t1-p1.server.log.gz",
