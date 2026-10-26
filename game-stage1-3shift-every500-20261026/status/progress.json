@@ -1,5 +1,5 @@
 {
-  "utc": 1793007010.9942153,
+  "utc": 1793007207.0764055,
   "responses": 1968,
   "graded": 1968,
   "expected": 4920,
@@ -19,8 +19,8 @@
   "total_batches": 3,
   "terminal": false,
   "current_batch": {
-    "utc": 1793003132.444018,
-    "batch": "4000-4500",
+    "utc": 1793007136.7429407,
+    "batch": "5000-5500",
     "job": "2989",
     "host": "ip-10-1-25-253",
     "phase": "evaluating_and_grading"
@@ -41,12 +41,5 @@
     "private_restore_receipt": "/fsx/home/zhiyuan/.private/qwen-every500-node-handoff-20261026/server-before-cutover.json",
     "active_Muse_trials_interrupted": 0
   },
-  "scheduler": "RUNNING|ip-10-1-25-253",
-  "batch_allocation_status": {
-    "utc": 1793007006.6638818,
-    "job": "2989",
-    "node": "ip-10-1-25-253",
-    "phase": "finished",
-    "generation_complete": true
-  }
+  "scheduler": "RUNNING|ip-10-1-25-253"
 }
