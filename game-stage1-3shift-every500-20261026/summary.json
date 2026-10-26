@@ -1,5 +1,5 @@
 {
-  "utc": 1793009502.6114433,
+  "utc": 1793009547.6364295,
   "note": "Game Stage1-3Shift每500step详细补测。新增4000/4500/5000/5500/6000，共4920条回答；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。",
   "results": [
     {
@@ -844,11 +844,17 @@
       "mode": "thinking-sampled",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 28,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 88.14,
+        "language": 100,
+        "logic": 88.04,
+        "instruction": 46.61,
+        "completeness": 47.86
+      },
+      "overall": 74.13,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -929,11 +935,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 27,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 75.56,
+        "language": 94.81,
+        "logic": 78.33,
+        "instruction": 40.19,
+        "completeness": 44.07
+      },
+      "overall": 66.59,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -1014,11 +1026,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 28,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 90.71,
+        "language": 100,
+        "logic": 91.79,
+        "instruction": 91.25,
+        "completeness": 89.29
+      },
+      "overall": 92.61,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
@@ -1099,11 +1117,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 27,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 83.52,
+        "language": 99.81,
+        "logic": 85,
+        "instruction": 87.04,
+        "completeness": 85
+      },
+      "overall": 88.07,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
