@@ -8,7 +8,8 @@ def read(p):
  if p.exists():
   for l in p.open():
    if not l.strip():continue
-   r=json.loads(l)
+   try:r=json.loads(l)
+   except json.JSONDecodeError:continue
    if r.get('status')=='ok':out[r['id']]=r
  return out
 

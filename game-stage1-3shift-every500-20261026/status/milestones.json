@@ -3,5 +3,90 @@
     "id": "phase/4000-4500/evaluating_and_grading",
     "utc": 1793003297.2205837,
     "message": "当前批次 4000-4500：evaluating_and_grading"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t06-p095/responses/0.25",
+    "utc": 1793003335.7321875,
+    "message": "game-stage1-3shift-4000 · NoTags · 0.6 / 0.95：回答达到 25%（当前77/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t06-p095/responses/0.5",
+    "utc": 1793003366.028782,
+    "message": "game-stage1-3shift-4000 · NoTags · 0.6 / 0.95：回答达到 50%（当前137/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t1-p1/responses/0.25",
+    "utc": 1793003366.028782,
+    "message": "game-stage1-3shift-4000 · NoTags · 1 / 1：回答达到 25%（当前98/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/responses/0.25",
+    "utc": 1793003366.028782,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：回答达到 25%（当前93/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1793003396.6525686,
+    "message": "game-stage1-3shift-4000 · NoTags · 0.6 / 0.95：回答达到 75%（当前199/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t1-p1/responses/0.5",
+    "utc": 1793003396.6525686,
+    "message": "game-stage1-3shift-4000 · NoTags · 1 / 1：回答达到 50%（当前139/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/responses/0.5",
+    "utc": 1793003396.6525686,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：回答达到 50%（当前139/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/responses/0.25",
+    "utc": 1793003396.6525686,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：回答达到 25%（当前105/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t06-p095/responses/1",
+    "utc": 1793003427.3885741,
+    "message": "game-stage1-3shift-4000 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1793003427.3885741,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：回答达到 75%（当前223/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/responses/0.5",
+    "utc": 1793003427.3885741,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：回答达到 50%（当前142/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1793003457.8510005,
+    "message": "game-stage1-3shift-4000 · NoTags · 1 / 1：回答达到 75%（当前245/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t06-p095/responses/1",
+    "utc": 1793003457.8510005,
+    "message": "game-stage1-3shift-4500 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1793003457.8510005,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：回答达到 75%（当前219/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4000/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1793003489.704884,
+    "message": "game-stage1-3shift-4000 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled-t1-p1/responses/0.25",
+    "utc": 1793003489.704884,
+    "message": "game-stage1-3shift-4500 · Thinking · 1 / 1：回答达到 25%（当前64/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1793003489.704884,
+    "message": "game-stage1-3shift-4500 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
   }
 ]
