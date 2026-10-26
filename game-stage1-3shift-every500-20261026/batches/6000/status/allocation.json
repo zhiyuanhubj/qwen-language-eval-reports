@@ -1,7 +1,7 @@
 {
-  "utc": 1793012203.33757,
+  "utc": 1793013009.40931,
   "job": "2989",
   "node": "ip-10-1-25-253",
-  "phase": "loading_judge",
+  "phase": "grading",
   "generation_complete": true
 }

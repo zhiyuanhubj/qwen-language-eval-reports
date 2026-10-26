@@ -1,5 +1,5 @@
 {
-  "utc": 1793012854.1946592,
+  "utc": 1793013027.9349127,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-4500.smoke.metadata.json.gz",
@@ -730,11 +730,25 @@
       "stat_mtime_ns": 1793009967000000000
     },
     {
+      "path": "scores100/nonthinking-notags-t1-p1-game-stage1-3shift-6000.jsonl.gz",
+      "uncompressed_sha256": "cb28b775838a0a8017f7bd6efe3bd383fd40714f65c5f4787a25c5ae1a983752",
+      "bytes": 44367,
+      "stat_size": 44367,
+      "stat_mtime_ns": 1793013026000000000
+    },
+    {
+      "path": "scores100/nonthinking-notags-t06-p095-game-stage1-3shift-6000.jsonl.gz",
+      "uncompressed_sha256": "0e0ab7674bc823bfb7d0bd8eaa17864b2675eda3ac4578318b4a3acab14d422f",
+      "bytes": 46586,
+      "stat_size": 46586,
+      "stat_mtime_ns": 1793013027000000000
+    },
+    {
       "path": "scores100/rubric.json.gz",
       "uncompressed_sha256": "16e869b04a561f5ec7771d56ff5495ee1f726227414f4c7c2f6f2cf93fabab23",
       "bytes": 3836,
       "stat_size": 3836,
-      "stat_mtime_ns": 1793009518000000000
+      "stat_mtime_ns": 1793013010000000000
     },
     {
       "path": "scores100/thinking-sampled-game-stage1-3shift-4000.jsonl.gz",
@@ -742,6 +756,13 @@
       "bytes": 949598,
       "stat_size": 949598,
       "stat_mtime_ns": 1793006744000000000
+    },
+    {
+      "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-6000.jsonl.gz",
+      "uncompressed_sha256": "63e6403c394b7becfa4cb980f82f341ad3402ea761de89137e28bd4e42ac534f",
+      "bytes": 50270,
+      "stat_size": 50270,
+      "stat_mtime_ns": 1793013027000000000
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-5000.jsonl.gz",
@@ -798,6 +819,13 @@
       "bytes": 1001298,
       "stat_size": 1001298,
       "stat_mtime_ns": 1793006744000000000
+    },
+    {
+      "path": "scores100/thinking-sampled-game-stage1-3shift-6000.jsonl.gz",
+      "uncompressed_sha256": "682c1c6aef89407341a3d3a53c4c60d8367e62818ee5c87ba4f67e78bf8b83bc",
+      "bytes": 52561,
+      "stat_size": 52561,
+      "stat_mtime_ns": 1793013027000000000
     },
     {
       "path": "scores100/nonthinking-notags-t1-p1-game-stage1-3shift-5500.jsonl.gz",
@@ -969,10 +997,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "fe0097af3a64747bdbd111c27ab7c4d84b93f0e87d8336e090af2ac669f5162f",
-      "bytes": 270470,
-      "stat_size": 270470,
-      "stat_mtime_ns": 1793012812000000000
+      "uncompressed_sha256": "e23022a0bdb0632941ae200b9069ecde11226a3c1c026a1898f5e0942f90be46",
+      "bytes": 275764,
+      "stat_size": 275764,
+      "stat_mtime_ns": 1793012986000000000
     },
     {
       "path": "logs/prefetch-first.log.gz",
@@ -1270,10 +1298,10 @@
     },
     {
       "path": "batches/6000/logs/run.log.gz",
-      "uncompressed_sha256": "8cc863eb3bd04efac6b5f65022784b963fe94b2b2a396f6651a41118ef9090f8",
-      "bytes": 968,
-      "stat_size": 968,
-      "stat_mtime_ns": 1793012203000000000
+      "uncompressed_sha256": "9c5881ccb8df79d66cd348d3ae1b61915857f08a874f20a7c08e4b525a7fe22f",
+      "bytes": 987,
+      "stat_size": 987,
+      "stat_mtime_ns": 1793013009000000000
     },
     {
       "path": "batches/6000/logs/game-stage1-3shift-6000.thinking-sampled.server.log.gz",
@@ -1311,6 +1339,13 @@
       "stat_mtime_ns": 1793010429000000000
     },
     {
+      "path": "batches/6000/logs/judge.log.gz",
+      "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "stat_size": 0,
+      "stat_mtime_ns": 1793013009000000000
+    },
+    {
       "path": "batches/6000/logs/game-stage1-3shift-6000.nonthinking-notags-t1-p1.server.log.gz",
       "uncompressed_sha256": "381d5ba223b2dfb24fb5c3ca5157ba8aa80fe2009e5ff2a2a3bcfe04cc8a7df2",
       "bytes": 48633,
@@ -1319,10 +1354,10 @@
     },
     {
       "path": "batches/6000/logs/judge-server.log.gz",
-      "uncompressed_sha256": "80089a69ed2b5e92383010c24003689a847d5f429835c23677127c0550e5b077",
-      "bytes": 71200,
-      "stat_size": 71200,
-      "stat_mtime_ns": 1793012851000000000
+      "uncompressed_sha256": "feacc81f099d32d6bc94871c0a2aa9a57361409e295d099084f0194856ede465",
+      "bytes": 185419,
+      "stat_size": 185419,
+      "stat_mtime_ns": 1793013027000000000
     },
     {
       "path": "batches/6000/logs/game-stage1-3shift-6000.nonthinking-notags-t06-p095.server.log.gz",
