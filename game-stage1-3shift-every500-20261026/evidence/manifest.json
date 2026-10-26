@@ -1,5 +1,5 @@
 {
-  "utc": 1793011683.8611324,
+  "utc": 1793011894.0467923,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-4500.smoke.metadata.json.gz",
@@ -31,10 +31,10 @@
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-6000.jsonl.gz",
-      "uncompressed_sha256": "cc03ad62d1a3e87b99f1e6b5677199a3d5fdccb3b7d8c6613e1c6d6023d75950",
-      "bytes": 5325432,
-      "stat_size": 5325432,
-      "stat_mtime_ns": 1793011662000000000
+      "uncompressed_sha256": "8299b55eb314cf8f49b7c90915bf292834cabb67ad6454497a71feb25713f381",
+      "bytes": 5476709,
+      "stat_size": 5476709,
+      "stat_mtime_ns": 1793011715000000000
     },
     {
       "path": "thinking-sampled/game-stage1-3shift-4500.metadata.json.gz",
@@ -962,10 +962,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "a09240d7c8e435b46d8b526fa31ecb69b7decb50afd07b9aadc3307ee072bc40",
-      "bytes": 236876,
-      "stat_size": 236876,
-      "stat_mtime_ns": 1793011643000000000
+      "uncompressed_sha256": "fb63fe23a4d63481a81faa65b52d6f425694d86b4c4a9b91cb85bf64c37904ab",
+      "bytes": 242328,
+      "stat_size": 242328,
+      "stat_mtime_ns": 1793011850000000000
     },
     {
       "path": "logs/prefetch-first.log.gz",
@@ -1270,10 +1270,10 @@
     },
     {
       "path": "batches/6000/logs/game-stage1-3shift-6000.thinking-sampled.server.log.gz",
-      "uncompressed_sha256": "a430e1f118b36d6a18df0094d298b1dac14fe19a6b92750df35799e786e088a8",
-      "bytes": 77619,
-      "stat_size": 77619,
-      "stat_mtime_ns": 1793011682000000000
+      "uncompressed_sha256": "e6bb278ab4247770987248ca0f40e7b0774f77ff45a17379745deeea8158494b",
+      "bytes": 83154,
+      "stat_size": 83154,
+      "stat_mtime_ns": 1793011892000000000
     },
     {
       "path": "batches/6000/logs/download.log.gz",
@@ -1326,10 +1326,10 @@
     },
     {
       "path": "batches/6000/logs/game-stage1-3shift-6000.thinking-sampled.client.log.gz",
-      "uncompressed_sha256": "41d856676282c266fc174d3d830bcb180f2820b22d9033180184930e4b8d428d",
-      "bytes": 4544,
-      "stat_size": 4544,
-      "stat_mtime_ns": 1793011662000000000
+      "uncompressed_sha256": "fb808ba93c33208bc600f8cd1a01bcc49e4d52da1d2a5b27d0beeb85364c9dc4",
+      "bytes": 4560,
+      "stat_size": 4560,
+      "stat_mtime_ns": 1793011715000000000
     },
     {
       "path": "prompts.jsonl.gz",
