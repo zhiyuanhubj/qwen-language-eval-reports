@@ -1,19 +1,19 @@
 {
-  "utc": 1793004273.0041516,
+  "utc": 1793004465.5918994,
   "note": "Game Stage1-3Shift每500step详细补测。新增4000/4500/5000/5500/6000，共4920条回答；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。",
   "results": [
     {
       "model": "game-stage1-3shift-4000",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 101,
+      "responses": 113,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 98,
-      "length_limited": 0
+      "missing_final": 109,
+      "length_limited": 2
     },
     {
       "model": "game-stage1-3shift-4000",
@@ -300,26 +300,26 @@
       "model": "game-stage1-3shift-4500",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 114,
+      "responses": 122,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 111,
-      "length_limited": 8
+      "missing_final": 119,
+      "length_limited": 10
     },
     {
       "model": "game-stage1-3shift-4500",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 12,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 12,
       "length_limited": 0
     },
     {
