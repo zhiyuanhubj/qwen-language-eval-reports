@@ -1,5 +1,5 @@
 {
-  "utc": 1793013227.9581716,
+  "utc": 1793013303.2448823,
   "baseline_step": 3500,
   "method": "Same question IDs, same target language/mode/sampling, valid candidateSHA-matched scores. Each model paired separately with3500; paired IDs/n recorded. Single-seed model-assisted rubric scores, not causal/statistical claims. Multiturn history depends on preceding model replies; text-only diagnostic shown separately. Original raw and scores preserved.",
   "results": [
@@ -5358,38 +5358,38 @@
       "mode": "thinking-sampled",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 69,
+      "paired_n": 82,
       "candidate": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 93.51,
-          "language": 90.72,
-          "logic": 92.58,
-          "instruction": 48.86,
-          "completeness": 51.64
+          "accuracy": 92.9,
+          "language": 92.2,
+          "logic": 91.76,
+          "instruction": 48.67,
+          "completeness": 51.62
         },
-        "overall": 75.46,
-        "unparsed_final": 69,
-        "length_stop": 9,
-        "raw_unclosed": 68,
+        "overall": 75.43,
+        "unparsed_final": 82,
+        "length_stop": 10,
+        "raw_unclosed": 81,
         "no_assessable_answer": 1
       },
       "baseline": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 91.1,
-          "language": 89.64,
-          "logic": 90.16,
-          "instruction": 48.09,
-          "completeness": 50.62
+          "accuracy": 90.15,
+          "language": 91.16,
+          "logic": 89.1,
+          "instruction": 48.51,
+          "completeness": 50.65
         },
-        "overall": 73.92,
-        "unparsed_final": 67,
-        "length_stop": 10,
-        "raw_unclosed": 66,
+        "overall": 73.91,
+        "unparsed_final": 78,
+        "length_stop": 18,
+        "raw_unclosed": 77,
         "no_assessable_answer": 1
       },
-      "overall_delta": 1.54,
+      "overall_delta": 1.52,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -5459,7 +5459,20 @@
         "vision-07-1-zh",
         "vision-08-0-zh",
         "vision-08-1-zh",
-        "vision-09-0-zh"
+        "vision-09-0-zh",
+        "vision-09-1-zh",
+        "vision-10-0-zh",
+        "vision-10-1-zh",
+        "vision-11-0-zh",
+        "vision-11-1-zh",
+        "vision-12-0-zh",
+        "vision-12-1-zh",
+        "vision-13-0-zh",
+        "vision-13-1-zh",
+        "vision-14-0-zh",
+        "vision-14-1-zh",
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -5468,38 +5481,38 @@
       "mode": "thinking-sampled",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 150,
+      "paired_n": 163,
       "candidate": {
-        "n": 150,
+        "n": 163,
         "means": {
-          "accuracy": 86.51,
-          "language": 96.47,
-          "logic": 87.1,
-          "instruction": 45.75,
-          "completeness": 47.22
+          "accuracy": 85.84,
+          "language": 96.75,
+          "logic": 86.47,
+          "instruction": 46.03,
+          "completeness": 47.84
         },
-        "overall": 72.61,
-        "unparsed_final": 150,
-        "length_stop": 4,
-        "raw_unclosed": 145,
+        "overall": 72.59,
+        "unparsed_final": 163,
+        "length_stop": 5,
+        "raw_unclosed": 158,
         "no_assessable_answer": 4
       },
       "baseline": {
-        "n": 150,
+        "n": 163,
         "means": {
-          "accuracy": 89.85,
-          "language": 99.23,
-          "logic": 90.09,
-          "instruction": 47.06,
-          "completeness": 48.86
+          "accuracy": 89.87,
+          "language": 99.29,
+          "logic": 90.07,
+          "instruction": 47.14,
+          "completeness": 49.07
         },
-        "overall": 75.02,
-        "unparsed_final": 146,
-        "length_stop": 10,
-        "raw_unclosed": 145,
+        "overall": 75.09,
+        "unparsed_final": 159,
+        "length_stop": 11,
+        "raw_unclosed": 158,
         "no_assessable_answer": 1
       },
-      "overall_delta": -2.41,
+      "overall_delta": -2.5,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -5650,7 +5663,20 @@
         "vision-07-1-en",
         "vision-08-0-en",
         "vision-08-1-en",
-        "vision-09-0-en"
+        "vision-09-0-en",
+        "vision-09-1-en",
+        "vision-10-0-en",
+        "vision-10-1-en",
+        "vision-11-0-en",
+        "vision-11-1-en",
+        "vision-12-0-en",
+        "vision-12-1-en",
+        "vision-13-0-en",
+        "vision-13-1-en",
+        "vision-14-0-en",
+        "vision-14-1-en",
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     },
     {
@@ -11019,38 +11045,38 @@
       "mode": "thinking-sampled-t1-p1",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 69,
+      "paired_n": 82,
       "candidate": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 64.99,
-          "language": 66.9,
-          "logic": 63.7,
-          "instruction": 35.38,
-          "completeness": 37.88
+          "accuracy": 67.7,
+          "language": 68.4,
+          "logic": 65.89,
+          "instruction": 36.54,
+          "completeness": 39.26
         },
-        "overall": 53.77,
-        "unparsed_final": 69,
+        "overall": 55.56,
+        "unparsed_final": 82,
         "length_stop": 0,
-        "raw_unclosed": 65,
+        "raw_unclosed": 78,
         "no_assessable_answer": 4
       },
       "baseline": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 77.96,
-          "language": 77.51,
-          "logic": 74.91,
-          "instruction": 42.33,
-          "completeness": 45.7
+          "accuracy": 77.28,
+          "language": 75.62,
+          "logic": 73.79,
+          "instruction": 41.48,
+          "completeness": 45.22
         },
-        "overall": 63.68,
-        "unparsed_final": 69,
+        "overall": 62.68,
+        "unparsed_final": 82,
         "length_stop": 0,
-        "raw_unclosed": 67,
+        "raw_unclosed": 80,
         "no_assessable_answer": 2
       },
-      "overall_delta": -9.91,
+      "overall_delta": -7.12,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -11120,7 +11146,20 @@
         "vision-07-1-zh",
         "vision-08-0-zh",
         "vision-08-1-zh",
-        "vision-09-0-zh"
+        "vision-09-0-zh",
+        "vision-09-1-zh",
+        "vision-10-0-zh",
+        "vision-10-1-zh",
+        "vision-11-0-zh",
+        "vision-11-1-zh",
+        "vision-12-0-zh",
+        "vision-12-1-zh",
+        "vision-13-0-zh",
+        "vision-13-1-zh",
+        "vision-14-0-zh",
+        "vision-14-1-zh",
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -11129,38 +11168,38 @@
       "mode": "thinking-sampled-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 151,
+      "paired_n": 164,
       "candidate": {
-        "n": 151,
+        "n": 164,
         "means": {
-          "accuracy": 81.64,
-          "language": 88.51,
-          "logic": 80.52,
-          "instruction": 42.34,
-          "completeness": 45.02
+          "accuracy": 81.22,
+          "language": 88.32,
+          "logic": 80.16,
+          "instruction": 42.55,
+          "completeness": 45.51
         },
-        "overall": 67.61,
-        "unparsed_final": 150,
+        "overall": 67.55,
+        "unparsed_final": 163,
         "length_stop": 0,
-        "raw_unclosed": 145,
+        "raw_unclosed": 158,
         "no_assessable_answer": 5
       },
       "baseline": {
-        "n": 151,
+        "n": 164,
         "means": {
-          "accuracy": 81.8,
-          "language": 89.35,
-          "logic": 81.97,
-          "instruction": 43.52,
-          "completeness": 45.23
+          "accuracy": 81.29,
+          "language": 89.46,
+          "logic": 81.36,
+          "instruction": 43.94,
+          "completeness": 46.03
         },
-        "overall": 68.37,
-        "unparsed_final": 148,
+        "overall": 68.42,
+        "unparsed_final": 160,
         "length_stop": 0,
-        "raw_unclosed": 144,
+        "raw_unclosed": 156,
         "no_assessable_answer": 3
       },
-      "overall_delta": -0.76,
+      "overall_delta": -0.87,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -11312,7 +11351,20 @@
         "vision-07-1-en",
         "vision-08-0-en",
         "vision-08-1-en",
-        "vision-09-0-en"
+        "vision-09-0-en",
+        "vision-09-1-en",
+        "vision-10-0-en",
+        "vision-10-1-en",
+        "vision-11-0-en",
+        "vision-11-1-en",
+        "vision-12-0-en",
+        "vision-12-1-en",
+        "vision-13-0-en",
+        "vision-13-1-en",
+        "vision-14-0-en",
+        "vision-14-1-en",
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     },
     {
@@ -16681,38 +16733,38 @@
       "mode": "nonthinking-notags-t06-p095",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 69,
+      "paired_n": 82,
       "candidate": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 88.99,
-          "language": 96.93,
-          "logic": 88.07,
-          "instruction": 92.97,
-          "completeness": 88.23
+          "accuracy": 85.88,
+          "language": 97.41,
+          "logic": 85.21,
+          "instruction": 92.62,
+          "completeness": 86.96
         },
-        "overall": 91.04,
+        "overall": 89.62,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
       "baseline": {
-        "n": 69,
+        "n": 82,
         "means": {
-          "accuracy": 92.59,
-          "language": 96.99,
-          "logic": 91.97,
-          "instruction": 93.43,
-          "completeness": 92.48
+          "accuracy": 88.56,
+          "language": 97.46,
+          "logic": 88.37,
+          "instruction": 93.62,
+          "completeness": 89.95
         },
-        "overall": 93.49,
+        "overall": 91.59,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
-      "overall_delta": -2.45,
+      "overall_delta": -1.97,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -16782,7 +16834,20 @@
         "vision-07-1-zh",
         "vision-08-0-zh",
         "vision-08-1-zh",
-        "vision-09-0-zh"
+        "vision-09-0-zh",
+        "vision-09-1-zh",
+        "vision-10-0-zh",
+        "vision-10-1-zh",
+        "vision-11-0-zh",
+        "vision-11-1-zh",
+        "vision-12-0-zh",
+        "vision-12-1-zh",
+        "vision-13-0-zh",
+        "vision-13-1-zh",
+        "vision-14-0-zh",
+        "vision-14-1-zh",
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -16791,38 +16856,38 @@
       "mode": "nonthinking-notags-t06-p095",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 153,
+      "paired_n": 164,
       "candidate": {
-        "n": 153,
+        "n": 164,
         "means": {
-          "accuracy": 91.18,
-          "language": 99.41,
-          "logic": 91.95,
-          "instruction": 95.18,
-          "completeness": 92.89
+          "accuracy": 91.71,
+          "language": 99.45,
+          "logic": 92.38,
+          "instruction": 95.51,
+          "completeness": 93.24
         },
-        "overall": 94.12,
+        "overall": 94.46,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
       "baseline": {
-        "n": 153,
+        "n": 164,
         "means": {
-          "accuracy": 91.44,
+          "accuracy": 91.13,
           "language": 100,
-          "logic": 92.03,
-          "instruction": 97.51,
-          "completeness": 94.69
+          "logic": 91.71,
+          "instruction": 97.52,
+          "completeness": 94.55
         },
-        "overall": 95.13,
+        "overall": 94.98,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
-      "overall_delta": -1.01,
+      "overall_delta": -0.52,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -16976,7 +17041,18 @@
         "vision-08-1-en",
         "vision-09-0-en",
         "vision-09-1-en",
-        "vision-10-0-en"
+        "vision-10-0-en",
+        "vision-10-1-en",
+        "vision-11-0-en",
+        "vision-11-1-en",
+        "vision-12-0-en",
+        "vision-12-1-en",
+        "vision-13-0-en",
+        "vision-13-1-en",
+        "vision-14-0-en",
+        "vision-14-1-en",
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     },
     {
@@ -22345,38 +22421,38 @@
       "mode": "nonthinking-notags-t1-p1",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 70,
+      "paired_n": 82,
       "candidate": {
-        "n": 70,
+        "n": 82,
         "means": {
-          "accuracy": 69.47,
-          "language": 89.43,
-          "logic": 67.8,
-          "instruction": 80.81,
-          "completeness": 71.73
+          "accuracy": 65.59,
+          "language": 90.12,
+          "logic": 64.28,
+          "instruction": 79.84,
+          "completeness": 69.4
         },
-        "overall": 75.85,
+        "overall": 73.85,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
       "baseline": {
-        "n": 70,
+        "n": 82,
         "means": {
-          "accuracy": 78.64,
-          "language": 93.4,
-          "logic": 77.97,
-          "instruction": 86.01,
-          "completeness": 82.01
+          "accuracy": 74.94,
+          "language": 93.94,
+          "logic": 74.37,
+          "instruction": 85.99,
+          "completeness": 78.49
         },
-        "overall": 83.61,
+        "overall": 81.54,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
-      "overall_delta": -7.76,
+      "overall_delta": -7.69,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -22447,7 +22523,19 @@
         "vision-08-0-zh",
         "vision-08-1-zh",
         "vision-09-0-zh",
-        "vision-09-1-zh"
+        "vision-09-1-zh",
+        "vision-10-0-zh",
+        "vision-10-1-zh",
+        "vision-11-0-zh",
+        "vision-11-1-zh",
+        "vision-12-0-zh",
+        "vision-12-1-zh",
+        "vision-13-0-zh",
+        "vision-13-1-zh",
+        "vision-14-0-zh",
+        "vision-14-1-zh",
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -22456,38 +22544,38 @@
       "mode": "nonthinking-notags-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 152,
+      "paired_n": 164,
       "candidate": {
-        "n": 152,
+        "n": 164,
         "means": {
-          "accuracy": 85.57,
-          "language": 97.01,
-          "logic": 86.01,
-          "instruction": 88.97,
-          "completeness": 87.53
+          "accuracy": 84.37,
+          "language": 96.71,
+          "logic": 84.8,
+          "instruction": 88.38,
+          "completeness": 86.64
         },
-        "overall": 89.02,
+        "overall": 88.18,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
       "baseline": {
-        "n": 152,
+        "n": 164,
         "means": {
-          "accuracy": 86.32,
-          "language": 97.72,
-          "logic": 86.87,
-          "instruction": 93.73,
-          "completeness": 90.67
+          "accuracy": 86.65,
+          "language": 97.09,
+          "logic": 87.02,
+          "instruction": 93.61,
+          "completeness": 90.84
         },
-        "overall": 91.06,
+        "overall": 91.04,
         "unparsed_final": 0,
         "length_stop": 0,
         "raw_unclosed": 0,
         "no_assessable_answer": 0
       },
-      "overall_delta": -2.04,
+      "overall_delta": -2.86,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -22640,7 +22728,19 @@
         "vision-08-0-en",
         "vision-08-1-en",
         "vision-09-0-en",
-        "vision-09-1-en"
+        "vision-09-1-en",
+        "vision-10-0-en",
+        "vision-10-1-en",
+        "vision-11-0-en",
+        "vision-11-1-en",
+        "vision-12-0-en",
+        "vision-12-1-en",
+        "vision-13-0-en",
+        "vision-13-1-en",
+        "vision-14-0-en",
+        "vision-14-1-en",
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     }
   ]

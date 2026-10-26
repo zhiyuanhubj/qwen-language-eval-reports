@@ -1,7 +1,7 @@
 {
-  "utc": 1793013224.1014552,
+  "utc": 1793013299.2988873,
   "responses": 4920,
-  "graded": 4810,
+  "graded": 4920,
   "expected": 4920,
   "reused_steps": [
     500,
@@ -15,10 +15,11 @@
   "requested_grid_expected": 11808,
   "finished_batches": [
     "4000-4500",
-    "5000-5500"
+    "5000-5500",
+    "6000"
   ],
   "total_batches": 3,
-  "terminal": false,
+  "terminal": true,
   "current_batch": {
     "utc": 1793010134.775229,
     "batch": "6000",
@@ -44,10 +45,10 @@
   },
   "scheduler": "RUNNING|ip-10-1-25-253",
   "batch_allocation_status": {
-    "utc": 1793013009.40931,
+    "utc": 1793013292.789145,
     "job": "2989",
     "node": "ip-10-1-25-253",
-    "phase": "grading",
+    "phase": "finished",
     "generation_complete": true
   }
 }
