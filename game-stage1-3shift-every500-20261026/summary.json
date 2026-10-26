@@ -1,5 +1,5 @@
 {
-  "utc": 1793007812.7710052,
+  "utc": 1793008014.54922,
   "note": "Game Stage1-3Shift每500step详细补测。新增4000/4500/5000/5500/6000，共4920条回答；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。",
   "results": [
     {
@@ -830,26 +830,26 @@
       "model": "game-stage1-3shift-5000",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 98,
+      "responses": 122,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 98,
-      "length_limited": 0
+      "missing_final": 122,
+      "length_limited": 8
     },
     {
       "model": "game-stage1-3shift-5000",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 0,
+      "responses": 2,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 2,
       "length_limited": 0
     },
     {
@@ -1124,39 +1124,39 @@
       "model": "game-stage1-3shift-5500",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 121,
+      "responses": 126,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 121,
-      "length_limited": 0
+      "missing_final": 126,
+      "length_limited": 5
     },
     {
       "model": "game-stage1-3shift-5500",
       "mode": "thinking-sampled",
       "subset": "benchmark72",
-      "responses": 16,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 16,
+      "missing_final": 72,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-5500",
       "mode": "thinking-sampled",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 41,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 40,
       "length_limited": 0
     },
     {
