@@ -583,5 +583,85 @@
     "id": "game-stage1-3shift-5000/nonthinking-notags-t1-p1/graded/0.75",
     "utc": 1793009714.6950886,
     "message": "game-stage1-3shift-5000 · NoTags · 1 / 1：评分达到 75%（当前203/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5000/thinking-sampled/graded/1",
+    "utc": 1793009787.9643443,
+    "message": "game-stage1-3shift-5000 · Thinking · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5000/thinking-sampled-t1-p1/graded/1",
+    "utc": 1793009787.9643443,
+    "message": "game-stage1-3shift-5000 · Thinking · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5000/nonthinking-notags-t06-p095/graded/1",
+    "utc": 1793009787.9643443,
+    "message": "game-stage1-3shift-5000 · NoTags · 0.6 / 0.95：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5000/nonthinking-notags-t1-p1/graded/1",
+    "utc": 1793009787.9643443,
+    "message": "game-stage1-3shift-5000 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled/graded/0.25",
+    "utc": 1793009819.902892,
+    "message": "game-stage1-3shift-5500 · Thinking · 0.6 / 0.95：评分达到 25%（当前99/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled-t1-p1/graded/0.25",
+    "utc": 1793009819.902892,
+    "message": "game-stage1-3shift-5500 · Thinking · 1 / 1：评分达到 25%（当前99/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t06-p095/graded/0.25",
+    "utc": 1793009819.902892,
+    "message": "game-stage1-3shift-5500 · NoTags · 0.6 / 0.95：评分达到 25%（当前99/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t1-p1/graded/0.25",
+    "utc": 1793009819.902892,
+    "message": "game-stage1-3shift-5500 · NoTags · 1 / 1：评分达到 25%（当前99/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled/graded/0.5",
+    "utc": 1793009852.1871774,
+    "message": "game-stage1-3shift-5500 · Thinking · 0.6 / 0.95：评分达到 50%（当前136/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled-t1-p1/graded/0.5",
+    "utc": 1793009852.1871774,
+    "message": "game-stage1-3shift-5500 · Thinking · 1 / 1：评分达到 50%（当前136/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t06-p095/graded/0.5",
+    "utc": 1793009852.1871774,
+    "message": "game-stage1-3shift-5500 · NoTags · 0.6 / 0.95：评分达到 50%（当前136/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t1-p1/graded/0.5",
+    "utc": 1793009852.1871774,
+    "message": "game-stage1-3shift-5500 · NoTags · 1 / 1：评分达到 50%（当前135/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled/graded/0.75",
+    "utc": 1793009916.4969108,
+    "message": "game-stage1-3shift-5500 · Thinking · 0.6 / 0.95：评分达到 75%（当前186/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled-t1-p1/graded/0.75",
+    "utc": 1793009916.4969108,
+    "message": "game-stage1-3shift-5500 · Thinking · 1 / 1：评分达到 75%（当前185/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t06-p095/graded/0.75",
+    "utc": 1793009916.4969108,
+    "message": "game-stage1-3shift-5500 · NoTags · 0.6 / 0.95：评分达到 75%（当前188/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/nonthinking-notags-t1-p1/graded/0.75",
+    "utc": 1793009916.4969108,
+    "message": "game-stage1-3shift-5500 · NoTags · 1 / 1：评分达到 75%（当前187/246）"
   }
 ]
