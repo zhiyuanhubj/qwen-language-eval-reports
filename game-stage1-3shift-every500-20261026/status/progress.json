@@ -1,5 +1,5 @@
 {
-  "utc": 1793010023.845675,
+  "utc": 1793010229.5267756,
   "responses": 3936,
   "graded": 3936,
   "expected": 4920,
@@ -20,11 +20,11 @@
   "total_batches": 3,
   "terminal": false,
   "current_batch": {
-    "utc": 1793010006.0538135,
+    "utc": 1793010134.775229,
     "batch": "6000",
     "job": "2989",
     "host": "ip-10-1-25-253",
-    "phase": "downloading"
+    "phase": "evaluating_and_grading"
   },
   "current_allocation": {
     "utc": 1793003091.3679314,
