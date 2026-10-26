@@ -1,0 +1,70 @@
+{
+  "utc": 1793002997.1611984,
+  "items": [
+    {
+      "step": 6000,
+      "label": "game-stage1-3shift-6000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-6000",
+      "revision": "1f950871a65fd59d6fe9fe424ed355fa0d9043b9"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 984,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
+  "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+  "execution": "Continue user-requested every500step detailed evaluation on existing owned node2989. OriginalMuse continuation finished;idle server will be restored after all3 batches. Same246questions,4settings and originalrubric. No activeMuse trial interrupted.",
+  "model_root": "/opt/dlami/nvme/zhiyuan-game-every500-20261026/models",
+  "requested_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000,
+    5500,
+    6000
+  ],
+  "reused_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500
+  ],
+  "requested_grid_responses": 11808,
+  "previous_experiments": [
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-2000plus-20261023"
+  ],
+  "first_batch_prefetch_host": "ip-10-1-25-253",
+  "additional_requested_steps": [
+    4000,
+    4500,
+    5000,
+    5500,
+    6000
+  ],
+  "scope_updated_utc": 1792857094.8454795,
+  "latest_hf_step_observed": 6100,
+  "sampling_interval": 500
+}

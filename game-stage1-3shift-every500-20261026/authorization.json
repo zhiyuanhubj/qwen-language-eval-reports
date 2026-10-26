@@ -1,0 +1,21 @@
+{
+  "utc": 1793002997.171479,
+  "user_approved_gpu_evaluation": true,
+  "request": "现在应该很多新ckpts了 你继续帮我详细测一下呀 每500就测一下吧",
+  "scope": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "new_steps": [
+    4000,
+    4500,
+    5000,
+    5500,
+    6000
+  ],
+  "node": 2989,
+  "reuse_old_results": true,
+  "preserve_old_experiments": true
+}

@@ -1,0 +1,8 @@
+{
+  "utc": 1793003091.3718827,
+  "job": 2989,
+  "no_active_native_trials_interrupted": true,
+  "previous_Muse_continuation_returncode": 0,
+  "restore_after_eval": "Exact priorMuseNVFP4 server command;do not restart completed32tasks",
+  "private_receipt": "/fsx/home/zhiyuan/.private/qwen-every500-node-handoff-20261026/server-before-cutover.json"
+}

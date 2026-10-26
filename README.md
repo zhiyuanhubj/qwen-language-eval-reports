@@ -1,5 +1,8 @@
 # Qwen language evaluation reports
 
+<!-- game-every500-latest -->
+**Game Stage1每500step新评测：** [4000/4500/5000/5500/6000报告与详细分析](game-stage1-3shift-every500-20261026/README.md) · [实时进度](game-stage1-3shift-every500-20261026/progress.md)。旧500–3500复用。
+
 <!-- last-stage1-stage2-checkpoint-logs -->
 **旧Stage1 / Stage2最后checkpoint完整日志：** [Stage1 step4100 / Stage2 step4000全部题目下载包](last-checkpoint-full-logs/README.md)，含四组设置、完整thinking和final、评分及运行日志。
 

@@ -1,0 +1,67 @@
+{
+  "verified": true,
+  "host": "ip-10-1-25-253",
+  "step": 4500,
+  "label": "game-stage1-3shift-4500",
+  "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+  "ref": "checkpoint-4500",
+  "revision": "80ced1f564607847dbdd8a26b6a314ca7602e3e4",
+  "files": [
+    {
+      "file": "chat_template.jinja",
+      "bytes": 8106,
+      "sha256": "94fea52db560f12bce75812ffbf73e6bcf2d98fa8292a80e5d02e96009505319"
+    },
+    {
+      "file": "config.json",
+      "bytes": 2855,
+      "sha256": "da9de13c95ae0801622c5770360de5f1bd2c0f8f2bc26520b387929383b67297"
+    },
+    {
+      "file": "model-00001-of-00004.safetensors",
+      "bytes": 4911674496,
+      "sha256": "b6757b3a1c992860b81b87150d11b81c4b6c846290e76419b1d8cb38ca5cfcc9"
+    },
+    {
+      "file": "model-00002-of-00004.safetensors",
+      "bytes": 4954211152,
+      "sha256": "4c8818b5ab2f48d0ab9c95a289f0a80c8e33d871f65197b0920989fad32942dc"
+    },
+    {
+      "file": "model-00003-of-00004.safetensors",
+      "bytes": 4988356912,
+      "sha256": "a07e1d54ad18cc455ea0e84641f54b312dcffbdcaceb17fb4e6533f9c76ac3ad"
+    },
+    {
+      "file": "model-00004-of-00004.safetensors",
+      "bytes": 4452061304,
+      "sha256": "6ccff90311965bc681959ab7e38152b9faf929f3ee534a3d39abfdf8210ce9f6"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 70357,
+      "sha256": "d5c7fee99574e9a05f901282aee04fc4fc3dccf094a659df48c6b8e9f39109c3"
+    },
+    {
+      "file": "preprocessor_config.json",
+      "bytes": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516"
+    },
+    {
+      "file": "processor_config.json",
+      "bytes": 1191,
+      "sha256": "d89ef49ce9cd37fbf510158e13c1ef063d9286411c1ec9049932dbe0487143b1"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 19990286,
+      "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524"
+    },
+    {
+      "file": "tokenizer_config.json",
+      "bytes": 1313,
+      "sha256": "df0d1e26054a02449c6d340836f1893e9f4a06ae192d9afc722ec67e8fc77876"
+    }
+  ],
+  "utc": 1793003131.087666
+}

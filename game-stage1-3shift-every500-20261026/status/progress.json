@@ -1,0 +1,43 @@
+{
+  "utc": 1793003297.1013694,
+  "responses": 205,
+  "graded": 0,
+  "expected": 4920,
+  "reused_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500
+  ],
+  "requested_grid_expected": 11808,
+  "finished_batches": [],
+  "total_batches": 3,
+  "terminal": false,
+  "current_batch": {
+    "utc": 1793003132.444018,
+    "batch": "4000-4500",
+    "job": "2989",
+    "host": "ip-10-1-25-253",
+    "phase": "evaluating_and_grading"
+  },
+  "current_allocation": {
+    "utc": 1793003091.3679314,
+    "job_id": 2989,
+    "existing_owned_allocation": true,
+    "host": "ip-10-1-25-253",
+    "authority": "User asked continue detailed testing every500steps;existingnode2989 reused;Muse originalcontinuation completed and GPUs idle",
+    "new_steps": [
+      4000,
+      4500,
+      5000,
+      5500,
+      6000
+    ],
+    "private_restore_receipt": "/fsx/home/zhiyuan/.private/qwen-every500-node-handoff-20261026/server-before-cutover.json",
+    "active_Muse_trials_interrupted": 0
+  },
+  "scheduler": "RUNNING|ip-10-1-25-253"
+}
