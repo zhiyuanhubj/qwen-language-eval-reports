@@ -503,5 +503,10 @@
     "id": "game-stage1-3shift-5000/thinking-sampled/responses/0.75",
     "utc": 1793008153.4348605,
     "message": "game-stage1-3shift-5000 · Thinking · 0.6 / 0.95：回答达到 75%（当前194/246）"
+  },
+  {
+    "id": "game-stage1-3shift-5500/thinking-sampled/responses/1",
+    "utc": 1793008495.2194986,
+    "message": "game-stage1-3shift-5500 · Thinking · 0.6 / 0.95：回答达到 100%（当前246/246）"
   }
 ]
