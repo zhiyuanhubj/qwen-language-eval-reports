@@ -158,5 +158,15 @@
     "id": "game-stage1-3shift-4000/thinking-sampled/responses/1",
     "utc": 1793005245.061955,
     "message": "game-stage1-3shift-4000 · Thinking · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-4500/thinking-sampled/responses/1",
+    "utc": 1793005704.3283107,
+    "message": "game-stage1-3shift-4500 · Thinking · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "phase/4000-4500/loading_judge",
+    "utc": 1793005704.3283107,
+    "message": "当前批次 4000-4500：loading_judge"
   }
 ]
