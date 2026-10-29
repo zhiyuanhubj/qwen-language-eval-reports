@@ -1898,5 +1898,10 @@
     "id": "phase/9500/downloading",
     "utc": 1793272321.5125115,
     "message": "当前批次 9500：downloading"
+  },
+  {
+    "id": "phase/9500/evaluating_and_grading",
+    "utc": 1793272481.5863228,
+    "message": "当前批次 9500：evaluating_and_grading"
   }
 ]
