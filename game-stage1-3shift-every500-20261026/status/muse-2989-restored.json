@@ -1,0 +1,8 @@
+{
+  "utc": 1793014207.5678844,
+  "job": 2989,
+  "original_model_command_restored": true,
+  "precision": "NVFP4",
+  "kv_cache_dtype": "fp8_e4m3",
+  "previous_Muse_tasks_not_restarted": true
+}

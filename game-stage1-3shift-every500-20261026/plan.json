@@ -35,6 +35,55 @@
       "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
       "ref": "checkpoint-6000",
       "revision": "1f950871a65fd59d6fe9fe424ed355fa0d9043b9"
+    },
+    {
+      "step": 6500,
+      "label": "game-stage1-3shift-6500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-6500",
+      "revision": "afb227ea7ac98af163ab78b22dbe5418603ea8ee"
+    },
+    {
+      "step": 7000,
+      "label": "game-stage1-3shift-7000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-7000",
+      "revision": "0d9c813561066e5bcae858bd9cb955ceb3649383"
+    },
+    {
+      "step": 7500,
+      "label": "game-stage1-3shift-7500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-7500",
+      "revision": "e7a4445e2753419738315286bff70fd10558400d"
+    },
+    {
+      "step": 8000,
+      "label": "game-stage1-3shift-8000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-8000",
+      "revision": "56d48806f7151ee201b71534bd0f41765e0532a7"
+    },
+    {
+      "step": 8500,
+      "label": "game-stage1-3shift-8500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-8500",
+      "revision": "7584e137164c0983cf2925e433337d25366c6270"
+    },
+    {
+      "step": 9000,
+      "label": "game-stage1-3shift-9000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-9000",
+      "revision": "ef38387d04a2073efa941d2fb9ab9fa30f13173c"
+    },
+    {
+      "step": 9500,
+      "label": "game-stage1-3shift-9500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-9500",
+      "revision": "04c9792565f75cbbde2aa67184442cd1a891816f"
     }
   ],
   "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
@@ -45,7 +94,7 @@
     "nonthinking-notags-t06-p095",
     "nonthinking-notags-t1-p1"
   ],
-  "expected_responses": 4920,
+  "expected_responses": 11808,
   "max_model_len": 32768,
   "max_tokens": 16384,
   "dtype": "bfloat16",
@@ -68,7 +117,14 @@
     4500,
     5000,
     5500,
-    6000
+    6000,
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
   ],
   "reused_steps": [
     500,
@@ -79,20 +135,37 @@
     3000,
     3500
   ],
-  "requested_grid_responses": 11808,
+  "requested_grid_responses": 18696,
   "previous_experiments": [
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
     "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-2000plus-20261023"
   ],
   "first_batch_prefetch_host": "ip-10-1-25-253",
   "additional_requested_steps": [
-    4000,
-    4500,
-    5000,
-    5500,
-    6000
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
   ],
-  "scope_updated_utc": 1792857094.8454795,
-  "latest_hf_step_observed": 6100,
-  "sampling_interval": 500
+  "scope_updated_utc": 1793259201.5464604,
+  "latest_hf_step_observed": 9500,
+  "sampling_interval": 500,
+  "continuation_20261029": {
+    "utc": 1793259201.5464594,
+    "new_steps": [
+      6500,
+      7000,
+      7500,
+      8000,
+      8500,
+      9000,
+      9500
+    ],
+    "expected_new_answers": 6888,
+    "prior_completed_answers": 4920,
+    "prior_completed_scores": 4920
+  }
 }

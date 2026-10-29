@@ -17,5 +17,16 @@
   ],
   "node": 2989,
   "reuse_old_results": true,
-  "preserve_old_experiments": true
+  "preserve_old_experiments": true,
+  "continuation_request_20261029": "我们现在都有到9000了吧 有把新的ckpt都测一遍么",
+  "continuation_steps": [
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "latest_hf_step_observed": 9500
 }

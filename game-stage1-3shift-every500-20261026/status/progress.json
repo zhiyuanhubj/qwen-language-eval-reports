@@ -1,8 +1,8 @@
 {
-  "utc": 1793013299.2988873,
+  "utc": 1793259207.5210283,
   "responses": 4920,
   "graded": 4920,
-  "expected": 4920,
+  "expected": 11808,
   "reused_steps": [
     500,
     1000,
@@ -12,20 +12,20 @@
     3000,
     3500
   ],
-  "requested_grid_expected": 11808,
+  "requested_grid_expected": 18696,
   "finished_batches": [
     "4000-4500",
     "5000-5500",
     "6000"
   ],
-  "total_batches": 3,
-  "terminal": true,
+  "total_batches": 7,
+  "terminal": false,
   "current_batch": {
-    "utc": 1793010134.775229,
-    "batch": "6000",
+    "utc": 1793259202.200784,
+    "batch": "6500-7000",
     "job": "2989",
     "host": "ip-10-1-25-253",
-    "phase": "evaluating_and_grading"
+    "phase": "waiting_for_resource_handoff"
   },
   "current_allocation": {
     "utc": 1793003091.3679314,
@@ -43,12 +43,23 @@
     "private_restore_receipt": "/fsx/home/zhiyuan/.private/qwen-every500-node-handoff-20261026/server-before-cutover.json",
     "active_Muse_trials_interrupted": 0
   },
-  "scheduler": "RUNNING|ip-10-1-25-253",
-  "batch_allocation_status": {
-    "utc": 1793013292.789145,
-    "job": "2989",
-    "node": "ip-10-1-25-253",
-    "phase": "finished",
-    "generation_complete": true
-  }
+  "continuation_20261029": {
+    "utc": 1793259202.2065723,
+    "steps": [
+      6500,
+      7000,
+      7500,
+      8000,
+      8500,
+      9000,
+      9500
+    ],
+    "expected_new_answers": 6888,
+    "state": "waiting_for_resource_handoff",
+    "current_model_node2989_busy": true,
+    "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
+    "coordinator_contacted": true,
+    "already_6000_completed": true
+  },
+  "scheduler": "RUNNING|ip-10-1-25-253"
 }

@@ -1,0 +1,101 @@
+{
+  "utc": 1793002997.1611984,
+  "items": [
+    {
+      "step": 7500,
+      "label": "game-stage1-3shift-7500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-7500",
+      "revision": "e7a4445e2753419738315286bff70fd10558400d"
+    },
+    {
+      "step": 8000,
+      "label": "game-stage1-3shift-8000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-8000",
+      "revision": "56d48806f7151ee201b71534bd0f41765e0532a7"
+    }
+  ],
+  "suite": "/fsx/home/zhiyuan/language-pilot-20261011/eval-three-subsets-v1",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "modes": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "expected_responses": 1968,
+  "max_model_len": 32768,
+  "max_tokens": 16384,
+  "dtype": "bfloat16",
+  "seed": 42,
+  "judge_model": "DeepSeek-V4.1-Flash",
+  "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
+  "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
+  "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+  "execution": "Continue user-requested every500step detailed evaluation on existing owned node2989. OriginalMuse continuation finished;idle server will be restored after all3 batches. Same246questions,4settings and originalrubric. No activeMuse trial interrupted.",
+  "model_root": "/opt/dlami/nvme/zhiyuan-game-every500-20261026/models",
+  "requested_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000,
+    5500,
+    6000,
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "reused_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500
+  ],
+  "requested_grid_responses": 18696,
+  "previous_experiments": [
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
+    "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-2000plus-20261023"
+  ],
+  "first_batch_prefetch_host": "ip-10-1-25-253",
+  "additional_requested_steps": [
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "scope_updated_utc": 1793259201.5464604,
+  "latest_hf_step_observed": 9500,
+  "sampling_interval": 500,
+  "continuation_20261029": {
+    "utc": 1793259201.5464594,
+    "new_steps": [
+      6500,
+      7000,
+      7500,
+      8000,
+      8500,
+      9000,
+      9500
+    ],
+    "expected_new_answers": 6888,
+    "prior_completed_answers": 4920,
+    "prior_completed_scores": 4920
+  }
+}

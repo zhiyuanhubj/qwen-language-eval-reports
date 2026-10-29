@@ -1,0 +1,18 @@
+{
+  "utc": 1793259202.2065723,
+  "steps": [
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "expected_new_answers": 6888,
+  "state": "waiting_for_resource_handoff",
+  "current_model_node2989_busy": true,
+  "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
+  "coordinator_contacted": true,
+  "already_6000_completed": true
+}

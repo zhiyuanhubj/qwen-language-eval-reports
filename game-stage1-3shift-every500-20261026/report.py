@@ -30,12 +30,12 @@ for item in plan['items']:
             objective = D / mode / (label+'.objective.json')
             if subset == 'benchmark72' and objective.exists(): row['objective'] = json.loads(objective.read_text())['groups']
             out.append(row)
-note='Game Stage1-3Shift每500step详细补测。新增4000/4500/5000/5500/6000，共4920条回答；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。'
+note='Game Stage1-3Shift每500step详细补测。4000至9500每500step累计12个checkpoint，共11808条回答；4000至6000的4920条已完成，本次接续6500/7000/7500/8000/8500/9000/9500共6888条；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。'
 summary = {'utc':time.time(),'note':note,'results':out}
 previous=[]
 for root in ['game-stage1-3shift-20261022','game-stage1-3shift-2000plus-20261023']:
     previous.extend(r for r in json.loads((D.parent/root/'summary.json').read_text())['results'] if int(r['model'].split('-')[-1])%500==0 and int(r['model'].split('-')[-1])<=3500)
 combined=dict(summary,results=previous+out)
-page=render(combined,'V2 · Game Stage1-3Shift · 每500step：500–6000')
+page=render(combined,'V2 · Game Stage1-3Shift · 每500step：500–9500')
 for name,data in [('summary.json',json.dumps(summary,ensure_ascii=False,indent=2)),('report.html',page),('report-v2-modes.html',page)]:
     target=D/name;temp=D/(name+'.'+str(os.getpid())+'.tmp');temp.write_text(data);temp.replace(target)

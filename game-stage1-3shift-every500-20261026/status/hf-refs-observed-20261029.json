@@ -1,0 +1,482 @@
+{
+  "utc": 1793259202.1963542,
+  "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+  "max_step": 9500,
+  "refs": [
+    {
+      "step": 100,
+      "ref": "checkpoint-100",
+      "revision": "780d96228a2ffe3f8c43f525869a89f66f04cc7e"
+    },
+    {
+      "step": 200,
+      "ref": "checkpoint-200",
+      "revision": "5873ecbf96d70e0def8ac926253beb215be5ee47"
+    },
+    {
+      "step": 300,
+      "ref": "checkpoint-300",
+      "revision": "dc8433484f763bbec392eb5c9f0421be8a926b1f"
+    },
+    {
+      "step": 400,
+      "ref": "checkpoint-400",
+      "revision": "d9bbe90216756a87c3b43e6f543dbed4de78d7f8"
+    },
+    {
+      "step": 500,
+      "ref": "checkpoint-500",
+      "revision": "18f06bd8a4f27d87669d3a8592abc81721b8c77a"
+    },
+    {
+      "step": 600,
+      "ref": "checkpoint-600",
+      "revision": "7c3bf7e8081bb49b81cf71d6ea33a8b54e692f99"
+    },
+    {
+      "step": 700,
+      "ref": "checkpoint-700",
+      "revision": "085ee0e4d0f9a6b4fe2b82808d386752252d609c"
+    },
+    {
+      "step": 800,
+      "ref": "checkpoint-800",
+      "revision": "ca71076f99d777711a8fddbcdff3c649e114d496"
+    },
+    {
+      "step": 900,
+      "ref": "checkpoint-900",
+      "revision": "d5ddf4a4a2ec711ebe87d24e3391b51ff7859c99"
+    },
+    {
+      "step": 1000,
+      "ref": "checkpoint-1000",
+      "revision": "0716c0ee17b689bb1a8b706ca36456aca7274594"
+    },
+    {
+      "step": 1100,
+      "ref": "checkpoint-1100",
+      "revision": "513b58ce421ba1536f3cfdeecdd6dda3e79ee52f"
+    },
+    {
+      "step": 1200,
+      "ref": "checkpoint-1200",
+      "revision": "492f562e7321ab6dcbb649300de2a86e58061150"
+    },
+    {
+      "step": 1300,
+      "ref": "checkpoint-1300",
+      "revision": "1462b22cda87c92675aa5223ead97c154451e35d"
+    },
+    {
+      "step": 1400,
+      "ref": "checkpoint-1400",
+      "revision": "c0cf29fe03445a9b30059b5bdefcd7b551baa597"
+    },
+    {
+      "step": 1500,
+      "ref": "checkpoint-1500",
+      "revision": "6f8e313ab0d4dac0d8819e50f70c36a2a8843747"
+    },
+    {
+      "step": 1600,
+      "ref": "checkpoint-1600",
+      "revision": "71e37de4351afa53db40a200e0bc198531c18374"
+    },
+    {
+      "step": 1700,
+      "ref": "checkpoint-1700",
+      "revision": "d9625ada0c116a2bd3b54a8dd5a007d34a1d1f03"
+    },
+    {
+      "step": 1800,
+      "ref": "checkpoint-1800",
+      "revision": "74f3fc3394c224c12f403fbab745ecbcd955e753"
+    },
+    {
+      "step": 1900,
+      "ref": "checkpoint-1900",
+      "revision": "52bede6f44255935e25a896b237133e3bef30d5a"
+    },
+    {
+      "step": 2000,
+      "ref": "checkpoint-2000",
+      "revision": "fe9ccb7def66981c7946150e97832db9df59b537"
+    },
+    {
+      "step": 2100,
+      "ref": "checkpoint-2100",
+      "revision": "6142defbe742ec8b924ef1499776ec802c97ffe8"
+    },
+    {
+      "step": 2200,
+      "ref": "checkpoint-2200",
+      "revision": "9b9e6ff45f84e61015ad79b710415d5828b69230"
+    },
+    {
+      "step": 2300,
+      "ref": "checkpoint-2300",
+      "revision": "7845c74976405c4f4a4849e0b65440abcb1a3452"
+    },
+    {
+      "step": 2400,
+      "ref": "checkpoint-2400",
+      "revision": "5b091909d504d9cdc5262e5da36a41eec7ef3ee4"
+    },
+    {
+      "step": 2500,
+      "ref": "checkpoint-2500",
+      "revision": "d59b74965ade20731b9922356d99b9f173475c5c"
+    },
+    {
+      "step": 2600,
+      "ref": "checkpoint-2600",
+      "revision": "ddf17ea84f72ad0afdda0aa33cf990aa1b127c6b"
+    },
+    {
+      "step": 2700,
+      "ref": "checkpoint-2700",
+      "revision": "657a37db93131d24468461cf5a84cd0501cf7914"
+    },
+    {
+      "step": 2800,
+      "ref": "checkpoint-2800",
+      "revision": "d8c661b406ee8faebfe0098fe6d2abffe74efd4d"
+    },
+    {
+      "step": 2900,
+      "ref": "checkpoint-2900",
+      "revision": "95e36757b9584e52eeff104aad5f3988dedb0ec8"
+    },
+    {
+      "step": 3000,
+      "ref": "checkpoint-3000",
+      "revision": "3b94a1453898a218a2d3539ab83bf4f4f6f96732"
+    },
+    {
+      "step": 3100,
+      "ref": "checkpoint-3100",
+      "revision": "632067492258a2472b836cbac7ef59f3a6a1f006"
+    },
+    {
+      "step": 3200,
+      "ref": "checkpoint-3200",
+      "revision": "94dfa8b9c2f432d7fb5a0c448a9627353f27fd3d"
+    },
+    {
+      "step": 3300,
+      "ref": "checkpoint-3300",
+      "revision": "9256e43b6bd8e14c787926846168567b3aa44633"
+    },
+    {
+      "step": 3400,
+      "ref": "checkpoint-3400",
+      "revision": "d452e55397e51c1919d473def1184f929f616e45"
+    },
+    {
+      "step": 3500,
+      "ref": "checkpoint-3500",
+      "revision": "47f76cf90b1a6403bf48a3c86df907e06138794d"
+    },
+    {
+      "step": 3600,
+      "ref": "checkpoint-3600",
+      "revision": "d3407bd931318f408a16dac546e56e76db958407"
+    },
+    {
+      "step": 3700,
+      "ref": "checkpoint-3700",
+      "revision": "7eb438f891a131497a3239ae9539138f660216dc"
+    },
+    {
+      "step": 3800,
+      "ref": "checkpoint-3800",
+      "revision": "b2d4c921f4a5b8835e8711bd15cfc2af4688cb81"
+    },
+    {
+      "step": 3900,
+      "ref": "checkpoint-3900",
+      "revision": "326e5c47865c7e4d81698c7550935c82fcd8389e"
+    },
+    {
+      "step": 4000,
+      "ref": "checkpoint-4000",
+      "revision": "c77c201bf062fd3811c6f8e8ee37b90305a527d5"
+    },
+    {
+      "step": 4100,
+      "ref": "checkpoint-4100",
+      "revision": "b133af8db2e37bdb4b64a070a0cd087bf3cdcc21"
+    },
+    {
+      "step": 4200,
+      "ref": "checkpoint-4200",
+      "revision": "214699802771c796f30df5a93edc108895825adc"
+    },
+    {
+      "step": 4300,
+      "ref": "checkpoint-4300",
+      "revision": "7cbc38498de3f14e70df0dfe0fdb4fe755cc80de"
+    },
+    {
+      "step": 4400,
+      "ref": "checkpoint-4400",
+      "revision": "ac9f7598c3b6bb61a148f19de468901355dd408d"
+    },
+    {
+      "step": 4500,
+      "ref": "checkpoint-4500",
+      "revision": "80ced1f564607847dbdd8a26b6a314ca7602e3e4"
+    },
+    {
+      "step": 4600,
+      "ref": "checkpoint-4600",
+      "revision": "bd0b0249cd0a8a0686c8c6851b62654353000219"
+    },
+    {
+      "step": 4700,
+      "ref": "checkpoint-4700",
+      "revision": "a27e5621b383a002dc4abbff876c0d2e6a2e0ca1"
+    },
+    {
+      "step": 4800,
+      "ref": "checkpoint-4800",
+      "revision": "959dabd78814355706c9d7a72aeaca5a78c40e70"
+    },
+    {
+      "step": 4900,
+      "ref": "checkpoint-4900",
+      "revision": "806ee6cda624195a3d09339f691457875aff4e38"
+    },
+    {
+      "step": 5000,
+      "ref": "checkpoint-5000",
+      "revision": "bc8d3f45c001a4a66261ae93c78018222dcf68f3"
+    },
+    {
+      "step": 5100,
+      "ref": "checkpoint-5100",
+      "revision": "daeab41339c11dbc279594f1efe2688d99b057df"
+    },
+    {
+      "step": 5200,
+      "ref": "checkpoint-5200",
+      "revision": "c8130975c8b0abc6fdbf70c5963f30828c349a82"
+    },
+    {
+      "step": 5300,
+      "ref": "checkpoint-5300",
+      "revision": "cc768c2e859e52dcd924b7c2ba68f3d625e2097a"
+    },
+    {
+      "step": 5400,
+      "ref": "checkpoint-5400",
+      "revision": "d359765f4ca5f881fcfe184f0fdf313607291d43"
+    },
+    {
+      "step": 5500,
+      "ref": "checkpoint-5500",
+      "revision": "76e5fea5e84312996ba003b989937695b020295c"
+    },
+    {
+      "step": 5600,
+      "ref": "checkpoint-5600",
+      "revision": "c81c8c913c961528d62ac808afb33175e5d820b6"
+    },
+    {
+      "step": 5700,
+      "ref": "checkpoint-5700",
+      "revision": "7a4bd60c4fdd0ed571d995e87d8bb46e1ec0b6b4"
+    },
+    {
+      "step": 5800,
+      "ref": "checkpoint-5800",
+      "revision": "62724b5d62bdff84c371ce15d06ccd49f1ce3436"
+    },
+    {
+      "step": 5900,
+      "ref": "checkpoint-5900",
+      "revision": "0f3a55779bd89039aef601d67c8acf00b4876390"
+    },
+    {
+      "step": 6000,
+      "ref": "checkpoint-6000",
+      "revision": "1f950871a65fd59d6fe9fe424ed355fa0d9043b9"
+    },
+    {
+      "step": 6100,
+      "ref": "checkpoint-6100",
+      "revision": "8ebe6cfc07509e1db3399a9575489d78cd067d89"
+    },
+    {
+      "step": 6200,
+      "ref": "checkpoint-6200",
+      "revision": "204b266cf207fa564db83fead9be823f48f42b96"
+    },
+    {
+      "step": 6300,
+      "ref": "checkpoint-6300",
+      "revision": "8b39e2802c418edc095e1e22dc50648ddbc9de81"
+    },
+    {
+      "step": 6400,
+      "ref": "checkpoint-6400",
+      "revision": "233fcdec6ddeb494d962f6120f8c2fc452445914"
+    },
+    {
+      "step": 6500,
+      "ref": "checkpoint-6500",
+      "revision": "afb227ea7ac98af163ab78b22dbe5418603ea8ee"
+    },
+    {
+      "step": 6600,
+      "ref": "checkpoint-6600",
+      "revision": "5a2084214ef8397063fd2af329e5c5e57bcb3599"
+    },
+    {
+      "step": 6700,
+      "ref": "checkpoint-6700",
+      "revision": "9fb4900b5553fe9944bf025d2008f860da731188"
+    },
+    {
+      "step": 6800,
+      "ref": "checkpoint-6800",
+      "revision": "99d51cfa99bfd85b4829790b13cf8cfa9db05ead"
+    },
+    {
+      "step": 6900,
+      "ref": "checkpoint-6900",
+      "revision": "15ca11359da494c79b990d3113ef1a66b0dfb414"
+    },
+    {
+      "step": 7000,
+      "ref": "checkpoint-7000",
+      "revision": "0d9c813561066e5bcae858bd9cb955ceb3649383"
+    },
+    {
+      "step": 7100,
+      "ref": "checkpoint-7100",
+      "revision": "9a0a1d99ccd4b79a3b5c80e1a542aee07ef2343f"
+    },
+    {
+      "step": 7200,
+      "ref": "checkpoint-7200",
+      "revision": "3df87b8cff0983f62c938b454c6755cbf266b426"
+    },
+    {
+      "step": 7300,
+      "ref": "checkpoint-7300",
+      "revision": "fae33b5460b23a3c436ff1fa01f2f862203f48c6"
+    },
+    {
+      "step": 7400,
+      "ref": "checkpoint-7400",
+      "revision": "4992b1a0e013c7bb0d5097c95631367378f34b03"
+    },
+    {
+      "step": 7500,
+      "ref": "checkpoint-7500",
+      "revision": "e7a4445e2753419738315286bff70fd10558400d"
+    },
+    {
+      "step": 7600,
+      "ref": "checkpoint-7600",
+      "revision": "c06ddc6167558f55a986330ed599d543407fd1b2"
+    },
+    {
+      "step": 7700,
+      "ref": "checkpoint-7700",
+      "revision": "d06a6bb901d268d74f9d5a4f2668e4ed8ef83b8f"
+    },
+    {
+      "step": 7800,
+      "ref": "checkpoint-7800",
+      "revision": "e72408d03dbb46ca241b2cee3640073b8c2ad9ee"
+    },
+    {
+      "step": 7900,
+      "ref": "checkpoint-7900",
+      "revision": "f3ca3697daec8e288aa445ede6dbb694d1d0b317"
+    },
+    {
+      "step": 8000,
+      "ref": "checkpoint-8000",
+      "revision": "56d48806f7151ee201b71534bd0f41765e0532a7"
+    },
+    {
+      "step": 8100,
+      "ref": "checkpoint-8100",
+      "revision": "589e44c4e7937908a249fae087f75fe41d0c1f24"
+    },
+    {
+      "step": 8200,
+      "ref": "checkpoint-8200",
+      "revision": "89ee8fe538ec35ec9bee9095dbe4b52bb4fb5ffe"
+    },
+    {
+      "step": 8300,
+      "ref": "checkpoint-8300",
+      "revision": "772fddc64caea644d30cd977e5078c8a8de4bc77"
+    },
+    {
+      "step": 8400,
+      "ref": "checkpoint-8400",
+      "revision": "0e120f6558f02dd1097d0f4ba92fbc9897d791a2"
+    },
+    {
+      "step": 8500,
+      "ref": "checkpoint-8500",
+      "revision": "7584e137164c0983cf2925e433337d25366c6270"
+    },
+    {
+      "step": 8600,
+      "ref": "checkpoint-8600",
+      "revision": "2454eda91954c50569177eabf234e566f2cc0ef6"
+    },
+    {
+      "step": 8700,
+      "ref": "checkpoint-8700",
+      "revision": "fe005d0deeb00ad25d8ea44c962a76292ce358b8"
+    },
+    {
+      "step": 8800,
+      "ref": "checkpoint-8800",
+      "revision": "7ffc6cc4ec30b86b28559dff253080468608640b"
+    },
+    {
+      "step": 8900,
+      "ref": "checkpoint-8900",
+      "revision": "d23da5ffafbb548259a5a6b302ba907a55295f5d"
+    },
+    {
+      "step": 9000,
+      "ref": "checkpoint-9000",
+      "revision": "ef38387d04a2073efa941d2fb9ab9fa30f13173c"
+    },
+    {
+      "step": 9100,
+      "ref": "checkpoint-9100",
+      "revision": "4a3664928d680473d4674aa71f6c6a8860aa480b"
+    },
+    {
+      "step": 9200,
+      "ref": "checkpoint-9200",
+      "revision": "1ba6bf2b5ffdbb958c1d196ad012052d2e2e5d24"
+    },
+    {
+      "step": 9300,
+      "ref": "checkpoint-9300",
+      "revision": "d63d8ee5086558d48b2a7d82d4663c14d56193b5"
+    },
+    {
+      "step": 9400,
+      "ref": "checkpoint-9400",
+      "revision": "4ab50999638ea8f0d884ce03bc6696558517e5cb"
+    },
+    {
+      "step": 9500,
+      "ref": "checkpoint-9500",
+      "revision": "04c9792565f75cbbde2aa67184442cd1a891816f"
+    }
+  ]
+}

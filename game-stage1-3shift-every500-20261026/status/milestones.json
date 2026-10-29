@@ -878,5 +878,10 @@
     "id": "phase/6000/finished",
     "utc": 1793013299.3594303,
     "message": "当前批次 6000：finished"
+  },
+  {
+    "id": "phase/6500-7000/waiting_for_resource_handoff",
+    "utc": 1793259207.7580483,
+    "message": "当前批次 6500-7000：waiting_for_resource_handoff"
   }
 ]
