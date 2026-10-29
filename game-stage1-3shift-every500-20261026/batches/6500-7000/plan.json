@@ -33,7 +33,7 @@
   "judge_rubric_source": "/fsx/home/zhiyuan/language-pilot-20261011/thinking-eval-20261014/judge.py",
   "notes": "Frozen old suite/templates/rubric; no previous OneVision task is resumed.",
   "previous_experiment": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-20261022",
-  "execution": "Continue user-requested every500step detailed evaluation on existing owned node2989. OriginalMuse continuation finished;idle server will be restored after all3 batches. Same246questions,4settings and originalrubric. No activeMuse trial interrupted.",
+  "execution": "2026-10-29 continuation6500-9500 on one dedicated8GPU allocation,request8h andallow2hbackfill;automaticallyresume remainingbatches across leases. Existing2989 is a publicMuseAPI and is protected;no interruption toAPI or independent performancejobs.4000-6000 alreadycompleted4920/4920.",
   "model_root": "/opt/dlami/nvme/zhiyuan-game-every500-20261026/models",
   "requested_steps": [
     500,

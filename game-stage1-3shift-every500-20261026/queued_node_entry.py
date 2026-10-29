@@ -1,7 +1,7 @@
 """Allocation-scoped wrapper; clean up only this job's evaluation containers."""
 import concurrent.futures,json,os,signal,subprocess,sys,time
 from pathlib import Path
-D=Path(__file__).resolve().parent;JOB=os.environ['SLURM_JOB_ID'];restart=os.environ.get('SLURM_RESTART_COUNT','0');child=None;started=time.time();rc=None
+D=Path(__file__).resolve().parent;JOB=os.environ['SLURM_JOB_ID'];restart=os.environ.get('SLURM_RESTART_COUNT','0');assert JOB!='2989','PublicAPI allocation protected';child=None;started=time.time();rc=None
 
 def terminate(*_):raise SystemExit('allocation termination')
 signal.signal(signal.SIGTERM,terminate);signal.signal(signal.SIGINT,terminate)

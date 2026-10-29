@@ -1,0 +1,15 @@
+{
+  "utc": 1793259500.420473,
+  "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
+  "confirmed2989_role": "PublicMuseAPI viahead8119 relay;liveusers",
+  "protected_allocation": 2989,
+  "public_API_modified": false,
+  "public_API_stopped": false,
+  "pending_strategy": "Dedicated one-node8h allocation with2hminimum backfill;supervisor resumes unfinishedbatches across short leases",
+  "other_active_perf_allocations": [
+    3134,
+    3135,
+    3136
+  ],
+  "coordinator_will_notify_safe_handoff_ifavailable": true
+}
