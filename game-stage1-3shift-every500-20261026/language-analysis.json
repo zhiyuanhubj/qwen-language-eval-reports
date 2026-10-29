@@ -1,5 +1,5 @@
 {
-  "utc": 1793271612.4160163,
+  "utc": 1793271835.7265034,
   "baseline_step": 3500,
   "method": "Same question IDs, same target language/mode/sampling, valid candidateSHA-matched scores. Each model paired separately with3500; paired IDs/n recorded. Single-seed model-assisted rubric scores, not causal/statistical claims. Multiturn history depends on preceding model replies; text-only diagnostic shown separately. Original raw and scores preserved.",
   "results": [
@@ -7611,11 +7611,55 @@
       "mode": "thinking-sampled",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 15,
+      "candidate": {
+        "n": 15,
+        "means": {
+          "accuracy": 72.33,
+          "language": 99.67,
+          "logic": 80,
+          "instruction": 43.33,
+          "completeness": 45.33
+        },
+        "overall": 68.13,
+        "unparsed_final": 15,
+        "length_stop": 0,
+        "raw_unclosed": 15,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 15,
+        "means": {
+          "accuracy": 84.33,
+          "language": 99.67,
+          "logic": 87.33,
+          "instruction": 45.67,
+          "completeness": 47.33
+        },
+        "overall": 72.87,
+        "unparsed_final": 15,
+        "length_stop": 0,
+        "raw_unclosed": 15,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": -4.74,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209",
+        "benchmark-ai2d-1235",
+        "benchmark-ai2d-1284",
+        "benchmark-ai2d-1395",
+        "benchmark-ai2d-1437",
+        "benchmark-ai2d-1493",
+        "benchmark-ai2d-1507",
+        "benchmark-ai2d-1592",
+        "benchmark-ai2d-1701",
+        "benchmark-ai2d-1806",
+        "benchmark-ai2d-1822",
+        "benchmark-ai2d-2094"
+      ]
     },
     {
       "step": 9000,
@@ -15339,11 +15383,58 @@
       "mode": "thinking-sampled-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 18,
+      "candidate": {
+        "n": 18,
+        "means": {
+          "accuracy": 74.44,
+          "language": 99.17,
+          "logic": 77.11,
+          "instruction": 39.44,
+          "completeness": 42.22
+        },
+        "overall": 66.48,
+        "unparsed_final": 18,
+        "length_stop": 0,
+        "raw_unclosed": 18,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 18,
+        "means": {
+          "accuracy": 66.11,
+          "language": 93.33,
+          "logic": 70.72,
+          "instruction": 41.94,
+          "completeness": 43.06
+        },
+        "overall": 63.03,
+        "unparsed_final": 18,
+        "length_stop": 0,
+        "raw_unclosed": 17,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": 3.45,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209",
+        "benchmark-ai2d-1235",
+        "benchmark-ai2d-1284",
+        "benchmark-ai2d-1395",
+        "benchmark-ai2d-1437",
+        "benchmark-ai2d-1493",
+        "benchmark-ai2d-1507",
+        "benchmark-ai2d-1592",
+        "benchmark-ai2d-1701",
+        "benchmark-ai2d-1806",
+        "benchmark-ai2d-1822",
+        "benchmark-ai2d-2094",
+        "benchmark-ai2d-2101",
+        "benchmark-ai2d-2324",
+        "benchmark-ai2d-2343"
+      ]
     },
     {
       "step": 9000,
@@ -23067,11 +23158,61 @@
       "mode": "nonthinking-notags-t06-p095",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 21,
+      "candidate": {
+        "n": 21,
+        "means": {
+          "accuracy": 82.86,
+          "language": 99.76,
+          "logic": 84.05,
+          "instruction": 83.81,
+          "completeness": 80.48
+        },
+        "overall": 86.19,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 21,
+        "means": {
+          "accuracy": 87.14,
+          "language": 100,
+          "logic": 85.95,
+          "instruction": 95,
+          "completeness": 85
+        },
+        "overall": 90.62,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": -4.43,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209",
+        "benchmark-ai2d-1235",
+        "benchmark-ai2d-1284",
+        "benchmark-ai2d-1395",
+        "benchmark-ai2d-1437",
+        "benchmark-ai2d-1493",
+        "benchmark-ai2d-1507",
+        "benchmark-ai2d-1592",
+        "benchmark-ai2d-1701",
+        "benchmark-ai2d-1806",
+        "benchmark-ai2d-1822",
+        "benchmark-ai2d-2094",
+        "benchmark-ai2d-2101",
+        "benchmark-ai2d-229",
+        "benchmark-ai2d-2324",
+        "benchmark-ai2d-2343",
+        "benchmark-ai2d-2361",
+        "benchmark-ai2d-2405"
+      ]
     },
     {
       "step": 9000,
@@ -30795,11 +30936,64 @@
       "mode": "nonthinking-notags-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 24,
+      "candidate": {
+        "n": 24,
+        "means": {
+          "accuracy": 76.67,
+          "language": 99.58,
+          "logic": 77.71,
+          "instruction": 78.54,
+          "completeness": 75.21
+        },
+        "overall": 81.54,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 24,
+        "means": {
+          "accuracy": 82.92,
+          "language": 100,
+          "logic": 83.12,
+          "instruction": 87.08,
+          "completeness": 82.71
+        },
+        "overall": 87.17,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": -5.63,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209",
+        "benchmark-ai2d-1235",
+        "benchmark-ai2d-1284",
+        "benchmark-ai2d-1395",
+        "benchmark-ai2d-1437",
+        "benchmark-ai2d-1493",
+        "benchmark-ai2d-1507",
+        "benchmark-ai2d-1592",
+        "benchmark-ai2d-1701",
+        "benchmark-ai2d-1806",
+        "benchmark-ai2d-1822",
+        "benchmark-ai2d-2094",
+        "benchmark-ai2d-2101",
+        "benchmark-ai2d-229",
+        "benchmark-ai2d-2324",
+        "benchmark-ai2d-2343",
+        "benchmark-ai2d-2361",
+        "benchmark-ai2d-2405",
+        "benchmark-ai2d-2408",
+        "benchmark-ai2d-2547",
+        "benchmark-ai2d-2623"
+      ]
     },
     {
       "step": 9000,
