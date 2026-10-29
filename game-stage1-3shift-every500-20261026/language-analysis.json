@@ -1,5 +1,5 @@
 {
-  "utc": 1793272277.290183,
+  "utc": 1793272327.346957,
   "baseline_step": 3500,
   "method": "Same question IDs, same target language/mode/sampling, valid candidateSHA-matched scores. Each model paired separately with3500; paired IDs/n recorded. Single-seed model-assisted rubric scores, not causal/statistical claims. Multiturn history depends on preceding model replies; text-only diagnostic shown separately. Original raw and scores preserved.",
   "results": [
@@ -8193,38 +8193,38 @@
       "mode": "thinking-sampled",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 80,
+      "paired_n": 82,
       "candidate": {
-        "n": 80,
+        "n": 82,
         "means": {
-          "accuracy": 91.26,
-          "language": 96.19,
-          "logic": 89.84,
-          "instruction": 48.92,
-          "completeness": 51.94
+          "accuracy": 91.07,
+          "language": 96.28,
+          "logic": 89.57,
+          "instruction": 48.83,
+          "completeness": 51.89
         },
-        "overall": 75.63,
-        "unparsed_final": 80,
+        "overall": 75.53,
+        "unparsed_final": 82,
         "length_stop": 8,
-        "raw_unclosed": 80,
+        "raw_unclosed": 82,
         "no_assessable_answer": 0
       },
       "baseline": {
-        "n": 80,
+        "n": 82,
         "means": {
-          "accuracy": 90.31,
-          "language": 91,
-          "logic": 89.35,
-          "instruction": 48.73,
-          "completeness": 50.85
+          "accuracy": 90.15,
+          "language": 91.16,
+          "logic": 89.1,
+          "instruction": 48.51,
+          "completeness": 50.65
         },
-        "overall": 74.05,
-        "unparsed_final": 76,
-        "length_stop": 16,
-        "raw_unclosed": 75,
+        "overall": 73.91,
+        "unparsed_final": 78,
+        "length_stop": 18,
+        "raw_unclosed": 77,
         "no_assessable_answer": 1
       },
-      "overall_delta": 1.58,
+      "overall_delta": 1.62,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -8305,7 +8305,9 @@
         "vision-13-0-zh",
         "vision-13-1-zh",
         "vision-14-0-zh",
-        "vision-15-0-zh"
+        "vision-14-1-zh",
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -8314,38 +8316,38 @@
       "mode": "thinking-sampled",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 162,
+      "paired_n": 163,
       "candidate": {
-        "n": 162,
+        "n": 163,
         "means": {
-          "accuracy": 89.39,
-          "language": 98.7,
-          "logic": 90.04,
-          "instruction": 46.41,
-          "completeness": 48.13
+          "accuracy": 89.42,
+          "language": 98.71,
+          "logic": 90.06,
+          "instruction": 46.4,
+          "completeness": 48.14
         },
-        "overall": 74.54,
-        "unparsed_final": 162,
+        "overall": 74.55,
+        "unparsed_final": 163,
         "length_stop": 11,
-        "raw_unclosed": 159,
+        "raw_unclosed": 160,
         "no_assessable_answer": 2
       },
       "baseline": {
-        "n": 162,
+        "n": 163,
         "means": {
-          "accuracy": 89.8,
+          "accuracy": 89.87,
           "language": 99.29,
-          "logic": 90.01,
-          "instruction": 47.15,
+          "logic": 90.07,
+          "instruction": 47.14,
           "completeness": 49.07
         },
-        "overall": 75.06,
-        "unparsed_final": 158,
+        "overall": 75.09,
+        "unparsed_final": 159,
         "length_stop": 11,
-        "raw_unclosed": 157,
+        "raw_unclosed": 158,
         "no_assessable_answer": 1
       },
-      "overall_delta": -0.52,
+      "overall_delta": -0.54,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -8508,7 +8510,8 @@
         "vision-13-1-en",
         "vision-14-0-en",
         "vision-14-1-en",
-        "vision-15-0-en"
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     },
     {
@@ -16769,38 +16772,38 @@
       "mode": "thinking-sampled-t1-p1",
       "scope": "all_three_subsets",
       "language": "zh",
-      "paired_n": 81,
+      "paired_n": 82,
       "candidate": {
-        "n": 81,
+        "n": 82,
         "means": {
-          "accuracy": 60.8,
-          "language": 68.46,
-          "logic": 58.81,
-          "instruction": 35.96,
-          "completeness": 38.64
+          "accuracy": 60.73,
+          "language": 68.78,
+          "logic": 58.83,
+          "instruction": 36.07,
+          "completeness": 38.78
         },
-        "overall": 52.54,
-        "unparsed_final": 81,
+        "overall": 52.64,
+        "unparsed_final": 82,
         "length_stop": 0,
-        "raw_unclosed": 78,
+        "raw_unclosed": 79,
         "no_assessable_answer": 3
       },
       "baseline": {
-        "n": 81,
+        "n": 82,
         "means": {
-          "accuracy": 77,
-          "language": 75.32,
-          "logic": 73.47,
-          "instruction": 41.37,
-          "completeness": 45.16
+          "accuracy": 77.28,
+          "language": 75.62,
+          "logic": 73.79,
+          "instruction": 41.48,
+          "completeness": 45.22
         },
-        "overall": 62.46,
-        "unparsed_final": 81,
+        "overall": 62.68,
+        "unparsed_final": 82,
         "length_stop": 0,
-        "raw_unclosed": 79,
+        "raw_unclosed": 80,
         "no_assessable_answer": 2
       },
-      "overall_delta": -9.92,
+      "overall_delta": -10.04,
       "ids": [
         "friend-C01",
         "friend-C02",
@@ -16882,7 +16885,8 @@
         "vision-13-1-zh",
         "vision-14-0-zh",
         "vision-14-1-zh",
-        "vision-15-0-zh"
+        "vision-15-0-zh",
+        "vision-15-1-zh"
       ]
     },
     {
@@ -16891,38 +16895,38 @@
       "mode": "thinking-sampled-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 163,
+      "paired_n": 164,
       "candidate": {
-        "n": 163,
+        "n": 164,
         "means": {
-          "accuracy": 78.78,
-          "language": 88.94,
+          "accuracy": 78.82,
+          "language": 88.77,
           "logic": 79.4,
-          "instruction": 44.25,
-          "completeness": 45.9
+          "instruction": 44.23,
+          "completeness": 46.04
         },
         "overall": 67.45,
-        "unparsed_final": 162,
+        "unparsed_final": 163,
         "length_stop": 0,
-        "raw_unclosed": 156,
+        "raw_unclosed": 157,
         "no_assessable_answer": 4
       },
       "baseline": {
-        "n": 163,
+        "n": 164,
         "means": {
-          "accuracy": 81.55,
-          "language": 89.67,
-          "logic": 81.58,
-          "instruction": 44.02,
-          "completeness": 46.1
+          "accuracy": 81.29,
+          "language": 89.46,
+          "logic": 81.36,
+          "instruction": 43.94,
+          "completeness": 46.03
         },
-        "overall": 68.59,
-        "unparsed_final": 159,
+        "overall": 68.42,
+        "unparsed_final": 160,
         "length_stop": 0,
-        "raw_unclosed": 155,
+        "raw_unclosed": 156,
         "no_assessable_answer": 3
       },
-      "overall_delta": -1.14,
+      "overall_delta": -0.97,
       "ids": [
         "benchmark-ai2d-1016",
         "benchmark-ai2d-1033",
@@ -17086,7 +17090,8 @@
         "vision-13-1-en",
         "vision-14-0-en",
         "vision-14-1-en",
-        "vision-15-0-en"
+        "vision-15-0-en",
+        "vision-15-1-en"
       ]
     },
     {
