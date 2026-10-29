@@ -26,9 +26,12 @@ for (model,mode),g in groups.items():
    if g[metric]>=math.ceil(g['expected']*fraction):event(f'{model}/{mode}/{metric}/{fraction}',f'{model} · {family(mode)} · {sampling(mode)}：{label}达到 {int(fraction*100)}%（当前{g[metric]}/{g["expected"]}）')
 for batch in progress['finished_batches']:event('batch-done/'+batch,'批次 '+batch+'：回答、评分及SHA对应关系已校验，准备后续批次',True)
 current=progress.get('current_batch',{});allocation=progress.get('batch_allocation_status',{});phase=allocation.get('phase',current.get('phase','waiting'))
+continuation=progress.get('continuation_20261029',{})
+if continuation.get('state') in ['PENDING','CONFIGURING','CONTINUING','NEEDS_ATTENTION']:phase='等待独立节点' if continuation.get('state')!='NEEDS_ATTENTION' else '需处理分配/运行问题'
 if current.get('batch'):
  event('phase/'+current['batch']+'/'+phase,'当前批次 '+current['batch']+'：'+phase,phase in ['loading_judge','grading'])
 exitpath=D/'status/existing-2989-exit.json';failure=None
+if continuation.get('state')=='NEEDS_ATTENTION':failure='连续分配未能完成批次，需处理后继续；已保留原始输出。'
 if exitpath.exists():
  exited=json.loads(exitpath.read_text())
  if exited.get('worker_returncode') not in [None,0]:

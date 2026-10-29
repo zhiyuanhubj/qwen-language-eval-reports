@@ -883,5 +883,10 @@
     "id": "phase/6500-7000/waiting_for_resource_handoff",
     "utc": 1793259207.7580483,
     "message": "当前批次 6500-7000：waiting_for_resource_handoff"
+  },
+  {
+    "id": "phase/6500-7000/等待独立节点",
+    "utc": 1793259422.8125188,
+    "message": "当前批次 6500-7000：等待独立节点"
   }
 ]

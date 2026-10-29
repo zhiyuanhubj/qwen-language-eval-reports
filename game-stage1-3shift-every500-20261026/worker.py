@@ -24,10 +24,15 @@ def acquire():
  while True:
   if remaining_minutes()<105:status('lease_too_short_to_start_another_batch');return False
   try:
-   LOCK.mkdir();held=True;write(LOCK/'owner.json',{'job':JOB,'host':HOST,'pid':os.getpid(),'utc':time.time()});return True
+   LOCK.mkdir();held=True;write(LOCK/'owner.json',{'job':JOB,'host':HOST,'pid':os.getpid(),'utc':time.time(),'restart_count':int(os.environ.get('SLURM_RESTART_COUNT','0'))});return True
   except FileExistsError:
    try:
-    owner=json.loads((LOCK/'owner.json').read_text());active=subprocess.check_output(['squeue','-h','-j',owner['job'],'-o','%T'],text=True).strip()
+    owner=json.loads((LOCK/'owner.json').read_text())
+    if owner['job']==JOB and owner.get('restart_count',0)<int(os.environ.get('SLURM_RESTART_COUNT','0')):
+     try:LOCK.rename(LOCK.with_name('expired-worker-lock-'+str(time.time_ns())))
+     except FileNotFoundError:pass
+     continue
+    active=subprocess.check_output(['squeue','-h','-j',owner['job'],'-o','%T'],text=True).strip()
     if not active:
      terminal=subprocess.check_output(['sacct','-X','-j',owner['job'],'-n','-P','-o','State'],text=True).splitlines()
      if terminal and terminal[0].split('|')[0].split()[0] in ['COMPLETED','FAILED','CANCELLED','TIMEOUT','NODE_FAIL','PREEMPTED','OUT_OF_MEMORY']:
@@ -59,6 +64,7 @@ def verify(B):
  return counts
 
 try:
+ write(D/'status/current-allocation.json',{'utc':time.time(),'job_id':int(JOB),'host':HOST,'existing_owned_allocation':False,'dedicated_evaluation_allocation':True,'api_node2989_untouched':True})
  status('starting',existing=EXISTING)
  while acquire():
   B=None

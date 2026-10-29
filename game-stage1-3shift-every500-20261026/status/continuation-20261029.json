@@ -10,9 +10,24 @@
     9500
   ],
   "expected_new_answers": 6888,
-  "state": "waiting_for_resource_handoff",
+  "state": "PENDING",
   "current_model_node2989_busy": true,
   "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
   "coordinator_contacted": true,
-  "already_6000_completed": true
+  "already_6000_completed": true,
+  "active_job": 3142,
+  "allocation_history": [
+    {
+      "job_id": 3142,
+      "submitted_utc": 1793259412.015397,
+      "already_finished_batches": [
+        "4000-4500",
+        "5000-5500",
+        "6000"
+      ]
+    }
+  ],
+  "public_Muse_API_untouched": true,
+  "updated_utc": 1793259412.039274,
+  "scheduler": "PENDING|(Priority)"
 }
