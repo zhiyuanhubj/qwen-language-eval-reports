@@ -893,5 +893,10 @@
     "id": "phase/6500-7000/downloading",
     "utc": 1793260865.921505,
     "message": "当前批次 6500-7000：downloading"
+  },
+  {
+    "id": "phase/6500-7000/evaluating_and_grading",
+    "utc": 1793261007.1259933,
+    "message": "当前批次 6500-7000：evaluating_and_grading"
   }
 ]
