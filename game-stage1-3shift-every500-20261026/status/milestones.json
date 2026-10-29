@@ -1058,5 +1058,10 @@
     "id": "phase/6500-7000/loading_judge",
     "utc": 1793263983.7271454,
     "message": "当前批次 6500-7000：loading_judge"
+  },
+  {
+    "id": "phase/6500-7000/grading",
+    "utc": 1793264686.2776396,
+    "message": "当前批次 6500-7000：grading"
   }
 ]
