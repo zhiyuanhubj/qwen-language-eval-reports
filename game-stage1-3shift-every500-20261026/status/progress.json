@@ -1,5 +1,5 @@
 {
-  "utc": 1793268611.3098807,
+  "utc": 1793268831.2990322,
   "responses": 8854,
   "graded": 8854,
   "expected": 11808,
@@ -23,11 +23,11 @@
   "total_batches": 7,
   "terminal": false,
   "current_batch": {
-    "utc": 1793268609.466422,
+    "utc": 1793268740.1869783,
     "batch": "8500-9000",
     "job": "3142",
     "host": "ip-10-1-77-106",
-    "phase": "downloading"
+    "phase": "evaluating_and_grading"
   },
   "current_allocation": {
     "utc": 1793260833.8176408,
@@ -67,7 +67,7 @@
       }
     ],
     "public_Muse_API_untouched": true,
-    "updated_utc": 1793268609.7181444,
+    "updated_utc": 1793268820.1057014,
     "scheduler": "RUNNING|ip-10-1-77-106"
   },
   "scheduler": "RUNNING|ip-10-1-77-106"
