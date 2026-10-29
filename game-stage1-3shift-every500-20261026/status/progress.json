@@ -1,5 +1,5 @@
 {
-  "utc": 1793268563.3492434,
+  "utc": 1793268611.3098807,
   "responses": 8854,
   "graded": 8854,
   "expected": 11808,
@@ -17,16 +17,17 @@
     "4000-4500",
     "5000-5500",
     "6000",
-    "6500-7000"
+    "6500-7000",
+    "7500-8000"
   ],
   "total_batches": 7,
   "terminal": false,
   "current_batch": {
-    "utc": 1793265305.5353765,
-    "batch": "7500-8000",
+    "utc": 1793268609.466422,
+    "batch": "8500-9000",
     "job": "3142",
     "host": "ip-10-1-77-106",
-    "phase": "evaluating_and_grading"
+    "phase": "downloading"
   },
   "current_allocation": {
     "utc": 1793260833.8176408,
@@ -66,15 +67,8 @@
       }
     ],
     "public_Muse_API_untouched": true,
-    "updated_utc": 1793268549.596114,
+    "updated_utc": 1793268609.7181444,
     "scheduler": "RUNNING|ip-10-1-77-106"
   },
-  "scheduler": "RUNNING|ip-10-1-77-106",
-  "batch_allocation_status": {
-    "utc": 1793268086.7674003,
-    "job": "3142",
-    "node": "ip-10-1-77-106",
-    "phase": "grading",
-    "generation_complete": false
-  }
+  "scheduler": "RUNNING|ip-10-1-77-106"
 }
