@@ -1978,5 +1978,10 @@
     "id": "game-stage1-3shift-9500/thinking-sampled/responses/0.75",
     "utc": 1793273847.720172,
     "message": "game-stage1-3shift-9500 · Thinking · 0.6 / 0.95：回答达到 75%（当前203/246）"
+  },
+  {
+    "id": "phase/9500/loading_judge",
+    "utc": 1793274878.2252986,
+    "message": "当前批次 9500：loading_judge"
   }
 ]
