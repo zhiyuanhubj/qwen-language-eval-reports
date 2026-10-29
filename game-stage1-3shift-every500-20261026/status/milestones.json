@@ -1293,5 +1293,55 @@
     "id": "game-stage1-3shift-8000/nonthinking-notags-t06-p095/responses/1",
     "utc": 1793265620.8603423,
     "message": "game-stage1-3shift-8000 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/thinking-sampled/responses/0.25",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-7500 · Thinking · 0.6 / 0.95：回答达到 25%（当前87/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-7500 · NoTags · 0.6 / 0.95：回答达到 75%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/nonthinking-notags-t06-p095/responses/1",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-7500 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-7500 · NoTags · 1 / 1：回答达到 75%（当前188/246）"
+  },
+  {
+    "id": "game-stage1-3shift-8000/nonthinking-notags-t1-p1/responses/0.75",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-8000 · NoTags · 1 / 1：回答达到 75%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-8000/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1793265673.5303228,
+    "message": "game-stage1-3shift-8000 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/nonthinking-notags-t1-p1/responses/1",
+    "utc": 1793265739.7103245,
+    "message": "game-stage1-3shift-7500 · NoTags · 1 / 1：回答达到 100%（当前246/246）"
+  },
+  {
+    "id": "game-stage1-3shift-8000/thinking-sampled-t1-p1/responses/0.5",
+    "utc": 1793265739.7103245,
+    "message": "game-stage1-3shift-8000 · Thinking · 1 / 1：回答达到 50%（当前133/246）"
+  },
+  {
+    "id": "game-stage1-3shift-7500/thinking-sampled-t1-p1/responses/0.25",
+    "utc": 1793265805.322316,
+    "message": "game-stage1-3shift-7500 · Thinking · 1 / 1：回答达到 25%（当前63/246）"
+  },
+  {
+    "id": "game-stage1-3shift-8000/thinking-sampled-t1-p1/responses/0.75",
+    "utc": 1793265805.322316,
+    "message": "game-stage1-3shift-8000 · Thinking · 1 / 1：回答达到 75%（当前188/246）"
   }
 ]
