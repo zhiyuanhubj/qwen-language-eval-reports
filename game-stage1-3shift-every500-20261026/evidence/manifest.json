@@ -1,5 +1,5 @@
 {
-  "utc": 1793260553.2363338,
+  "utc": 1793260764.1966915,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-4500.smoke.metadata.json.gz",
@@ -1004,10 +1004,10 @@
     },
     {
       "path": "logs/watch.log.gz",
-      "uncompressed_sha256": "e23afc1ed7fd7e0147e198136ec5a30aaa0abecb6a4c98f6c5e3e7eb01e1f8e3",
-      "bytes": 333903,
-      "stat_size": 333903,
-      "stat_mtime_ns": 1793260511000000000
+      "uncompressed_sha256": "29f8af36691b19e0523c0f40e03897b7d7705e87825db56f97af8c70a21db016",
+      "bytes": 341598,
+      "stat_size": 341598,
+      "stat_mtime_ns": 1793260718000000000
     },
     {
       "path": "logs/prefetch-first.log.gz",
