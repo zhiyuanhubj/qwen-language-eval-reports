@@ -1,5 +1,5 @@
 {
-  "utc": 1793260750.762462,
+  "utc": 1793260962.3939211,
   "responses": 4920,
   "graded": 4920,
   "expected": 11808,
@@ -21,20 +21,18 @@
   "total_batches": 7,
   "terminal": false,
   "current_batch": {
-    "utc": 1793259576.0555277,
+    "utc": 1793260833.9811103,
     "batch": "6500-7000",
-    "job": "2989",
-    "host": "ip-10-1-25-253",
-    "phase": "waiting_for_dedicated_node"
+    "job": "3142",
+    "host": "ip-10-1-77-106",
+    "phase": "downloading"
   },
   "current_allocation": {
-    "utc": 1793259412.0227869,
+    "utc": 1793260833.8176408,
     "job_id": 3142,
+    "host": "ip-10-1-77-106",
     "existing_owned_allocation": false,
     "dedicated_evaluation_allocation": true,
-    "requested_nodes": 1,
-    "walltime_hours": 8,
-    "backfill_min_hours": 2,
     "api_node2989_untouched": true
   },
   "continuation_20261029": {
@@ -49,7 +47,7 @@
       9500
     ],
     "expected_new_answers": 6888,
-    "state": "PENDING",
+    "state": "RUNNING",
     "current_model_node2989_busy": true,
     "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
     "coordinator_contacted": true,
@@ -67,8 +65,8 @@
       }
     ],
     "public_Muse_API_untouched": true,
-    "updated_utc": 1793260734.6785324,
-    "scheduler": "PENDING|(Priority)"
+    "updated_utc": 1793260945.0569768,
+    "scheduler": "RUNNING|ip-10-1-77-106"
   },
-  "scheduler": "PENDING|(Priority)"
+  "scheduler": "RUNNING|ip-10-1-77-106"
 }

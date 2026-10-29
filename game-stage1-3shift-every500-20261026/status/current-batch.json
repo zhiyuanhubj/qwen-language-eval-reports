@@ -1,7 +1,7 @@
 {
-  "utc": 1793259576.0555277,
+  "utc": 1793260833.9811103,
   "batch": "6500-7000",
-  "job": "2989",
-  "host": "ip-10-1-25-253",
-  "phase": "waiting_for_dedicated_node"
+  "job": "3142",
+  "host": "ip-10-1-77-106",
+  "phase": "downloading"
 }

@@ -10,7 +10,7 @@
     9500
   ],
   "expected_new_answers": 6888,
-  "state": "PENDING",
+  "state": "RUNNING",
   "current_model_node2989_busy": true,
   "coordinator_thread": "01a13042-77cc-7202-ae40-11ae801ea554",
   "coordinator_contacted": true,
@@ -28,6 +28,6 @@
     }
   ],
   "public_Muse_API_untouched": true,
-  "updated_utc": 1793260734.6785324,
-  "scheduler": "PENDING|(Priority)"
+  "updated_utc": 1793260945.0569768,
+  "scheduler": "RUNNING|ip-10-1-77-106"
 }

@@ -1,10 +1,8 @@
 {
-  "utc": 1793259412.0227869,
+  "utc": 1793260833.8176408,
   "job_id": 3142,
+  "host": "ip-10-1-77-106",
   "existing_owned_allocation": false,
   "dedicated_evaluation_allocation": true,
-  "requested_nodes": 1,
-  "walltime_hours": 8,
-  "backfill_min_hours": 2,
   "api_node2989_untouched": true
 }
