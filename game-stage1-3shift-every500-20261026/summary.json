@@ -1,5 +1,5 @@
 {
-  "utc": 1793269274.4295728,
+  "utc": 1793269493.5556293,
   "note": "Game Stage1-3Shift每500step详细补测。4000至9500每500step累计12个checkpoint，共11808条回答；4000至6000的4920条已完成，本次接续6500/7000/7500/8000/8500/9000/9500共6888条；500至3500每500step复用已完成结果。原246题、Thinking/NoTags、T0.6/p0.95与T1/p1、BF16、seed42、context32768、output16384不变。全部原始回答、thinking、final、逐项评分、错误与日志保留。评分为同一V4.1原rubric模型辅助分数，非人工准确率。上下文超限不截断历史、不变更设置，保留失败记录和覆盖分母。旧实验分数与原文不改写。",
   "results": [
     {
@@ -3714,14 +3714,14 @@
       "model": "game-stage1-3shift-8500",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 101,
+      "responses": 105,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 101,
-      "length_limited": 0
+      "missing_final": 105,
+      "length_limited": 2
     },
     {
       "model": "game-stage1-3shift-8500",
@@ -3753,39 +3753,85 @@
       "model": "game-stage1-3shift-8500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 127,
+      "responses": 128,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 127,
+      "missing_final": 128,
       "length_limited": 0
     },
     {
       "model": "game-stage1-3shift-8500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
-      "responses": 40,
+      "responses": 72,
       "graded": 0,
       "expected": 72,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 40,
-      "length_limited": 0
+      "missing_final": 72,
+      "length_limited": 0,
+      "objective": {
+        "all72": {
+          "correct": 0,
+          "expected": 72,
+          "answered": 72,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 72,
+          "missing_final": 72,
+          "raw_only_correct": 37
+        },
+        "allenai/ai2_arc": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 9
+        },
+        "lmms-lab/ai2d-no-mask": {
+          "correct": 0,
+          "expected": 36,
+          "answered": 36,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 36,
+          "missing_final": 36,
+          "raw_only_correct": 17
+        },
+        "openai/gsm8k": {
+          "correct": 0,
+          "expected": 18,
+          "answered": 18,
+          "complete": true,
+          "provisional": false,
+          "accuracy_percent": 0.0,
+          "parse_failures": 18,
+          "missing_final": 18,
+          "raw_only_correct": 11
+        }
+      }
     },
     {
       "model": "game-stage1-3shift-8500",
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
-      "responses": 0,
+      "responses": 46,
       "graded": 0,
       "expected": 46,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 46,
       "length_limited": 0
     },
     {
@@ -3962,14 +4008,14 @@
       "model": "game-stage1-3shift-9000",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 97,
+      "responses": 99,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 97,
-      "length_limited": 0
+      "missing_final": 99,
+      "length_limited": 2
     },
     {
       "model": "game-stage1-3shift-9000",
@@ -4001,13 +4047,13 @@
       "model": "game-stage1-3shift-9000",
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
-      "responses": 66,
+      "responses": 124,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 66,
+      "missing_final": 123,
       "length_limited": 0
     },
     {
