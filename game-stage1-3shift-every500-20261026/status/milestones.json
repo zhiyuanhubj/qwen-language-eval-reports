@@ -2063,5 +2063,15 @@
     "id": "game-stage1-3shift-9500/nonthinking-notags-t1-p1/graded/1",
     "utc": 1793275783.4895515,
     "message": "game-stage1-3shift-9500 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "batch-done/9500",
+    "utc": 1793275833.3860662,
+    "message": "批次 9500：回答、评分及SHA对应关系已校验，准备后续批次"
+  },
+  {
+    "id": "phase/9500/partial",
+    "utc": 1793275833.3860662,
+    "message": "当前批次 9500：partial"
   }
 ]
