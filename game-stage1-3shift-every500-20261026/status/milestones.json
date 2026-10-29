@@ -1903,5 +1903,30 @@
     "id": "phase/9500/evaluating_and_grading",
     "utc": 1793272481.5863228,
     "message": "当前批次 9500：evaluating_and_grading"
+  },
+  {
+    "id": "game-stage1-3shift-9500/nonthinking-notags-t06-p095/responses/0.25",
+    "utc": 1793272676.0182161,
+    "message": "game-stage1-3shift-9500 · NoTags · 0.6 / 0.95：回答达到 25%（当前89/246）"
+  },
+  {
+    "id": "game-stage1-3shift-9500/nonthinking-notags-t06-p095/responses/0.5",
+    "utc": 1793272710.6766894,
+    "message": "game-stage1-3shift-9500 · NoTags · 0.6 / 0.95：回答达到 50%（当前143/246）"
+  },
+  {
+    "id": "game-stage1-3shift-9500/nonthinking-notags-t06-p095/responses/0.75",
+    "utc": 1793272745.6585815,
+    "message": "game-stage1-3shift-9500 · NoTags · 0.6 / 0.95：回答达到 75%（当前242/246）"
+  },
+  {
+    "id": "game-stage1-3shift-9500/thinking-sampled/responses/0.25",
+    "utc": 1793272780.3199399,
+    "message": "game-stage1-3shift-9500 · Thinking · 0.6 / 0.95：回答达到 25%（当前77/246）"
+  },
+  {
+    "id": "game-stage1-3shift-9500/nonthinking-notags-t06-p095/responses/1",
+    "utc": 1793272780.3199399,
+    "message": "game-stage1-3shift-9500 · NoTags · 0.6 / 0.95：回答达到 100%（当前246/246）"
   }
 ]
