@@ -1,0 +1,20 @@
+{
+  "utc": 1793603999.19284,
+  "files": [
+    {
+      "path": "prompts.jsonl.gz",
+      "bytes": 164847,
+      "uncompressed_sha256": "ccb08ee8ecd9d3a06065b13019298b6de2ce526dfe89ed9483ffe0dd770c7b45"
+    },
+    {
+      "path": "manifest.json.gz",
+      "bytes": 5762,
+      "uncompressed_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692"
+    },
+    {
+      "path": "benchmark-answers.json.gz",
+      "bytes": 25391,
+      "uncompressed_sha256": "dcd557507d2b7b5374fda33a2e89da5817add823c89232e77766dbbb74b737e9"
+    }
+  ]
+}

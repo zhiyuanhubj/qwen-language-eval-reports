@@ -1,0 +1,23 @@
+{
+  "utc": 1793603954.8288503,
+  "state": "PENDING",
+  "active_job": 3279,
+  "steps": [
+    10000,
+    10500,
+    11000,
+    11500,
+    12000
+  ],
+  "expected_new_answers": 4920,
+  "allocation_history": [
+    {
+      "job_id": 3279,
+      "submitted_utc": 1793603954.8288515,
+      "already_finished_batches": []
+    }
+  ],
+  "public_Muse_API_untouched": true,
+  "scheduler": "PENDING|(Priority)",
+  "updated_utc": 1793603986.6287477
+}

@@ -1,0 +1,10 @@
+{
+  "utc": 1793603954.8339407,
+  "job_id": 3279,
+  "existing_owned_allocation": false,
+  "dedicated_evaluation_allocation": true,
+  "requested_nodes": 1,
+  "walltime_hours": 8,
+  "backfill_min_hours": 2,
+  "public_api3270_untouched": true
+}

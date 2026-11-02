@@ -1,13 +1,65 @@
 {
-  "utc": 1793603483.2987487,
-  "phase": "prepared_waiting_resource_assignment",
+  "utc": 1793603957.0582113,
   "responses": 0,
   "graded": 0,
   "expected": 4920,
+  "reused_steps": [
+    500,
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000,
+    5500,
+    6000,
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "requested_grid_expected": 23616,
   "finished_batches": [],
   "total_batches": 3,
   "terminal": false,
-  "scheduler": "NOT_SUBMITTED",
-  "latest_hf_step": 12000,
-  "public_api_handoff_authorized": false
+  "current_allocation": {
+    "utc": 1793603954.8339407,
+    "job_id": 3279,
+    "existing_owned_allocation": false,
+    "dedicated_evaluation_allocation": true,
+    "requested_nodes": 1,
+    "walltime_hours": 8,
+    "backfill_min_hours": 2,
+    "public_api3270_untouched": true
+  },
+  "continuation_20261102": {
+    "utc": 1793603954.8288503,
+    "state": "PENDING",
+    "active_job": 3279,
+    "steps": [
+      10000,
+      10500,
+      11000,
+      11500,
+      12000
+    ],
+    "expected_new_answers": 4920,
+    "allocation_history": [
+      {
+        "job_id": 3279,
+        "submitted_utc": 1793603954.8288515,
+        "already_finished_batches": []
+      }
+    ],
+    "public_Muse_API_untouched": true,
+    "scheduler": "PENDING|(Priority)",
+    "updated_utc": 1793603956.5807333
+  },
+  "scheduler": "PENDING|(Priority)"
 }

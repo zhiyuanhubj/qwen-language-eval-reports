@@ -1,7 +1,7 @@
 # Qwen language evaluation reports
 
 <!-- coverage-audit-20261102 -->
-**2026-11-02 覆盖核查：** Game Stage1-3Shift 模型仓库已至 **12000**，现有每500step语言评测最高 **9500**。新五个checkpoint续测已准备，尚未提交GPU作业：[核查与固定版本计划](game-stage1-3shift-every500-20261102/README.md)。旧四个983/984项目已更正为“已结束，1条上下文超限”，无待评分。
+**2026-11-02 覆盖核查：** Game Stage1-3Shift 模型仓库已至 **12000**，现有每500step语言评测最高 **9500**。新五个checkpoint续测已提交独立GPU队列，阶段以续测进度为准：[核查与固定版本计划](game-stage1-3shift-every500-20261102/README.md)。旧四个983/984项目已更正为“已结束，1条上下文超限”，无待评分。
 
 
 <!-- game-every500-latest -->
