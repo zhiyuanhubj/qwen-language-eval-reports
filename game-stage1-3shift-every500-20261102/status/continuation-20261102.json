@@ -1,6 +1,6 @@
 {
   "utc": 1793603954.8288503,
-  "state": "RUNNING",
+  "state": "COMPLETE",
   "active_job": 3279,
   "steps": [
     10000,
@@ -19,5 +19,10 @@
   ],
   "public_Muse_API_untouched": true,
   "scheduler": "RUNNING|ip-10-1-13-41",
-  "updated_utc": 1793644327.7925856
+  "updated_utc": 1793644357.8607297,
+  "completed_batches": [
+    "11000-11500",
+    "10000-10500",
+    "12000"
+  ]
 }

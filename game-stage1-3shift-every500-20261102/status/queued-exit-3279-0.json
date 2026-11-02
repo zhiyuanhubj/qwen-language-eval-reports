@@ -1,0 +1,9 @@
+{
+  "started_utc": 1793634432.3354096,
+  "finished_utc": 1793644347.595648,
+  "job": "3279",
+  "restart_count": "0",
+  "worker_returncode": 0,
+  "own_containers_cleaned": [],
+  "public_Muse_API_untouched": true
+}
