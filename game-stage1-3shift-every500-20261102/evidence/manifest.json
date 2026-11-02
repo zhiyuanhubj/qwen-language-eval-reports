@@ -1,6 +1,20 @@
 {
-  "utc": 1793634277.1366684,
+  "utc": 1793634473.5290408,
   "files": [
+    {
+      "path": "logs/continuation-3279.log.gz",
+      "uncompressed_sha256": "693f7e7abb6fb55208c98ff9c9ce7d0d09e1ea579e49835ec8708d6386333692",
+      "bytes": 66,
+      "stat_size": 66,
+      "stat_mtime_ns": 1793634432000000000
+    },
+    {
+      "path": "batches/10000-10500/logs/download.log.gz",
+      "uncompressed_sha256": "c6d7099a050a7ea8471b9f9e5c5059afd3af4c8b4e56915dc4a25c2b0c5c7858",
+      "bytes": 358,
+      "stat_size": 358,
+      "stat_mtime_ns": 1793634436000000000
+    },
     {
       "path": "prompts.jsonl.gz",
       "bytes": 164847,

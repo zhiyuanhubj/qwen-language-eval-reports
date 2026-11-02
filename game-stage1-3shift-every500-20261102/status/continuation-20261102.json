@@ -1,6 +1,6 @@
 {
   "utc": 1793603954.8288503,
-  "state": "PENDING",
+  "state": "RUNNING",
   "active_job": 3279,
   "steps": [
     10000,
@@ -18,6 +18,6 @@
     }
   ],
   "public_Muse_API_untouched": true,
-  "scheduler": "PENDING|(Priority)",
-  "updated_utc": 1793634260.8305318
+  "scheduler": "RUNNING|ip-10-1-13-41",
+  "updated_utc": 1793634471.1698651
 }
