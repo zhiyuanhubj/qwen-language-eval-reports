@@ -1,5 +1,5 @@
 {
-  "utc": 1793644110.0901284,
+  "utc": 1793644319.0403264,
   "note": "2026-11-02 新增10000/10500/11000/11500/12000五个checkpoint，每个246题×四模式，共4920条。原suite、模板、采样、BF16、seed42、32768上下文和16384输出不变；沿用原V4.1 rubric，保留thinking/final/评分/错误/日志。旧500–9500结果只读复用，缺项不当成0分。",
   "results": [
     {
@@ -1655,11 +1655,17 @@
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 88.66,
+        "language": 98.36,
+        "logic": 88.29,
+        "instruction": 49.55,
+        "completeness": 52.05
+      },
+      "overall": 75.38,
       "missing_final": 125,
       "length_limited": 9
     },
@@ -1668,17 +1674,17 @@
       "mode": "thinking-sampled",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 32,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 89.53,
-        "language": 99.69,
-        "logic": 91.25,
-        "instruction": 46.56,
-        "completeness": 47.97
+        "accuracy": 92.36,
+        "language": 99.86,
+        "logic": 93.79,
+        "instruction": 48.33,
+        "completeness": 49.44
       },
-      "overall": 75.0,
+      "overall": 76.76,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -1733,11 +1739,17 @@
       "mode": "thinking-sampled",
       "subset": "friend46",
       "responses": 45,
-      "graded": 0,
+      "graded": 45,
       "expected": 46,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 90.96,
+        "language": 93.33,
+        "logic": 89.89,
+        "instruction": 41.33,
+        "completeness": 43.56
+      },
+      "overall": 71.81,
       "missing_final": 45,
       "length_limited": 7
     },
@@ -1746,11 +1758,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 74.04,
+        "language": 84.7,
+        "logic": 73.13,
+        "instruction": 43.55,
+        "completeness": 46.22
+      },
+      "overall": 64.33,
       "missing_final": 126,
       "length_limited": 0
     },
@@ -1759,17 +1777,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 31,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 76.29,
-        "language": 91.45,
-        "logic": 77.42,
-        "instruction": 40.32,
-        "completeness": 41.61
+        "accuracy": 78.68,
+        "language": 90,
+        "logic": 80.12,
+        "instruction": 40.69,
+        "completeness": 42.29
       },
-      "overall": 65.42,
+      "overall": 66.36,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -1824,11 +1842,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "friend46",
       "responses": 46,
-      "graded": 0,
+      "graded": 46,
       "expected": 46,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 82.3,
+        "language": 85.22,
+        "logic": 82.22,
+        "instruction": 38.04,
+        "completeness": 42.07
+      },
+      "overall": 65.97,
       "missing_final": 46,
       "length_limited": 0
     },
@@ -1837,11 +1861,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 86.76,
+        "language": 99.96,
+        "logic": 86.66,
+        "instruction": 93.48,
+        "completeness": 88.63
+      },
+      "overall": 91.1,
       "missing_final": 0,
       "length_limited": 0
     },
@@ -1850,17 +1880,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 32,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 91.56,
-        "language": 99.84,
-        "logic": 91.81,
-        "instruction": 88.44,
-        "completeness": 89.38
+        "accuracy": 88.82,
+        "language": 99.93,
+        "logic": 90.46,
+        "instruction": 92.36,
+        "completeness": 92.85
       },
-      "overall": 92.21,
+      "overall": 92.88,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
@@ -1915,11 +1945,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "friend46",
       "responses": 46,
-      "graded": 0,
+      "graded": 46,
       "expected": 46,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 96.3,
+        "language": 95.65,
+        "logic": 96.09,
+        "instruction": 94.24,
+        "completeness": 97.35
+      },
+      "overall": 95.93,
       "missing_final": 0,
       "length_limited": 0
     },
@@ -1928,11 +1964,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "diagnostic128",
       "responses": 128,
-      "graded": 0,
+      "graded": 128,
       "expected": 128,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 71.53,
+        "language": 91.49,
+        "logic": 71.98,
+        "instruction": 82.93,
+        "completeness": 76.68
+      },
+      "overall": 78.92,
       "missing_final": 0,
       "length_limited": 0
     },
@@ -1941,17 +1983,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 32,
+      "graded": 72,
       "expected": 72,
-      "provisional": true,
+      "provisional": false,
       "means": {
-        "accuracy": 88.75,
-        "language": 99.06,
-        "logic": 87.59,
-        "instruction": 83.28,
-        "completeness": 83.59
+        "accuracy": 81.25,
+        "language": 97.01,
+        "logic": 82.61,
+        "instruction": 86.32,
+        "completeness": 85.14
       },
-      "overall": 88.45,
+      "overall": 86.47,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
@@ -2006,11 +2048,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "friend46",
       "responses": 46,
-      "graded": 0,
+      "graded": 46,
       "expected": 46,
-      "provisional": true,
-      "means": {},
-      "overall": null,
+      "provisional": false,
+      "means": {
+        "accuracy": 95.5,
+        "language": 95.33,
+        "logic": 94.67,
+        "instruction": 96.74,
+        "completeness": 95.39
+      },
+      "overall": 95.53,
       "missing_final": 0,
       "length_limited": 0
     }
