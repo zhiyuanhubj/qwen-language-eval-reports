@@ -1,8 +1,7 @@
 {
-  "utc": 1793634678.8698478,
+  "utc": 1793634973.5074403,
   "job": "3279",
   "node": "ip-10-1-13-41",
-  "phase": "evaluating",
-  "mode": "nonthinking-notags-t1-p1",
-  "gpu": 3
+  "phase": "generation_complete",
+  "failures": []
 }
