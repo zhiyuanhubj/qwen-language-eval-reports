@@ -1,7 +1,7 @@
 {
-  "utc": 1793641055.303753,
+  "utc": 1793641266.6865191,
   "responses": 3934,
-  "graded": 2988,
+  "graded": 3934,
   "expected": 4920,
   "reused_steps": [
     500,
@@ -66,7 +66,7 @@
     ],
     "public_Muse_API_untouched": true,
     "scheduler": "RUNNING|ip-10-1-13-41",
-    "updated_utc": 1793641052.1351004
+    "updated_utc": 1793641262.5326416
   },
   "scheduler": "RUNNING|ip-10-1-13-41",
   "batch_allocation_status": {

@@ -1,5 +1,5 @@
 {
-  "utc": 1793641070.9855742,
+  "utc": 1793641278.8216717,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-11000.smoke.metadata.json.gz",
@@ -570,10 +570,10 @@
     },
     {
       "path": "scores100/thinking-sampled-t1-p1-game-stage1-3shift-11500.jsonl.gz",
-      "uncompressed_sha256": "be7ab2a8155988da9936a47e7a7ed1645e831fc66a9ee9613929dc7aaf033fb6",
-      "bytes": 135970,
-      "stat_size": 135970,
-      "stat_mtime_ns": 1793641070000000000
+      "uncompressed_sha256": "316013718b1f56f1a97826b508a46d60341844528f913aaa04dec85bc32d5c7b",
+      "bytes": 1012065,
+      "stat_size": 1012065,
+      "stat_mtime_ns": 1793641255000000000
     },
     {
       "path": "scores100/thinking-sampled-game-stage1-3shift-10000.jsonl.gz",
@@ -598,17 +598,17 @@
     },
     {
       "path": "scores100/nonthinking-notags-t1-p1-game-stage1-3shift-11500.jsonl.gz",
-      "uncompressed_sha256": "29ea70feb604c3612bf8a4417f767c1d72faaaf1f2329f079e4738c8e7ae1a4a",
-      "bytes": 110950,
-      "stat_size": 110950,
-      "stat_mtime_ns": 1793641070000000000
+      "uncompressed_sha256": "6557c786e61408f96b5b15eeaa45ef875060b97cdb169911756535fcc0aacc30",
+      "bytes": 896255,
+      "stat_size": 896255,
+      "stat_mtime_ns": 1793641255000000000
     },
     {
       "path": "scores100/thinking-sampled-game-stage1-3shift-11500.jsonl.gz",
-      "uncompressed_sha256": "837d650fd46463b68e258e8bc8355416abfa9b605c0208ecc77997efcd72f7d1",
-      "bytes": 131775,
-      "stat_size": 131775,
-      "stat_mtime_ns": 1793641070000000000
+      "uncompressed_sha256": "4b90570246994813b995613e860e533b385c931f04d0c721a44b82e8586ebd9a",
+      "bytes": 953597,
+      "stat_size": 953597,
+      "stat_mtime_ns": 1793641255000000000
     },
     {
       "path": "scores100/nonthinking-notags-t06-p095-game-stage1-3shift-10500.jsonl.gz",
@@ -668,10 +668,10 @@
     },
     {
       "path": "scores100/nonthinking-notags-t06-p095-game-stage1-3shift-11500.jsonl.gz",
-      "uncompressed_sha256": "5377e99455c825a0d89cd278d26d88ea8dfb18db66f32fe9141c269eaf9ed277",
-      "bytes": 105991,
-      "stat_size": 105991,
-      "stat_mtime_ns": 1793641069000000000
+      "uncompressed_sha256": "2caf8fac1c821343620943983485e6682eef12592bcd64fae9188437eea64488",
+      "bytes": 853671,
+      "stat_size": 853671,
+      "stat_mtime_ns": 1793641254000000000
     },
     {
       "path": "scores100/nonthinking-notags-t1-p1-game-stage1-3shift-10500.jsonl.gz",
@@ -682,10 +682,10 @@
     },
     {
       "path": "scores100/summary.json.gz",
-      "uncompressed_sha256": "e1c4faa75b8773ea20b76056989356f38eef28b0c677abbd7420e54ddce95b8b",
-      "bytes": 7488,
-      "stat_size": 7488,
-      "stat_mtime_ns": 1793641049000000000
+      "uncompressed_sha256": "c66cfe567fd0335522789d14c0683f0ce9fd28b328cf9fc5d485729151e194ec",
+      "bytes": 7561,
+      "stat_size": 7561,
+      "stat_mtime_ns": 1793641256000000000
     },
     {
       "path": "templates/thinking/game-stage1-3shift-11500.template-audit.json.gz",
@@ -871,17 +871,17 @@
     },
     {
       "path": "batches/11000-11500/logs/judge.log.gz",
-      "uncompressed_sha256": "7a057d74d2ea4174133b6d49581c35adf5f0ad3f3f86c68308d7e6bd40e4879b",
-      "bytes": 8890,
-      "stat_size": 8890,
-      "stat_mtime_ns": 1793641049000000000
+      "uncompressed_sha256": "8ca9ac112c822a01a8bd75280872b4e4b56f049907841de0e642d839fb0e0378",
+      "bytes": 22430,
+      "stat_size": 22430,
+      "stat_mtime_ns": 1793641256000000000
     },
     {
       "path": "batches/11000-11500/logs/judge-server.log.gz",
-      "uncompressed_sha256": "fd727a23042a2a4bfb46ef323790af7c3e762df79be26d711cf3b6fc99ca4608",
-      "bytes": 273636,
-      "stat_size": 273636,
-      "stat_mtime_ns": 1793641070000000000
+      "uncompressed_sha256": "8476f1b85dcc84e6d55521092fbc23441909449e04f7bc0a363d316f265c9e64",
+      "bytes": 349433,
+      "stat_size": 349433,
+      "stat_mtime_ns": 1793641270000000000
     },
     {
       "path": "batches/11000-11500/logs/game-stage1-3shift-11000.thinking-sampled.client.log.gz",
