@@ -1,15 +1,15 @@
 {
   "pid": 3046109,
   "started_utc": 1793607971.7181556,
-  "loop_started_utc": 1793643213.2275276,
+  "loop_started_utc": 1793643427.0258281,
   "phase": "publishing",
-  "last_check_utc": 1793643215.1194212,
-  "responses": 4916,
+  "last_check_utc": 1793643428.9555461,
+  "responses": 4917,
   "graded": 3934,
   "scheduler": "RUNNING|ip-10-1-13-41",
-  "publish_attempt_utc": 1793643215.2101843,
-  "last_publish_utc": 1793643021.2931037,
-  "last_publish_commit": "bc658a0748f32e19abea4a10f2f982a389106337",
+  "publish_attempt_utc": 1793643429.0609999,
+  "last_publish_utc": 1793643234.8755827,
+  "last_publish_commit": "7ca5d8f82aea1a29c9bf4d06173d6a1ec448b06e",
   "last_error": null,
-  "loop_finished_utc": 1793643183.2092
+  "loop_finished_utc": 1793643396.9905283
 }
