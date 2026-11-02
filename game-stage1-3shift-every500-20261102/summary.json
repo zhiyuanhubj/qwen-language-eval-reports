@@ -1,5 +1,5 @@
 {
-  "utc": 1793641314.6769571,
+  "utc": 1793641530.3372016,
   "note": "2026-11-02 新增10000/10500/11000/11500/12000五个checkpoint，每个246题×四模式，共4920条。原suite、模板、采样、BF16、seed42、32768上下文和16384输出不变；沿用原V4.1 rubric，保留thinking/final/评分/错误/日志。旧500–9500结果只读复用，缺项不当成0分。",
   "results": [
     {
@@ -1654,13 +1654,13 @@
       "model": "game-stage1-3shift-12000",
       "mode": "thinking-sampled",
       "subset": "diagnostic128",
-      "responses": 0,
+      "responses": 1,
       "graded": 0,
       "expected": 128,
       "provisional": true,
       "means": {},
       "overall": null,
-      "missing_final": 0,
+      "missing_final": 1,
       "length_limited": 0
     },
     {
