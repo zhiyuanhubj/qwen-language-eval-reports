@@ -668,5 +668,15 @@
     "id": "game-stage1-3shift-11500/nonthinking-notags-t1-p1/graded/1",
     "utc": 1793641266.7809265,
     "message": "game-stage1-3shift-11500 · NoTags · 1 / 1：评分达到 100%（当前246/246）"
+  },
+  {
+    "id": "batch-done/11000-11500",
+    "utc": 1793641314.8355412,
+    "message": "批次 11000-11500：回答、评分及SHA对应关系已校验，准备后续批次"
+  },
+  {
+    "id": "phase/12000/downloading",
+    "utc": 1793641314.8355412,
+    "message": "当前批次 12000：downloading"
   }
 ]
