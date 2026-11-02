@@ -8,5 +8,10 @@
     "id": "phase/10000-10500/downloading",
     "utc": 1793634463.8087454,
     "message": "当前批次 10000-10500：downloading"
+  },
+  {
+    "id": "phase/10000-10500/evaluating_and_grading",
+    "utc": 1793634567.9334478,
+    "message": "当前批次 10000-10500：evaluating_and_grading"
   }
 ]
