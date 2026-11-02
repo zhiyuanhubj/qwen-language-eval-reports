@@ -1,5 +1,5 @@
 {
-  "utc": 1793644059.8016324,
+  "utc": 1793644110.0901284,
   "note": "2026-11-02 新增10000/10500/11000/11500/12000五个checkpoint，每个246题×四模式，共4920条。原suite、模板、采样、BF16、seed42、32768上下文和16384输出不变；沿用原V4.1 rubric，保留thinking/final/评分/错误/日志。旧500–9500结果只读复用，缺项不当成0分。",
   "results": [
     {
@@ -1668,11 +1668,17 @@
       "mode": "thinking-sampled",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 32,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 89.53,
+        "language": 99.69,
+        "logic": 91.25,
+        "instruction": 46.56,
+        "completeness": 47.97
+      },
+      "overall": 75.0,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -1753,11 +1759,17 @@
       "mode": "thinking-sampled-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 31,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 76.29,
+        "language": 91.45,
+        "logic": 77.42,
+        "instruction": 40.32,
+        "completeness": 41.61
+      },
+      "overall": 65.42,
       "missing_final": 72,
       "length_limited": 0,
       "objective": {
@@ -1838,11 +1850,17 @@
       "mode": "nonthinking-notags-t06-p095",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 32,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 91.56,
+        "language": 99.84,
+        "logic": 91.81,
+        "instruction": 88.44,
+        "completeness": 89.38
+      },
+      "overall": 92.21,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {
@@ -1923,11 +1941,17 @@
       "mode": "nonthinking-notags-t1-p1",
       "subset": "benchmark72",
       "responses": 72,
-      "graded": 0,
+      "graded": 32,
       "expected": 72,
       "provisional": true,
-      "means": {},
-      "overall": null,
+      "means": {
+        "accuracy": 88.75,
+        "language": 99.06,
+        "logic": 87.59,
+        "instruction": 83.28,
+        "completeness": 83.59
+      },
+      "overall": 88.45,
       "missing_final": 0,
       "length_limited": 0,
       "objective": {

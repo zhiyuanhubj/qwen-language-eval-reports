@@ -1,7 +1,7 @@
 {
-  "utc": 1793644059.853383,
+  "utc": 1793644110.1495628,
   "responses": 4917,
-  "graded": 3934,
+  "graded": 4061,
   "expected": 4920,
   "reused_steps": [
     500,
@@ -67,14 +67,14 @@
     ],
     "public_Muse_API_untouched": true,
     "scheduler": "RUNNING|ip-10-1-13-41",
-    "updated_utc": 1793644057.3386898
+    "updated_utc": 1793644087.3771412
   },
   "scheduler": "RUNNING|ip-10-1-13-41",
   "batch_allocation_status": {
-    "utc": 1793643410.065242,
+    "utc": 1793644080.9273326,
     "job": "3279",
     "node": "ip-10-1-13-41",
-    "phase": "loading_judge",
+    "phase": "grading",
     "generation_complete": false
   }
 }
