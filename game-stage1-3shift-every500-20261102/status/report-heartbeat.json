@@ -1,0 +1,11 @@
+{
+  "pid": 3046109,
+  "started_utc": 1793607971.7181556,
+  "loop_started_utc": 1793607971.718157,
+  "phase": "publishing",
+  "last_check_utc": 1793607971.9549189,
+  "responses": 0,
+  "graded": 0,
+  "scheduler": "PENDING|(Priority)",
+  "publish_attempt_utc": 1793607972.0659482
+}

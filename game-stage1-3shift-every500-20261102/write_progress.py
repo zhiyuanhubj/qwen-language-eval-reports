@@ -42,6 +42,13 @@ atomic(mp,json.dumps(events,ensure_ascii=False,indent=2))
 refresh_note='本轮作业已结束，当前无生成或评分进程；本页为已有结果核查快照。' if progress.get('terminal') else '后台约每30秒核对本地记录，GitHub约每3分钟同步；批次完成、切换评分和执行异常会触发同步。'
 lines=['# Game Stage1 每500step评测进度','',f'核查时间：**{utc(now)}**。{refresh_note}','',f'最后作业：**{progress.get("current_allocation",{}).get("job_id","待分配")}** · 最后批次：**{current.get("batch","待开始")}** · 阶段：`{phase}`','']
 if failure:lines+=['**'+failure+'**','']
+hp=D/'status/report-heartbeat.json'
+if hp.exists():
+ hb=json.loads(hp.read_text());published=hb.get('last_publish_utc')
+ lines += [('最近一次成功同步 GitHub：**'+utc(published)+'**（commit `'+hb.get('last_publish_commit','')[:8]+'`）。' if published else 'GitHub 同步回执：初始化中。')+' 每分钟检查监控服务，异常退出后自动恢复；聊天窗口没有定时推送任务。','']
+healthpath=D/'status/monitor-health.json'
+if healthpath.exists():
+ for warning in json.loads(healthpath.read_text()).get('warnings',[]):lines += ['**监控提醒：** '+warning,'']
 lines += [f'新增评测：回答 **{progress["responses"]:,}/{progress["expected"]:,}**，有效评分 **{progress["graded"]:,}/{progress["expected"]:,}**；完成批次 **{len(progress["finished_batches"])}/{progress["total_batches"]}**。旧500～9500每500step结果复用，单独保留，不计入本轮新增生成数。','', '本轮续测10000、10500、11000、11500、12000，共4920条计划回答与评分；旧500～9500结果只读复用。每个checkpoint固定246题 × Thinking/NoTags × 两组采样，共984条。','', '## 当前批次各组','', '| Checkpoint | 模式 | Temperature / Top-p | 回答 | 评分 |','|---|---|---|---:|---:|']
 batchpath=D/'batches'/current.get('batch','')/'plan.json'
 current_models=[i['label'] for i in json.loads(batchpath.read_text())['items']] if batchpath.exists() else []

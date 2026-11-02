@@ -3,7 +3,7 @@ import gzip,hashlib,json,os,shutil,subprocess,sys,time,traceback
 from pathlib import Path
 D=Path(__file__).resolve().parent;W=Path('/fsx/home/zhiyuan/.cache/qwen-game-every500-publish-20261102');DEST=W/D.name
 
-def command(args,**kw):return subprocess.run(args,check=True,text=True,capture_output=True,**kw)
+def command(args,**kw):return subprocess.run(args,check=True,text=True,capture_output=True,timeout=180,**kw)
 def write(p,value):
  tmp=p.with_name(p.name+'.'+str(os.getpid())+'.tmp');tmp.write_text(json.dumps(value,ensure_ascii=False,indent=2));tmp.replace(p)
 def publish():
@@ -40,9 +40,13 @@ def publish():
  if subprocess.run(['git','diff','--cached','--quiet'],cwd=W).returncode:
   command(['git','commit','-m','Update GameStage1 every500step evaluation and detailed evidence'],cwd=W);command(['git','push','origin','HEAD:main'],cwd=W)
 
+heartbeat_path=D/'status/report-heartbeat.json'
+heartbeat=json.loads(heartbeat_path.read_text()) if heartbeat_path.exists() else {}
+heartbeat.update(pid=os.getpid(),started_utc=time.time())
 last_publish=0
 while True:
  try:
+  heartbeat.update(loop_started_utc=time.time(),phase='checking');write(heartbeat_path,heartbeat)
   command([sys.executable,str(D/'report.py')]);summary=json.loads((D/'summary.json').read_text());batches=sorted((D/'batches').iterdir());finished=[b.name for b in batches if (b/'status/batch-finished.json').exists()];progress={'utc':time.time(),'responses':sum(r['responses'] for r in summary['results']),'graded':sum(r['graded'] for r in summary['results']),'expected':json.loads((D/'plan.json').read_text())['expected_responses'],'reused_steps':json.loads((D/'plan.json').read_text())['reused_steps'],'requested_grid_expected':json.loads((D/'plan.json').read_text())['requested_grid_responses'],'finished_batches':finished,'total_batches':len(batches),'terminal':len(finished)==len(batches)}
   for name in ['current-batch','continuation-submission','current-allocation']:
    p=D/'status'/(name+'.json')
@@ -56,9 +60,15 @@ while True:
    bp=D/'batches'/progress['current_batch']['batch']/'status/allocation.json'
    if bp.exists():progress['batch_allocation_status']=json.loads(bp.read_text())
   write(D/'status/progress.json',progress)
+  heartbeat.update(last_check_utc=time.time(),responses=progress['responses'],graded=progress['graded'],scheduler=progress['scheduler']);write(heartbeat_path,heartbeat)
   readable=json.loads(command([sys.executable,str(D/'write_progress.py')]).stdout)
-  if time.time()-last_publish>=180 or progress['terminal'] or readable['major_update']:publish();last_publish=time.time()
+  if time.time()-last_publish>=180 or progress['terminal'] or readable['major_update']:
+   heartbeat.update(phase='publishing',publish_attempt_utc=time.time());write(heartbeat_path,heartbeat)
+   publish();last_publish=time.time()
+   heartbeat.update(last_publish_utc=last_publish,last_publish_commit=command(['git','rev-parse','HEAD'],cwd=W).stdout.strip(),last_error=None)
+  heartbeat.update(phase='idle',loop_finished_utc=time.time());write(heartbeat_path,heartbeat)
   print(json.dumps(progress),flush=True)
   if progress['terminal']:break
- except Exception:traceback.print_exc()
+ except Exception as exc:
+  heartbeat.update(phase='error',error_utc=time.time(),last_error=type(exc).__name__+': '+str(exc));write(heartbeat_path,heartbeat);traceback.print_exc()
  time.sleep(30)

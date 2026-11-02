@@ -1,0 +1,18 @@
+{
+  "utc": 1793607971.876981,
+  "terminal": false,
+  "services": {
+    "qwen-game-12000-report-20261102.service": "active",
+    "qwen-game-12000-queue-20261102.service": "active"
+  },
+  "actions": [],
+  "warnings": [],
+  "scheduler": "PENDING|(Priority)",
+  "last_check_utc": null,
+  "last_publish_utc": null,
+  "last_publish_commit": null,
+  "automatic_chat_notifications": false,
+  "detection_interval_seconds": 30,
+  "github_publish_interval_seconds": 180,
+  "watchdog_interval_seconds": 60
+}

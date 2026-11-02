@@ -9,18 +9,30 @@ def finished():return [p.name for p in (D/'batches').iterdir() if (p/'status/bat
 def all_done():return len(finished())==len(list((D/'batches').iterdir()))
 def state(**kw):
  data=json.loads(F.read_text());data.update(kw,updated_utc=time.time());write(F,data)
+def queue_state(job,fmt):
+ p=subprocess.run(['squeue','-h','-j',str(job),'-o',fmt],timeout=30,text=True,capture_output=True)
+ if p.returncode:
+  # A vanished job must be confirmed terminal before another allocation is submitted.
+  acct=subprocess.run(['sacct','-X','-j',str(job),'-n','-P','-o','State'],check=True,timeout=30,text=True,capture_output=True).stdout
+  states=[s.split('|')[0].split()[0].rstrip('+') for s in acct.splitlines() if s.strip()]
+  terminal={'COMPLETED','CANCELLED','FAILED','TIMEOUT','NODE_FAIL','OUT_OF_MEMORY','PREEMPTED','BOOT_FAIL','DEADLINE','REVOKED'}
+  if states and all(s in terminal for s in states):return ''
+  p.check_returncode()
+ return p.stdout.strip()
 with (D/'status/queue-supervisor.lock').open('a') as lock:
  fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);stalls=0
+ if json.loads(F.read_text()).get('state')=='NEEDS_ATTENTION':
+  raise SystemExit('Paused after repeated unsuccessful allocations; retain evidence for inspection.')
  while not all_done():
   data=json.loads(F.read_text());job=data.get('active_job');before=set(finished());active=False
   if job:
-   p=subprocess.run(['squeue','-h','-j',str(job),'-o','%T'],text=True,capture_output=True);active=bool(p.stdout.strip())
+   active=bool(queue_state(job,'%T'))
   if not active:
    p=subprocess.run(['sbatch','--parsable',str(D/'continuation.sbatch')],check=True,text=True,capture_output=True);job=int(p.stdout.strip().split(';')[0]);history=data.get('allocation_history',[]);history.append({'job_id':job,'submitted_utc':time.time(),'already_finished_batches':sorted(before)})
    state(active_job=job,state='PENDING',allocation_history=history,public_Muse_API_untouched=True)
    write(D/'status/current-allocation.json',{'utc':time.time(),'job_id':job,'existing_owned_allocation':False,'dedicated_evaluation_allocation':True,'requested_nodes':1,'walltime_hours':8,'backfill_min_hours':2,'api_node2989_untouched':True})
   while True:
-   p=subprocess.run(['squeue','-h','-j',str(job),'-o','%T|%R'],text=True,capture_output=True);queue=p.stdout.strip()
+   queue=queue_state(job,'%T|%R')
    if not queue:break
    state(active_job=job,state=queue.split('|')[0],scheduler=queue)
    if all_done():break
