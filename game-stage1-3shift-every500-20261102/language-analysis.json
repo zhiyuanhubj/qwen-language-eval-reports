@@ -1,5 +1,5 @@
 {
-  "utc": 1793637118.1400368,
+  "utc": 1793637193.1433477,
   "baseline_step": 3500,
   "method": "Same question IDs, same target language/mode/sampling, valid candidateSHA-matched scores. Each model paired separately with3500; paired IDs/n recorded. Single-seed model-assisted rubric scores, not causal/statistical claims. Multiturn history depends on preceding model replies; text-only diagnostic shown separately. Original raw and scores preserved.",
   "results": [
@@ -27520,11 +27520,44 @@
       "mode": "nonthinking-notags-t06-p095",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 4,
+      "candidate": {
+        "n": 4,
+        "means": {
+          "accuracy": 100,
+          "language": 100,
+          "logic": 98.75,
+          "instruction": 70,
+          "completeness": 71.25
+        },
+        "overall": 88.0,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 4,
+        "means": {
+          "accuracy": 73.75,
+          "language": 100,
+          "logic": 72.5,
+          "instruction": 87.5,
+          "completeness": 61.25
+        },
+        "overall": 79.0,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": 9.0,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209"
+      ]
     },
     {
       "step": 10500,
@@ -36766,11 +36799,45 @@
       "mode": "nonthinking-notags-t1-p1",
       "scope": "all_three_subsets",
       "language": "en",
-      "paired_n": 0,
-      "candidate": null,
-      "baseline": null,
-      "overall_delta": null,
-      "ids": []
+      "paired_n": 5,
+      "candidate": {
+        "n": 5,
+        "means": {
+          "accuracy": 80,
+          "language": 99,
+          "logic": 83,
+          "instruction": 74,
+          "completeness": 72
+        },
+        "overall": 81.6,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "baseline": {
+        "n": 5,
+        "means": {
+          "accuracy": 90,
+          "language": 100,
+          "logic": 92,
+          "instruction": 86,
+          "completeness": 82
+        },
+        "overall": 90.0,
+        "unparsed_final": 0,
+        "length_stop": 0,
+        "raw_unclosed": 0,
+        "no_assessable_answer": 0
+      },
+      "overall_delta": -8.4,
+      "ids": [
+        "benchmark-ai2d-1016",
+        "benchmark-ai2d-1033",
+        "benchmark-ai2d-1172",
+        "benchmark-ai2d-1209",
+        "benchmark-ai2d-1235"
+      ]
     },
     {
       "step": 10500,
