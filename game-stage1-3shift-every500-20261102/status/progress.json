@@ -1,5 +1,5 @@
 {
-  "utc": 1793636914.5200727,
+  "utc": 1793637111.328089,
   "responses": 1968,
   "graded": 0,
   "expected": 4920,
@@ -64,7 +64,7 @@
     ],
     "public_Muse_API_untouched": true,
     "scheduler": "RUNNING|ip-10-1-13-41",
-    "updated_utc": 1793636905.2273517
+    "updated_utc": 1793637085.5374477
   },
   "scheduler": "RUNNING|ip-10-1-13-41",
   "batch_allocation_status": {
