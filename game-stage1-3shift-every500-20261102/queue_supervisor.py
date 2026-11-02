@@ -20,7 +20,7 @@ def queue_state(job,fmt):
   p.check_returncode()
  return p.stdout.strip()
 with (D/'status/queue-supervisor.lock').open('a') as lock:
- fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);stalls=0
+ fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB);stalls=json.loads(F.read_text()).get('consecutive_allocations_without_batch_completion',0)
  if json.loads(F.read_text()).get('state')=='NEEDS_ATTENTION':
   raise SystemExit('Paused after repeated unsuccessful allocations; retain evidence for inspection.')
  while not all_done():
