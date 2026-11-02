@@ -1,0 +1,13 @@
+{
+  "utc": 1793603483.2987487,
+  "phase": "prepared_waiting_resource_assignment",
+  "responses": 0,
+  "graded": 0,
+  "expected": 4920,
+  "finished_batches": [],
+  "total_batches": 3,
+  "terminal": false,
+  "scheduler": "NOT_SUBMITTED",
+  "latest_hf_step": 12000,
+  "public_api_handoff_authorized": false
+}

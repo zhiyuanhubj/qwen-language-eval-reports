@@ -1,0 +1,385 @@
+{
+  "verified_remote_metadata_unix": 1793603519.9886754,
+  "items": [
+    {
+      "step": 10000,
+      "label": "game-stage1-3shift-10000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-10000",
+      "revision": "ca09707ed24e343f8a1fafad48ea69f1afa7b68e",
+      "total_download_bytes": 19326378362,
+      "files": [
+        {
+          "file": "chat_template.jinja",
+          "bytes": 8106,
+          "sha256": null,
+          "git_blob_sha1": "bc9f90c4f0c5f0e8d47db61474d0e2d5952dd98c"
+        },
+        {
+          "file": "config.json",
+          "bytes": 2855,
+          "sha256": null,
+          "git_blob_sha1": "aa7effec45b5cfe7a729c14b364766d129b8ca83"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4911674496,
+          "sha256": "e90e68702bc21478899a72c11096349fd1f2242ba8ad5f0f6c996d0f8354c528",
+          "git_blob_sha1": "074bade92eb23248ba0d94a1f0b5c59e52465fc3"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4954211152,
+          "sha256": "8e9ee2883a10a03e6eeca958fbd85573d7845894668223996e53d97607db2da7",
+          "git_blob_sha1": "93208c5301b130ba113f1956a06acb8006424829"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4988356912,
+          "sha256": "962fe629df90822c793ed92f86c37ee764107d780b5d27962dad873752847d6e",
+          "git_blob_sha1": "3b696e26e4d8cdb38cfc7bd1ace5a9348785a942"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4452061304,
+          "sha256": "c7f86affbe7e0a043de2b9dc9551aa6c13e06ab0825fb8faac35464c76d249d9",
+          "git_blob_sha1": "b332e8b60b7c7e8a5f05311daa158146a4dfe7ff"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 70357,
+          "sha256": null,
+          "git_blob_sha1": "334a406b848fb6ecbc3a8286c71506d97f4e2e95"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "file": "processor_config.json",
+          "bytes": 1191,
+          "sha256": null,
+          "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 19990286,
+          "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524",
+          "git_blob_sha1": "839ccf79ea60e6cdb5eec1301e8c2a843f8d4968"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": null,
+          "git_blob_sha1": "209a6f89cc83989746f2f62c7c089e5a9f068115"
+        }
+      ]
+    },
+    {
+      "step": 10500,
+      "label": "game-stage1-3shift-10500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-10500",
+      "revision": "ea1856a4d7a16542a26671698797d0af7a8cccce",
+      "total_download_bytes": 19326378362,
+      "files": [
+        {
+          "file": "chat_template.jinja",
+          "bytes": 8106,
+          "sha256": null,
+          "git_blob_sha1": "bc9f90c4f0c5f0e8d47db61474d0e2d5952dd98c"
+        },
+        {
+          "file": "config.json",
+          "bytes": 2855,
+          "sha256": null,
+          "git_blob_sha1": "aa7effec45b5cfe7a729c14b364766d129b8ca83"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4911674496,
+          "sha256": "844bba77dd39e3489bc7bb4fb78a9d82ea477a6a25fc1dab742a16a9a0f8bd90",
+          "git_blob_sha1": "c430a6c463431d716113484fd59f4ac9ef6e27b3"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4954211152,
+          "sha256": "40b3bde6cbc5b1a4e154a422ce3a0c5645f8d963885b48aa7f8841ebf1bdd5ee",
+          "git_blob_sha1": "a274692e81dfbcc6f69d2487b745b8d33f190a49"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4988356912,
+          "sha256": "e1fdd1b64737dfffc7047b64627c3d24e1f5cace6d03bc47f55fcf2817b0a00d",
+          "git_blob_sha1": "9d4d60231bcc4e23a879a5518869808f2c0ca820"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4452061304,
+          "sha256": "f659121dc2acc86ffc7ad71eca3c535161bf8db86a48d1bf15694de23782393d",
+          "git_blob_sha1": "e0af178d6156b64cf8174ffca10cec4160fd5af6"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 70357,
+          "sha256": null,
+          "git_blob_sha1": "334a406b848fb6ecbc3a8286c71506d97f4e2e95"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "file": "processor_config.json",
+          "bytes": 1191,
+          "sha256": null,
+          "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 19990286,
+          "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524",
+          "git_blob_sha1": "839ccf79ea60e6cdb5eec1301e8c2a843f8d4968"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": null,
+          "git_blob_sha1": "209a6f89cc83989746f2f62c7c089e5a9f068115"
+        }
+      ]
+    },
+    {
+      "step": 11000,
+      "label": "game-stage1-3shift-11000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-11000",
+      "revision": "8a09dbbcd5c006cdde2417efb129042001773575",
+      "total_download_bytes": 19326378362,
+      "files": [
+        {
+          "file": "chat_template.jinja",
+          "bytes": 8106,
+          "sha256": null,
+          "git_blob_sha1": "bc9f90c4f0c5f0e8d47db61474d0e2d5952dd98c"
+        },
+        {
+          "file": "config.json",
+          "bytes": 2855,
+          "sha256": null,
+          "git_blob_sha1": "aa7effec45b5cfe7a729c14b364766d129b8ca83"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4911674496,
+          "sha256": "4ebc14874c0068b041e65baaa6778b31929253ed1c87c75db489075c8a54aee8",
+          "git_blob_sha1": "2300e090b7aa2ebb805d84d71dc296feb9969b55"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4954211152,
+          "sha256": "249e52dfc27db77e7742a180b0871f1779cd3610603616231cee92ac985a87c0",
+          "git_blob_sha1": "69e16f02a03d1ef8d493371d7ed658028b930376"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4988356912,
+          "sha256": "2175615d6480ae0a6ec9e17bc944d0defe5f66dd9b15fbe7aeaa401406576243",
+          "git_blob_sha1": "451662907478dc698d95e55c157bd1e26a9474d1"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4452061304,
+          "sha256": "f3b2144fd1da3403e71a0234eaa01a8f94fbcabad4031edadb681d5f61b7e984",
+          "git_blob_sha1": "77264122e8d2e8d97276057a519a4b62f633d1ff"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 70357,
+          "sha256": null,
+          "git_blob_sha1": "334a406b848fb6ecbc3a8286c71506d97f4e2e95"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "file": "processor_config.json",
+          "bytes": 1191,
+          "sha256": null,
+          "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 19990286,
+          "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524",
+          "git_blob_sha1": "839ccf79ea60e6cdb5eec1301e8c2a843f8d4968"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": null,
+          "git_blob_sha1": "209a6f89cc83989746f2f62c7c089e5a9f068115"
+        }
+      ]
+    },
+    {
+      "step": 11500,
+      "label": "game-stage1-3shift-11500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-11500",
+      "revision": "a02cd62d5b6792b70102fc98e4a1c2d058350aec",
+      "total_download_bytes": 19326378362,
+      "files": [
+        {
+          "file": "chat_template.jinja",
+          "bytes": 8106,
+          "sha256": null,
+          "git_blob_sha1": "bc9f90c4f0c5f0e8d47db61474d0e2d5952dd98c"
+        },
+        {
+          "file": "config.json",
+          "bytes": 2855,
+          "sha256": null,
+          "git_blob_sha1": "aa7effec45b5cfe7a729c14b364766d129b8ca83"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4911674496,
+          "sha256": "f46d37066971dd60ef5b25e8ce247d3ef5610c0973bc6730a877bc6463e89bf5",
+          "git_blob_sha1": "e2ce181d188219a04fa7444787bd72d27294abf2"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4954211152,
+          "sha256": "6daee68121d726ef434e56fe80cc8bce0eee9c6bd64fcf38e27dad81f4e02366",
+          "git_blob_sha1": "499bdb1f5ebeb147d53b5251d97b830f396085b5"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4988356912,
+          "sha256": "15ef340fd5015f38928ac8fdaf1237764e81ac0e15353b198b30a9832dd441e3",
+          "git_blob_sha1": "425c6e6a1a746cdbb3fc69a56c37ca830427b4a8"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4452061304,
+          "sha256": "d707239e7828aed7b56b3ce7dbb5e52c09652a360c09b09223a2a8d4b46c58c7",
+          "git_blob_sha1": "0d584e1b4c4cc08e9013daedc08d8bcf4d92f0b7"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 70357,
+          "sha256": null,
+          "git_blob_sha1": "334a406b848fb6ecbc3a8286c71506d97f4e2e95"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "file": "processor_config.json",
+          "bytes": 1191,
+          "sha256": null,
+          "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 19990286,
+          "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524",
+          "git_blob_sha1": "839ccf79ea60e6cdb5eec1301e8c2a843f8d4968"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": null,
+          "git_blob_sha1": "209a6f89cc83989746f2f62c7c089e5a9f068115"
+        }
+      ]
+    },
+    {
+      "step": 12000,
+      "label": "game-stage1-3shift-12000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-12000",
+      "revision": "91cf571a75f6d735f674bdef4ba3331d89a6e518",
+      "total_download_bytes": 19326378362,
+      "files": [
+        {
+          "file": "chat_template.jinja",
+          "bytes": 8106,
+          "sha256": null,
+          "git_blob_sha1": "bc9f90c4f0c5f0e8d47db61474d0e2d5952dd98c"
+        },
+        {
+          "file": "config.json",
+          "bytes": 2855,
+          "sha256": null,
+          "git_blob_sha1": "aa7effec45b5cfe7a729c14b364766d129b8ca83"
+        },
+        {
+          "file": "model-00001-of-00004.safetensors",
+          "bytes": 4911674496,
+          "sha256": "76ffcbde99961cff70b47de00f19fce18dcb80a19953d68c4952f67a8fd0e5d4",
+          "git_blob_sha1": "b04070b2e8f3427da87928bcd057f43c2db606a4"
+        },
+        {
+          "file": "model-00002-of-00004.safetensors",
+          "bytes": 4954211152,
+          "sha256": "bec1cf67ac99d9dc176a450dfa62a0ff188a98066d7960d8b6158d5fdb784e27",
+          "git_blob_sha1": "a1a8e96419de93f9901350fdc067848e281d6500"
+        },
+        {
+          "file": "model-00003-of-00004.safetensors",
+          "bytes": 4988356912,
+          "sha256": "b77008dcfeb5d35820c3a3a5dfb24e74a0d4e66ad395980799ea6b08e4baf42c",
+          "git_blob_sha1": "abfe8bd57614a2998387962c9f9a96ea2c3ef9ec"
+        },
+        {
+          "file": "model-00004-of-00004.safetensors",
+          "bytes": 4452061304,
+          "sha256": "1d7df94deade00e2863ade2f28956e3dc55504c8ddeed2457a8df7d4517c5e67",
+          "git_blob_sha1": "67a0619a3266f5f7fde780fcee6cb8a7417376b0"
+        },
+        {
+          "file": "model.safetensors.index.json",
+          "bytes": 70357,
+          "sha256": null,
+          "git_blob_sha1": "334a406b848fb6ecbc3a8286c71506d97f4e2e95"
+        },
+        {
+          "file": "preprocessor_config.json",
+          "bytes": 390,
+          "sha256": null,
+          "git_blob_sha1": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+        },
+        {
+          "file": "processor_config.json",
+          "bytes": 1191,
+          "sha256": null,
+          "git_blob_sha1": "33818c7f9e991ad735fd240209f4fa73e6c28c50"
+        },
+        {
+          "file": "tokenizer.json",
+          "bytes": 19990286,
+          "sha256": "bd6aa6dce11e0844755bdf84cc448b2e8eeb54c605e6b22eaceb565aacf96524",
+          "git_blob_sha1": "839ccf79ea60e6cdb5eec1301e8c2a843f8d4968"
+        },
+        {
+          "file": "tokenizer_config.json",
+          "bytes": 1313,
+          "sha256": null,
+          "git_blob_sha1": "209a6f89cc83989746f2f62c7c089e5a9f068115"
+        }
+      ]
+    }
+  ]
+}

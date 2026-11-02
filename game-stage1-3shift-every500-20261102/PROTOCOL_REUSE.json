@@ -1,0 +1,54 @@
+{
+  "prepared_unix": 1793603483.295395,
+  "source": "/fsx/home/zhiyuan/language-pilot-20261011/game-stage1-3shift-every500-20261026",
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "unchanged_evaluation_and_judge_scripts_sha256": {
+    "judge_tail_budget.py": "8bd49f2d2481869325f697052c1f9b1cdc91022e8da6c8eeb08c065caaaeb20b",
+    "notags_score_benchmark_exact.py": "5ce94119a66b0a4e038622d92cbed1e60bd4b90ca8aa58405ff86a59330469cc",
+    "thinking_prepare_templates.py": "03d522e34d58954651d0f7dee8355bd87154dbc54e7765617bd27a8ac032caf7",
+    "notags_prepare_templates.py": "052243d4861abf69dc2e66eac18367cf56d993604778d6d1a8419dab0b42b170",
+    "thinking_score_benchmark_exact.py": "5ce94119a66b0a4e038622d92cbed1e60bd4b90ca8aa58405ff86a59330469cc",
+    "thinking_run_eval.py": "837f38fd79b562f51182266eda3ce629e363606729b03d01043034809fb4d002",
+    "notags_run_eval.py": "b49f0428489628872b570a854a59e30619e0fcf181441692514f7b539d8bd8d7",
+    "judge.py": "b9323285d8f8ba648bb2711b975b6cb4a608cb676e92e9e2ed8aed4a14f86cca"
+  },
+  "new_checkpoint_revisions": [
+    {
+      "step": 10000,
+      "label": "game-stage1-3shift-10000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-10000",
+      "revision": "ca09707ed24e343f8a1fafad48ea69f1afa7b68e"
+    },
+    {
+      "step": 10500,
+      "label": "game-stage1-3shift-10500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-10500",
+      "revision": "ea1856a4d7a16542a26671698797d0af7a8cccce"
+    },
+    {
+      "step": 11000,
+      "label": "game-stage1-3shift-11000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-11000",
+      "revision": "8a09dbbcd5c006cdde2417efb129042001773575"
+    },
+    {
+      "step": 11500,
+      "label": "game-stage1-3shift-11500",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-11500",
+      "revision": "a02cd62d5b6792b70102fc98e4a1c2d058350aec"
+    },
+    {
+      "step": 12000,
+      "label": "game-stage1-3shift-12000",
+      "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+      "ref": "checkpoint-12000",
+      "revision": "91cf571a75f6d735f674bdef4ba3331d89a6e518"
+    }
+  ],
+  "gpu_jobs_started": false,
+  "api_service_stopped": false
+}

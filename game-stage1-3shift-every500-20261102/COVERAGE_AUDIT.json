@@ -1,0 +1,50 @@
+{
+  "observed_unix": 1793603538.29257,
+  "repo": "ltzheng/Qwen3.5-9B-General-Game-Stage1-3Shift-Shuffled",
+  "latest_available_step": 12000,
+  "measured_max_step": 9500,
+  "old_4000_9500_valid_answers": 11804,
+  "old_4000_9500_valid_scores": 11804,
+  "old_expected": 11808,
+  "old_terminal_generation_errors": [
+    {
+      "model": "game-stage1-3shift-7000",
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "http_status": 400,
+      "reason": "context_overflow"
+    },
+    {
+      "model": "game-stage1-3shift-8000",
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "http_status": 400,
+      "reason": "context_overflow"
+    },
+    {
+      "model": "game-stage1-3shift-8500",
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "http_status": 400,
+      "reason": "context_overflow"
+    },
+    {
+      "model": "game-stage1-3shift-9500",
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "http_status": 400,
+      "reason": "context_overflow"
+    }
+  ],
+  "new_missing_every500_steps": [
+    10000,
+    10500,
+    11000,
+    11500,
+    12000
+  ],
+  "new_expected_answers": 4920,
+  "suite_manifest_sha256": "95b11a19f8cc585400517b6f8f57ae6efb50d482f0ba6517a1b9d14a5141e692",
+  "new_execution_state": "PREPARED_NOT_SUBMITTED",
+  "api_service_stopped": false
+}

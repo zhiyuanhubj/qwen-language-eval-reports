@@ -1,0 +1,33 @@
+{
+  "utc": 1793603482.6930816,
+  "user_approved_gpu_evaluation": true,
+  "request": "现在应该很多新ckpts了 你继续帮我详细测一下呀 每500就测一下吧",
+  "scope": [
+    "thinking-sampled",
+    "thinking-sampled-t1-p1",
+    "nonthinking-notags-t06-p095",
+    "nonthinking-notags-t1-p1"
+  ],
+  "new_steps": [
+    10000,
+    10500,
+    11000,
+    11500,
+    12000
+  ],
+  "reuse_old_results": true,
+  "preserve_old_experiments": true,
+  "continuation_request_20261029": "我们现在都有到9000了吧 有把新的ckpt都测一遍么",
+  "continuation_steps": [
+    6500,
+    7000,
+    7500,
+    8000,
+    8500,
+    9000,
+    9500
+  ],
+  "latest_hf_step_observed": 12000,
+  "request_20261102": "api这个先给别的任务用吧；gaming qwen现在一万多step，所有模型的语言能力都测完了么",
+  "public_api_handoff_authorized": false
+}
