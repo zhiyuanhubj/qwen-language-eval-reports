@@ -1,5 +1,5 @@
 {
-  "utc": 1793636725.8751118,
+  "utc": 1793636923.7778518,
   "files": [
     {
       "path": "thinking-sampled/game-stage1-3shift-10500.objective.json.gz",
@@ -402,10 +402,10 @@
     },
     {
       "path": "batches/10000-10500/logs/judge-server.log.gz",
-      "uncompressed_sha256": "40c70fa2d61aed4fe6bb69784732b8467a8924d89e32a31976bd6dc114b4b1c6",
-      "bytes": 36294,
-      "stat_size": 36294,
-      "stat_mtime_ns": 1793636681000000000
+      "uncompressed_sha256": "9b29d71a9619ff2ab9ac76870b04ad9b1ac3f7e581f513af1638b71bada75bfd",
+      "bytes": 59246,
+      "stat_size": 59246,
+      "stat_mtime_ns": 1793636896000000000
     },
     {
       "path": "batches/10000-10500/logs/run.log.gz",
