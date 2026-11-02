@@ -1,5 +1,5 @@
 {
-  "utc": 1793629338.3490005,
+  "utc": 1793629522.3808627,
   "terminal": false,
   "services": {
     "qwen-game-12000-report-20261102.service": "active",
@@ -7,10 +7,10 @@
   },
   "actions": [],
   "warnings": [],
-  "scheduler": "PENDING|(None)",
-  "last_check_utc": 1793629320.4484103,
-  "last_publish_utc": 1793629167.9798546,
-  "last_publish_commit": "bbe512426151db97ec4bf5de3ea2098ddb3795b1",
+  "scheduler": "PENDING|(AssocGrpNodeLimit)",
+  "last_check_utc": 1793629514.30816,
+  "last_publish_utc": 1793629362.0710013,
+  "last_publish_commit": "42a7545c2081c55f39ac1c6a93220fa8a1258296",
   "automatic_chat_notifications": false,
   "detection_interval_seconds": 30,
   "github_publish_interval_seconds": 180,
