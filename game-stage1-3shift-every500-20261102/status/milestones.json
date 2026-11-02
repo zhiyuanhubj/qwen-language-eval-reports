@@ -183,5 +183,65 @@
     "id": "phase/10000-10500/grading",
     "utc": 1793637186.0263178,
     "message": "当前批次 10000-10500：grading"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled/graded/0.25",
+    "utc": 1793637261.2173233,
+    "message": "game-stage1-3shift-10000 · Thinking · 0.6 / 0.95：评分达到 25%（当前100/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled-t1-p1/graded/0.25",
+    "utc": 1793637261.2173233,
+    "message": "game-stage1-3shift-10000 · Thinking · 1 / 1：评分达到 25%（当前100/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t06-p095/graded/0.25",
+    "utc": 1793637261.2173233,
+    "message": "game-stage1-3shift-10000 · NoTags · 0.6 / 0.95：评分达到 25%（当前100/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t1-p1/graded/0.25",
+    "utc": 1793637261.2173233,
+    "message": "game-stage1-3shift-10000 · NoTags · 1 / 1：评分达到 25%（当前100/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled/graded/0.5",
+    "utc": 1793637292.2732718,
+    "message": "game-stage1-3shift-10000 · Thinking · 0.6 / 0.95：评分达到 50%（当前132/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled-t1-p1/graded/0.5",
+    "utc": 1793637292.2732718,
+    "message": "game-stage1-3shift-10000 · Thinking · 1 / 1：评分达到 50%（当前132/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t06-p095/graded/0.5",
+    "utc": 1793637292.2732718,
+    "message": "game-stage1-3shift-10000 · NoTags · 0.6 / 0.95：评分达到 50%（当前133/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t1-p1/graded/0.5",
+    "utc": 1793637292.2732718,
+    "message": "game-stage1-3shift-10000 · NoTags · 1 / 1：评分达到 50%（当前131/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled/graded/0.75",
+    "utc": 1793637385.6359756,
+    "message": "game-stage1-3shift-10000 · Thinking · 0.6 / 0.95：评分达到 75%（当前214/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/thinking-sampled-t1-p1/graded/0.75",
+    "utc": 1793637385.6359756,
+    "message": "game-stage1-3shift-10000 · Thinking · 1 / 1：评分达到 75%（当前213/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t06-p095/graded/0.75",
+    "utc": 1793637385.6359756,
+    "message": "game-stage1-3shift-10000 · NoTags · 0.6 / 0.95：评分达到 75%（当前214/246）"
+  },
+  {
+    "id": "game-stage1-3shift-10000/nonthinking-notags-t1-p1/graded/0.75",
+    "utc": 1793637385.6359756,
+    "message": "game-stage1-3shift-10000 · NoTags · 1 / 1：评分达到 75%（当前213/246）"
   }
 ]
