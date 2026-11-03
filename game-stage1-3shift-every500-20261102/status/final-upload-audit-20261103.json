@@ -1,0 +1,179 @@
+{
+  "audited_utc": 1793713418.0697901,
+  "data_commit": "1d2666ff020119076be2a58ea13813e8b20492d9",
+  "remote_main_matches_data_commit": true,
+  "compressed_evidence_files_verified": 198,
+  "uncompressed_bytes_verified": 101573009,
+  "content_hashes_match_manifest": true,
+  "responses": 4917,
+  "graded": 4917,
+  "expected": 4920,
+  "all_planned_ids_attempted": true,
+  "all_valid_answers_have_matching_score_sha": true,
+  "rows": [
+    {
+      "step": 10000,
+      "mode": "thinking-sampled",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10000,
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10000,
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10000,
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10500,
+      "mode": "thinking-sampled",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10500,
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10500,
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 10500,
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11000,
+      "mode": "thinking-sampled",
+      "responses": 245,
+      "graded": 245,
+      "expected": 246
+    },
+    {
+      "step": 11000,
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11000,
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11000,
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11500,
+      "mode": "thinking-sampled",
+      "responses": 245,
+      "graded": 245,
+      "expected": 246
+    },
+    {
+      "step": 11500,
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11500,
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 11500,
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 12000,
+      "mode": "thinking-sampled",
+      "responses": 245,
+      "graded": 245,
+      "expected": 246
+    },
+    {
+      "step": 12000,
+      "mode": "thinking-sampled-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 12000,
+      "mode": "nonthinking-notags-t06-p095",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    },
+    {
+      "step": 12000,
+      "mode": "nonthinking-notags-t1-p1",
+      "responses": 246,
+      "graded": 246,
+      "expected": 246
+    }
+  ],
+  "failed_items": [
+    {
+      "step": 11000,
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "status": "error",
+      "context_limit_error": true
+    },
+    {
+      "step": 11500,
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "status": "error",
+      "context_limit_error": true
+    },
+    {
+      "step": 12000,
+      "mode": "thinking-sampled",
+      "id": "friend-EM1-3",
+      "status": "error",
+      "context_limit_error": true
+    }
+  ],
+  "terminal": true
+}

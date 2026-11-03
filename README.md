@@ -1,11 +1,11 @@
 # Qwen language evaluation reports
 
 <!-- coverage-audit-20261102 -->
-**2026-11-02 覆盖核查：** Game Stage1-3Shift 模型仓库已至 **12000**，现有每500step语言评测最高 **9500**。新五个checkpoint续测已提交独立GPU队列，阶段以续测进度为准：[核查与固定版本计划](game-stage1-3shift-every500-20261102/README.md)。旧四个983/984项目已更正为“已结束，1条上下文超限”，无待评分。
+**2026-11-03 最终核查：** Game Stage1每500step续测已覆盖 **10000、10500、11000、11500、12000**，于11-02 18:32 UTC结束。新增 **4917条有效回答及4917条评分**，另3条上下文超限，全部原始记录已上传，无待评分：[最终报告与下载](game-stage1-3shift-every500-20261102/README.md)。198个证据文件内容SHA及回答—评分对应关系已校验。
 
 
 <!-- game-every500-latest -->
-**Game Stage1每500step新评测：** [每500step至9500的报告与详细分析](game-stage1-3shift-every500-20261026/README.md) · [实时进度](game-stage1-3shift-every500-20261026/progress.md)。旧500–3500复用。
+**Game Stage1每500step：** [10000～12000最终报告](game-stage1-3shift-every500-20261102/README.md) · [最终完成数](game-stage1-3shift-every500-20261102/progress.md) · [500～9500已有报告](game-stage1-3shift-every500-20261026/README.md)。
 
 <!-- last-stage1-stage2-checkpoint-logs -->
 **旧Stage1 / Stage2最后checkpoint完整日志：** [Stage1 step4100 / Stage2 step4000全部题目下载包](last-checkpoint-full-logs/README.md)，含四组设置、完整thinking和final、评分及运行日志。
@@ -19,7 +19,7 @@
 Evaluation reports for the Qwen3.5-9B base, historical training checkpoints,
 stage-2 checkpoints, and A/B language-regression experiments.
 
-**Status: grading in progress. This is not a final result release.**
+**The historical 89-model reports below have their own status snapshots. The completed Game Stage1 continuation through step12000 is linked above; its final counts are independent of those historical reports.**
 
 - [Thinking report](thinking/report.html)
 - [Non-thinking report (without think tags)](notags/report.html)
